@@ -7,6 +7,4 @@ tmp/*
 /.settings/
 .DS_Store
 *.tmproj
-public/image
-public/pic
 public/system
