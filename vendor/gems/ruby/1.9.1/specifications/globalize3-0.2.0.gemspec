@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/svenfuchs/globalize3"
   s.require_paths = ["lib"]
   s.rubyforge_project = "[none]"
-  s.rubygems_version = "1.8.11"
+  s.rubygems_version = "1.8.21"
   s.summary = "Rails I18n: de-facto standard library for ActiveRecord 3 model/data translation"
 
   if s.respond_to? :specification_version then

@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.post_install_message = "NOTE: FriendlyId 4.x breaks compatibility with 3.x. If you're upgrading\nfrom 3.x, please see this document:\n\nhttp://rubydoc.info/github/norman/friendly_id/master/file/WhatsNew.md\n\n"
   s.require_paths = ["lib"]
   s.rubyforge_project = "friendly_id"
-  s.rubygems_version = "1.8.11"
+  s.rubygems_version = "1.8.21"
   s.summary = "A comprehensive slugging and pretty-URL plugin."
 
   if s.respond_to? :specification_version then

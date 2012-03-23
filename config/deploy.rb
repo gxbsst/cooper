@@ -14,6 +14,8 @@ set :user, "rails"
 
 set :use_sudo, false
 
+set :branch, "master"
+
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
 

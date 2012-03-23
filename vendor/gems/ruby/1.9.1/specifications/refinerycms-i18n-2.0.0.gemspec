@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = "info@refinerycms.com"
   s.homepage = "http://refinerycms.com"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.11"
+  s.rubygems_version = "1.8.21"
   s.summary = "i18n logic for Refinery CMS."
 
   if s.respond_to? :specification_version then

@@ -14,11 +14,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/intridea/multi_json"
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-<<<<<<< HEAD
-  s.rubygems_version = "1.8.11"
-=======
-  s.rubygems_version = "1.8.15"
->>>>>>> cb44b98dc69384cf4e61a4d45fc5c6a2da0a18b6
+  s.rubygems_version = "1.8.21"
   s.summary = "A gem to provide swappable JSON backends."
 
   if s.respond_to? :specification_version then

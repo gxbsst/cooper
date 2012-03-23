@@ -15,11 +15,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "journey"
-<<<<<<< HEAD
-  s.rubygems_version = "1.8.11"
-=======
-  s.rubygems_version = "1.8.15"
->>>>>>> cb44b98dc69384cf4e61a4d45fc5c6a2da0a18b6
+  s.rubygems_version = "1.8.21"
   s.summary = "Journey is a router"
 
   if s.respond_to? :specification_version then

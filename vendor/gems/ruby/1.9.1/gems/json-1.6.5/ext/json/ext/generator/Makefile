@@ -1,22 +1,14 @@
 
 SHELL = /bin/sh
 
-# V=0 quiet, V=1 verbose.  other values don't work.
-V = 0
-Q1 = $(V:1=)
-Q = $(Q1:0=@)
-n=$(NULLCMD)
-ECHO1 = $(V:1=@$n)
-ECHO = $(ECHO1:0=@echo)
-
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /usr/local/include/ruby-1.9.1
-hdrdir = /usr/local/include/ruby-1.9.1
-arch_hdrdir = /usr/local/include/ruby-1.9.1/$(arch)
+topdir = /Users/weston/.rvm/rubies/ruby-1.9.2-p318/include/ruby-1.9.1
+hdrdir = /Users/weston/.rvm/rubies/ruby-1.9.2-p318/include/ruby-1.9.1
+arch_hdrdir = /Users/weston/.rvm/rubies/ruby-1.9.2-p318/include/ruby-1.9.1/$(arch)
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/usr/local
+prefix = $(DESTDIR)/Users/weston/.rvm/rubies/ruby-1.9.2-p318
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
 exec_prefix = $(prefix)
 vendorhdrdir = $(rubyhdrdir)/vendor_ruby
@@ -51,14 +43,12 @@ sitearchdir = $(sitelibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 
-NULLCMD = :
-
-CC = gcc
+CC = gcc-4.2
 CXX = g++
 LIBRUBY = $(LIBRUBY_SO)
 LIBRUBY_A = lib$(RUBY_SO_NAME)-static.a
-LIBRUBYARG_SHARED = -Wl,-R -Wl,$(libdir) -L$(libdir) -l$(RUBY_SO_NAME)
-LIBRUBYARG_STATIC = -Wl,-R -Wl,$(libdir) -L$(libdir) -l$(RUBY_SO_NAME)-static
+LIBRUBYARG_SHARED = -l$(RUBY_SO_NAME)
+LIBRUBYARG_STATIC = -l$(RUBY_SO_NAME)-static
 OUTFLAG = -o 
 COUTFLAG = -o 
 
@@ -66,33 +56,33 @@ RUBY_EXTCONF_H =
 cflags   =  $(optflags) $(debugflags) $(warnflags)
 optflags = -O3
 debugflags = -ggdb
-warnflags = -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration
-CFLAGS   = -fPIC $(cflags)  -fPIC -O3 -Wall -O0 -ggdb 
+warnflags = -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wshorten-64-to-32 -Wno-long-long
+CFLAGS   = -fno-common $(cflags)  -fno-common -pipe -O3 -Wall -O0 -ggdb 
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
-CPPFLAGS =   $(DEFS) $(cppflags)
+CPPFLAGS =  -I/Users/weston/.rvm/usr/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE $(DEFS) $(cppflags)
 CXXFLAGS = $(CFLAGS) $(cxxflags)
-ldflags  = -L.  -rdynamic -Wl,-export-dynamic
-dldflags = 
+ldflags  = -L. 
+dldflags = -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress -Wl,-flat_namespace
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags)
-LDSHARED = $(CC) -shared
-LDSHAREDXX = $(CXX) -shared
+LDSHARED = $(CC) -dynamic -bundle
+LDSHAREDXX = $(CXX) -dynamic -bundle
 AR = ar
 EXEEXT = 
 
 RUBY_BASE_NAME = ruby
 RUBY_INSTALL_NAME = ruby
-RUBY_SO_NAME = ruby
-arch = x86_64-linux
+RUBY_SO_NAME = ruby.1.9.1
+arch = x86_64-darwin11.3.0
 sitearch = $(arch)
 ruby_version = 1.9.1
-ruby = /usr/local/bin/ruby
+ruby = /Users/weston/.rvm/rubies/ruby-1.9.2-p318/bin/ruby
 RUBY = $(ruby)
 RM = rm -f
 RM_RF = $(RUBY) -run -e rm -- -rf
-RMDIRS = rmdir --ignore-fail-on-non-empty -p
-MAKEDIRS = /bin/mkdir -p
+RMDIRS = $(RUBY) -run -e rmdir -- -p
+MAKEDIRS = mkdir -p
 INSTALL = /usr/bin/install -c
 INSTALL_PROG = $(INSTALL) -m 0755
 INSTALL_DATA = $(INSTALL) -m 644
@@ -102,8 +92,8 @@ COPY = cp
 
 preload = 
 
-libpath = . $(libdir)
-LIBPATH =  -L. -L$(libdir) -Wl,-R$(libdir)
+libpath = . $(libdir) /Users/weston/.rvm/usr/lib
+LIBPATH =  -L. -L$(libdir) -L/Users/weston/.rvm/usr/lib
 DEFFILE = 
 
 CLEANFILES = mkmf.log
@@ -114,23 +104,23 @@ extout =
 extout_prefix = 
 target_prefix = /json/ext
 LOCAL_LIBS = 
-LIBS = $(LIBRUBYARG_SHARED)  -lpthread -lrt -ldl -lcrypt -lm   -lc
+LIBS = $(LIBRUBYARG_SHARED)  -lpthread -ldl -lobjc 
 SRCS = generator.c
 OBJS = generator.o
 TARGET = generator
-DLLIB = $(TARGET).so
+DLLIB = $(TARGET).bundle
 EXTSTATIC = 
 STATIC_LIB = 
 
 BINDIR        = $(bindir)
 RUBYCOMMONDIR = $(sitedir)$(target_prefix)
-RUBYLIBDIR = /aries-lv-01/aries_srv/rails/cooper/releases/20120323031002/vendor/gems/ruby/1.9.1/gems/json-1.6.5/ext/json/ext$(target_prefix)
-RUBYARCHDIR = /aries-lv-01/aries_srv/rails/cooper/releases/20120323031002/vendor/gems/ruby/1.9.1/gems/json-1.6.5/ext/json/ext$(target_prefix)
+RUBYLIBDIR = /Users/weston/Projects/cooper/vendor/gems/ruby/1.9.1/gems/json-1.6.5/ext/json/ext$(target_prefix)
+RUBYARCHDIR = /Users/weston/Projects/cooper/vendor/gems/ruby/1.9.1/gems/json-1.6.5/ext/json/ext$(target_prefix)
 HDRDIR        = $(rubyhdrdir)/ruby$(target_prefix)
 ARCHHDRDIR    = $(rubyhdrdir)/$(arch)/ruby$(target_prefix)
 
 TARGET_SO     = $(DLLIB)
-CLEANLIBS     = $(TARGET).so 
+CLEANLIBS     = $(TARGET).bundle 
 CLEANOBJS     = *.o  *.bak
 
 all:    $(DLLIB)
@@ -150,7 +140,7 @@ distclean-so::
 distclean: clean distclean-so distclean-rb-default distclean-rb
 		@-$(RM) Makefile $(RUBY_EXTCONF_H) conftest.* mkmf.log
 		@-$(RM) core ruby$(EXEEXT) *~ $(DISTCLEANFILES)
-		@-$(RMDIRS) $(DISTCLEANDIRS) 2> /dev/null || true
+		@-$(RMDIRS) $(DISTCLEANDIRS)
 
 realclean: distclean
 install: install-so install-rb
@@ -164,49 +154,33 @@ install-rb: pre-install-rb install-rb-default
 install-rb-default: pre-install-rb-default
 pre-install-rb: Makefile
 pre-install-rb-default: Makefile
-pre-install-rb-default:
-	$(ECHO) installing default generator libraries
 $(RUBYARCHDIR):
-	$(Q) $(MAKEDIRS) $@
+	$(MAKEDIRS) $@
 
 site-install: site-install-so site-install-rb
 site-install-so: install-so
 site-install-rb: install-rb
 
-.SUFFIXES: .c .m .cc .mm .cxx .cpp .C .o
+.SUFFIXES: .c .m .cc .cxx .cpp .C .o
 
 .cc.o:
-	$(ECHO) compiling $(<)
-	$(Q) $(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) $(COUTFLAG)$@ -c $<
-
-.mm.o:
-	$(ECHO) compiling $(<)
-	$(Q) $(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) $(COUTFLAG)$@ -c $<
+	$(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) $(COUTFLAG)$@ -c $<
 
 .cxx.o:
-	$(ECHO) compiling $(<)
-	$(Q) $(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) $(COUTFLAG)$@ -c $<
+	$(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) $(COUTFLAG)$@ -c $<
 
 .cpp.o:
-	$(ECHO) compiling $(<)
-	$(Q) $(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) $(COUTFLAG)$@ -c $<
+	$(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) $(COUTFLAG)$@ -c $<
 
 .C.o:
-	$(ECHO) compiling $(<)
-	$(Q) $(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) $(COUTFLAG)$@ -c $<
+	$(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) $(COUTFLAG)$@ -c $<
 
 .c.o:
-	$(ECHO) compiling $(<)
-	$(Q) $(CC) $(INCFLAGS) $(CPPFLAGS) $(CFLAGS) $(COUTFLAG)$@ -c $<
-
-.m.o:
-	$(ECHO) compiling $(<)
-	$(Q) $(CC) $(INCFLAGS) $(CPPFLAGS) $(CFLAGS) $(COUTFLAG)$@ -c $<
+	$(CC) $(INCFLAGS) $(CPPFLAGS) $(CFLAGS) $(COUTFLAG)$@ -c $<
 
 $(DLLIB): $(OBJS) Makefile
-	$(ECHO) linking shared-object json/ext/$(DLLIB)
 	@-$(RM) $(@)
-	$(Q) $(LDSHARED) -o $@ $(OBJS) $(LIBPATH) $(DLDFLAGS) $(LOCAL_LIBS) $(LIBS)
+	$(LDSHARED) -o $@ $(OBJS) $(LIBPATH) $(DLDFLAGS) $(LOCAL_LIBS) $(LIBS)
 
 
 

@@ -14,11 +14,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/collectiveidea/awesome_nested_set"
   s.rdoc_options = ["--main", "README.rdoc", "--inline-source", "--line-numbers"]
   s.require_paths = ["lib"]
-<<<<<<< HEAD
-  s.rubygems_version = "1.8.11"
-=======
-  s.rubygems_version = "1.8.15"
->>>>>>> cb44b98dc69384cf4e61a4d45fc5c6a2da0a18b6
+  s.rubygems_version = "1.8.21"
   s.summary = "An awesome nested set implementation for Active Record"
 
   if s.respond_to? :specification_version then

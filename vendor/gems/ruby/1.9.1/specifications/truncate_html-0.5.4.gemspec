@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = ["harold.gimenez@gmail.com"]
   s.homepage = "https://github.com/hgimenez/truncate_html"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.11"
+  s.rubygems_version = "1.8.21"
   s.summary = "Uses an API similar to Rails' truncate helper to truncate HTML and close any lingering open tags."
 
   if s.respond_to? :specification_version then

@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/markevans/dragonfly"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.11"
+  s.rubygems_version = "1.8.21"
   s.summary = "Ideal gem for handling attachments in Rails, Sinatra and Rack applications."
 
   if s.respond_to? :specification_version then

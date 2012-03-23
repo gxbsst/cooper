@@ -14,11 +14,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://www.kuwata-lab.com/erubis/"
   s.require_paths = ["lib"]
   s.rubyforge_project = "erubis"
-<<<<<<< HEAD
-  s.rubygems_version = "1.8.11"
-=======
-  s.rubygems_version = "1.8.15"
->>>>>>> cb44b98dc69384cf4e61a4d45fc5c6a2da0a18b6
+  s.rubygems_version = "1.8.21"
   s.summary = "a fast and extensible eRuby implementation which supports multi-language"
 
   if s.respond_to? :specification_version then

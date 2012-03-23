@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = "parndt@gmail.com"
   s.homepage = "http://philiparndt.name"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.11"
+  s.rubygems_version = "1.8.21"
   s.summary = "SEO Meta tags plugin"
 
   if s.respond_to? :specification_version then

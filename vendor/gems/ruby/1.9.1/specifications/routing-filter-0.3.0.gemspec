@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/svenfuchs/routing-filter"
   s.require_paths = ["lib"]
   s.rubyforge_project = "[none]"
-  s.rubygems_version = "1.8.11"
+  s.rubygems_version = "1.8.21"
   s.summary = "Routing filters wraps around the complex beast that the Rails routing system is, allowing for unseen flexibility and power in Rails URL recognition and generation"
 
   if s.respond_to? :specification_version then

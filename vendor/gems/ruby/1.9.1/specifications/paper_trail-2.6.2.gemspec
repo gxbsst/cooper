@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = "boss@airbladesoftware.com"
   s.homepage = "http://github.com/airblade/paper_trail"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.11"
+  s.rubygems_version = "1.8.21"
   s.summary = "Track changes to your models' data.  Good for auditing or versioning."
 
   if s.respond_to? :specification_version then

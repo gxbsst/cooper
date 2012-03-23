@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "refinerycms"
-  s.rubygems_version = "1.8.11"
+  s.rubygems_version = "1.8.21"
   s.summary = "Dashboard extension for Refinery CMS"
 
   if s.respond_to? :specification_version then
