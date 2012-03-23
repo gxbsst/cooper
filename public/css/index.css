@@ -1,0 +1,44 @@
+﻿#bannercontent{ left:-30px;position:relative; height:216px; width:980px;}
+#bannercontent .prev{ width:32px; height:38px; background:url(../pic/prev.png) no-repeat 0px 0px; cursor:pointer; position:absolute; left:20px; top:80px;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/prev.png',sizingMethod='image');}
+#bannercontent .next{width:32px; height:38px; background:url(../pic/next.png) no-repeat 0px 0px; cursor:pointer; position:absolute; right:20px; top:80px;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/next.png',sizingMethod='image');}
+#bannerlist{ height:216px;  position:relative; width:980px;overflow:hidden;}
+#bannerlist img{ width:980px; height:216px;}
+#bannerlist ul{ width:999999999px; position:absolute; left:0px; top:0px;}
+#bannerlist li{ width:980px; float:left; height:216px; overflow:hidden;}
+#map_news{ padding:10px 0px 0px 0px;}
+#mapcontent{ width:600px; overflow:hidden; float:left;}
+#newscontent{ float:right; width:286px; overflow:hidden;}
+#newscontent ul{ padding:5px 0px;}
+#newscontent li{ line-height:20px; padding:5px 0px; border-bottom:dotted 1px #989898;}
+#newscontent li p{ color:#A0A0A0; line-height:18px; font-size:11px;}
+#newscontent li label{ padding:0px 0px 0px 8px; color:#E04C36; font-size:9px; font-style:italic;}
+#newscontent .more{ line-height:20px; text-align:right;}
+#newscontent .more a{ color:#839870;}
+#newscontent .more span{ padding:0px 0px 0px 5px; font-weight:bold; font-family:MS Sans Serif;}
+#map_news h3{ border-bottom:solid 1px #CBCBCB; height:30px; line-height:30px; overflow:hidden; color:#E04C36; font-size:14px;}
+#flash_product_search{ padding:0px 0px 10px 0px;}
+#flash_product_search h3{ border-bottom:solid 1px #CBCBCB; height:30px; line-height:30px; overflow:hidden; color:#E04C36; font-size:14px;}
+#flash_product_search h3 .more{ margin:4px 0px 0px 0px; color:#839870; font-weight:normal; float:right; }
+#flash_product_search h3 span{ vertical-align:middle; padding:0px 0px 0px 5px; font-family:MS Sans Serif;color:#839870; font-weight:bold;}
+#flashcontent{ float:left; width:270px;}
+#flashcontent .flash{ margin:20px auto 0px auto; width:248px; height:154px; background:url(../pic/flash_bg.jpg) no-repeat 0px 0px; padding:5px 7px 8px 6px;}
+#flashcontent .flash img{ width:248px; height:154px;} 
+#productcontent{ margin:0px 0px 0px 30px; float:left; width:300px;}
+#productcontent dl{ padding:20px 0px 10px 0px;}
+#productcontent dt{ height:30px; line-height:30px; overflow:hidden;}
+#productcontent dt a{ font-size:20px; font-weight:bold; color:#839870; font-family:Arial;}
+#productcontent dd{ line-height:19px; color:#585858; padding:5px 125px 0px 0px; width:175px; position:relative;}
+#productcontent dd p{ color:#585858;}
+#productcontent .img{ text-align:right; position:absolute; right:0px; top:-5px;}
+#productcontent .morep{ padding:5px 0px 0px 0px; height:16px; line-height:16px;}
+#productcontent .morep a{color:#839870; display:inline-block; background:url(../pic/more.jpg) no-repeat 0px 0px; padding:0px 0px 0px 20px;}
+#searchcontent{ float:right; width:290px; overflow:hidden;}
+#searchmenu{ margin:20px 0px 0px 0px; height:24px;}
+#searchmenu ul{ width:291px;}
+#searchmenu li{ margin:0px 1px 0px 0px; float:left; width:96px; line-height:24px; cursor:pointer; height:24px; text-align:center; color:White; background:url(../pic/index_tab.jpg) no-repeat right 0px;}
+#searchmenu .current{ background-position:0px 0px;}
+#searchcontent .body{ background-color:#F5F5F5; padding:25px 0px 5px 10px; height:107px; border:solid 3px #CBCBCB;}
+#searchcontent .condition{ padding:0px 0px 20px 0px; height:24px;}
+#searchcontent .body .select{ height:22px; float:left;  line-height:22px; vertical-align:middle; width:84px; margin:0px 5px 0px 0px;}
+#searchcontent .body .searchbtn{ width:132px; height:32px; line-height:31px; background:url(../pic/searchbtn.jpg) no-repeat 0px 0px; cursor:pointer; border:0px; vertical-align:middle; color:White; font-weight:bold;}
+#searchcontent .body .morelink{color:#839870;  background:url(../pic/index_more.jpg) no-repeat 10px 2px; line-height:20px; display:inline-block; padding:0px 0px 0px 30px;}
