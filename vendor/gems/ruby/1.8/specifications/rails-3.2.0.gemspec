@@ -20,29 +20,29 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x110799b70> 3.2.0"])
-      s.add_runtime_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x110798298> 3.2.0"])
-      s.add_runtime_dependency(%q<activerecord>, ["#<YAML::Syck::DefaultKey:0x110796b50> 3.2.0"])
-      s.add_runtime_dependency(%q<activeresource>, ["#<YAML::Syck::DefaultKey:0x110795390> 3.2.0"])
-      s.add_runtime_dependency(%q<actionmailer>, ["#<YAML::Syck::DefaultKey:0x110793b58> 3.2.0"])
-      s.add_runtime_dependency(%q<railties>, ["#<YAML::Syck::DefaultKey:0x110792460> 3.2.0"])
+      s.add_runtime_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x114a98c28> 3.2.0"])
+      s.add_runtime_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x114a93390> 3.2.0"])
+      s.add_runtime_dependency(%q<activerecord>, ["#<YAML::Syck::DefaultKey:0x114a8d5a8> 3.2.0"])
+      s.add_runtime_dependency(%q<activeresource>, ["#<YAML::Syck::DefaultKey:0x114a879c8> 3.2.0"])
+      s.add_runtime_dependency(%q<actionmailer>, ["#<YAML::Syck::DefaultKey:0x114a7db30> 3.2.0"])
+      s.add_runtime_dependency(%q<railties>, ["#<YAML::Syck::DefaultKey:0x114a6b610> 3.2.0"])
       s.add_runtime_dependency(%q<bundler>, ["~> 1.0"])
     else
-      s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x110799b70> 3.2.0"])
-      s.add_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x110798298> 3.2.0"])
-      s.add_dependency(%q<activerecord>, ["#<YAML::Syck::DefaultKey:0x110796b50> 3.2.0"])
-      s.add_dependency(%q<activeresource>, ["#<YAML::Syck::DefaultKey:0x110795390> 3.2.0"])
-      s.add_dependency(%q<actionmailer>, ["#<YAML::Syck::DefaultKey:0x110793b58> 3.2.0"])
-      s.add_dependency(%q<railties>, ["#<YAML::Syck::DefaultKey:0x110792460> 3.2.0"])
+      s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x114a98c28> 3.2.0"])
+      s.add_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x114a93390> 3.2.0"])
+      s.add_dependency(%q<activerecord>, ["#<YAML::Syck::DefaultKey:0x114a8d5a8> 3.2.0"])
+      s.add_dependency(%q<activeresource>, ["#<YAML::Syck::DefaultKey:0x114a879c8> 3.2.0"])
+      s.add_dependency(%q<actionmailer>, ["#<YAML::Syck::DefaultKey:0x114a7db30> 3.2.0"])
+      s.add_dependency(%q<railties>, ["#<YAML::Syck::DefaultKey:0x114a6b610> 3.2.0"])
       s.add_dependency(%q<bundler>, ["~> 1.0"])
     end
   else
-    s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x110799b70> 3.2.0"])
-    s.add_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x110798298> 3.2.0"])
-    s.add_dependency(%q<activerecord>, ["#<YAML::Syck::DefaultKey:0x110796b50> 3.2.0"])
-    s.add_dependency(%q<activeresource>, ["#<YAML::Syck::DefaultKey:0x110795390> 3.2.0"])
-    s.add_dependency(%q<actionmailer>, ["#<YAML::Syck::DefaultKey:0x110793b58> 3.2.0"])
-    s.add_dependency(%q<railties>, ["#<YAML::Syck::DefaultKey:0x110792460> 3.2.0"])
+    s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x114a98c28> 3.2.0"])
+    s.add_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x114a93390> 3.2.0"])
+    s.add_dependency(%q<activerecord>, ["#<YAML::Syck::DefaultKey:0x114a8d5a8> 3.2.0"])
+    s.add_dependency(%q<activeresource>, ["#<YAML::Syck::DefaultKey:0x114a879c8> 3.2.0"])
+    s.add_dependency(%q<actionmailer>, ["#<YAML::Syck::DefaultKey:0x114a7db30> 3.2.0"])
+    s.add_dependency(%q<railties>, ["#<YAML::Syck::DefaultKey:0x114a6b610> 3.2.0"])
     s.add_dependency(%q<bundler>, ["~> 1.0"])
   end
 end

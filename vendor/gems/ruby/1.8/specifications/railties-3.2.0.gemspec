@@ -28,22 +28,22 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<thor>, ["~> 0.14.6"])
       s.add_runtime_dependency(%q<rack-ssl>, ["~> 1.3.2"])
       s.add_runtime_dependency(%q<rdoc>, ["~> 3.4"])
-      s.add_runtime_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x1109139d8> 3.2.0"])
-      s.add_runtime_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x110911ea8> 3.2.0"])
+      s.add_runtime_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x1148e8018> 3.2.0"])
+      s.add_runtime_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x1148e67b8> 3.2.0"])
     else
       s.add_dependency(%q<rake>, [">= 0.8.7"])
       s.add_dependency(%q<thor>, ["~> 0.14.6"])
       s.add_dependency(%q<rack-ssl>, ["~> 1.3.2"])
       s.add_dependency(%q<rdoc>, ["~> 3.4"])
-      s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x1109139d8> 3.2.0"])
-      s.add_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x110911ea8> 3.2.0"])
+      s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x1148e8018> 3.2.0"])
+      s.add_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x1148e67b8> 3.2.0"])
     end
   else
     s.add_dependency(%q<rake>, [">= 0.8.7"])
     s.add_dependency(%q<thor>, ["~> 0.14.6"])
     s.add_dependency(%q<rack-ssl>, ["~> 1.3.2"])
     s.add_dependency(%q<rdoc>, ["~> 3.4"])
-    s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x1109139d8> 3.2.0"])
-    s.add_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x110911ea8> 3.2.0"])
+    s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x1148e8018> 3.2.0"])
+    s.add_dependency(%q<actionpack>, ["#<YAML::Syck::DefaultKey:0x1148e67b8> 3.2.0"])
   end
 end

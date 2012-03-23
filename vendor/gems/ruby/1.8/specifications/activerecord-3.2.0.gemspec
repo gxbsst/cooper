@@ -23,19 +23,19 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x110990b40> 3.2.0"])
-      s.add_runtime_dependency(%q<activemodel>, ["#<YAML::Syck::DefaultKey:0x11098bf78> 3.2.0"])
+      s.add_runtime_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x114d798c0> 3.2.0"])
+      s.add_runtime_dependency(%q<activemodel>, ["#<YAML::Syck::DefaultKey:0x114d74fa0> 3.2.0"])
       s.add_runtime_dependency(%q<arel>, ["~> 3.0.0"])
       s.add_runtime_dependency(%q<tzinfo>, ["~> 0.3.29"])
     else
-      s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x110990b40> 3.2.0"])
-      s.add_dependency(%q<activemodel>, ["#<YAML::Syck::DefaultKey:0x11098bf78> 3.2.0"])
+      s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x114d798c0> 3.2.0"])
+      s.add_dependency(%q<activemodel>, ["#<YAML::Syck::DefaultKey:0x114d74fa0> 3.2.0"])
       s.add_dependency(%q<arel>, ["~> 3.0.0"])
       s.add_dependency(%q<tzinfo>, ["~> 0.3.29"])
     end
   else
-    s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x110990b40> 3.2.0"])
-    s.add_dependency(%q<activemodel>, ["#<YAML::Syck::DefaultKey:0x11098bf78> 3.2.0"])
+    s.add_dependency(%q<activesupport>, ["#<YAML::Syck::DefaultKey:0x114d798c0> 3.2.0"])
+    s.add_dependency(%q<activemodel>, ["#<YAML::Syck::DefaultKey:0x114d74fa0> 3.2.0"])
     s.add_dependency(%q<arel>, ["~> 3.0.0"])
     s.add_dependency(%q<tzinfo>, ["~> 0.3.29"])
   end
