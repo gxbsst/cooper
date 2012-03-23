@@ -38,7 +38,7 @@ set :branch, "master"
  
  namespace :deploy do
    task :bundle_install do 
-      run("cd #{deploy_to}/current; bundle install")
+      run("cd #{deploy_to}/current; bundle install --path=vendor/gems")
    end
  end
  

@@ -1,40 +1,38 @@
 ﻿$(document).ready(
 function()
 {
-  $("#action_menu li").mouseover(
+  $("#searchmenu li").mouseover(
   function()
   {
-    $("#action_menu li").removeClass("current");
+    $("#searchmenu li").removeClass("current");
     $(this).addClass("current");
-    $("#action_content01").hide();
-    $("#action_content02").hide();
-    $("#action_content03").hide();
-    $("#action_content0" + $(this).attr("tabindex")).show();
+    $("#searchcontent .body").hide();
+    $("#searchcontent .body0" + $(this).attr("tabindex")).show();
   }
   );
   $("#prevbtn").click(
   function()
   {
-    if($("#imagelist ul").css("left").replace("px","") < (-134 * ($("#imagelist ul li").length - 8)))
+    if($("#bannerlist ul").css("left").replace("px","") < (-980 * ($("#bannerlist ul li").length - 2)))
     {
-      $("#imagelist ul").animate({left:'0px'});
+      $("#bannerlist ul").animate({left:'0px'},'fast');
     }
     else
     {
-     $("#imagelist ul").animate({left:'-=134px'});
+     $("#bannerlist ul").animate({left:'-=980px'},'fast');
     }
   }
   );
   $("#nextbtn").click(
   function()
   {
-    if($("#imagelist ul").css("left").replace("px","") >= 0)
+    if($("#bannerlist ul").css("left").replace("px","") >= 0)
     {
-     $("#imagelist ul").animate({left:"-" + 134 * ($("#imagelist ul li").length - 7) + "px"});
+     $("#bannerlist ul").animate({left:"-" + 980 * ($("#bannerlist ul li").length - 1) + "px"},'fast');
     }
     else
     {
-     $("#imagelist ul").animate({left:'+=134px'});
+     $("#bannerlist ul").animate({left:'+=980px'},'fast');
     }
   }
   );

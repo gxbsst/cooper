@@ -1,0 +1,9 @@
+﻿#productinfo{ padding:20px 0px;}
+#productinfo .img{ float:left; width:240px; height:250px;}
+#productinfo .img img{ width:240px; height:250px;}
+#productinfo .info{width:435px; float:right;}
+#productinfo .content{ line-height:19px; color:#585858; padding:5px 0px 10px 0px; border-bottom:dotted 1px #CBCBCB;}
+#productinfo .cart{ height:15px; line-height:15px; padding:10px 0px;}
+#productinfo .cart strong{ color:#E04C36;}
+#productinfo .cart span{ padding:0px 0px 0px 20px;}
+#productinfo .cart img{ margin:0px 5px 0px 0px; vertical-align:middle;}
