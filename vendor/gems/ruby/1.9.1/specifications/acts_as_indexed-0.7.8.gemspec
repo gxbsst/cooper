@@ -13,7 +13,11 @@ Gem::Specification.new do |s|
   s.files = ["README.rdoc"]
   s.homepage = "http://github.com/dougal/acts_as_indexed"
   s.require_paths = ["lib"]
+<<<<<<< HEAD
   s.rubygems_version = "1.8.11"
+=======
+  s.rubygems_version = "1.8.15"
+>>>>>>> cb44b98dc69384cf4e61a4d45fc5c6a2da0a18b6
   s.summary = "Acts As Indexed is a plugin which provides a pain-free way to add fulltext search to your Ruby on Rails app"
 
   if s.respond_to? :specification_version then

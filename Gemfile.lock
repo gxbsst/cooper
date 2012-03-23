@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://ruby.taobao.org/
   specs:
     actionmailer (3.2.0)
       actionpack (= 3.2.0)
@@ -35,6 +35,12 @@ GEM
     babosa (0.3.7)
     bcrypt-ruby (3.0.1)
     builder (3.0.0)
+    capistrano (2.11.2)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -57,6 +63,7 @@ GEM
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
       paper_trail (~> 2)
+    highline (1.6.11)
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.3)
@@ -68,9 +75,19 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.17.2)
+    mime-types (1.18)
     multi_json (1.1.0)
     mysql2 (0.3.11)
+<<<<<<< HEAD
+=======
+    net-scp (1.0.4)
+      net-ssh (>= 1.99.1)
+    net-sftp (2.0.5)
+      net-ssh (>= 2.0.9)
+    net-ssh (2.3.0)
+    net-ssh-gateway (1.1.0)
+      net-ssh (>= 1.99.1)
+>>>>>>> cb44b98dc69384cf4e61a4d45fc5c6a2da0a18b6
     orm_adapter (0.0.6)
     paper_trail (2.6.2)
       rails (~> 3)
@@ -172,6 +189,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  capistrano
   coffee-rails (~> 3.2.1)
   jquery-rails
   mysql2

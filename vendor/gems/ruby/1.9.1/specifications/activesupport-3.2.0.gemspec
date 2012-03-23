@@ -13,7 +13,11 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--encoding", "UTF-8"]
   s.require_paths = ["lib"]
   s.required_ruby_version = Gem::Requirement.new(">= 1.8.7")
+<<<<<<< HEAD
   s.rubygems_version = "1.8.11"
+=======
+  s.rubygems_version = "1.8.15"
+>>>>>>> cb44b98dc69384cf4e61a4d45fc5c6a2da0a18b6
   s.summary = "A toolkit of support libraries and Ruby core extensions extracted from the Rails framework."
 
   if s.respond_to? :specification_version then

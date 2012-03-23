@@ -1,4 +1,6 @@
-source 'https://rubygems.org'
+# source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
+
 
 gem 'rails', '3.2.0'
 
@@ -48,3 +50,5 @@ gem 'refinerycms-i18n',   '~> 2.0.0'
 #  gem 'refinerycms-inquiries', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
+
+gem 'capistrano'

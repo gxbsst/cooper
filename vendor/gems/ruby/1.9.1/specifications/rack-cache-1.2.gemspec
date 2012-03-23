@@ -14,7 +14,11 @@ Gem::Specification.new do |s|
   s.homepage = "http://tomayko.com/src/rack-cache/"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Rack::Cache", "--main", "Rack::Cache"]
   s.require_paths = ["lib"]
+<<<<<<< HEAD
   s.rubygems_version = "1.8.11"
+=======
+  s.rubygems_version = "1.8.15"
+>>>>>>> cb44b98dc69384cf4e61a4d45fc5c6a2da0a18b6
   s.summary = "HTTP Caching for Rack"
 
   if s.respond_to? :specification_version then

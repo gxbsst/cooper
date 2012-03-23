@@ -14,7 +14,11 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/brynary/rack-test"
   s.require_paths = ["lib"]
   s.rubyforge_project = "rack-test"
+<<<<<<< HEAD
   s.rubygems_version = "1.8.11"
+=======
+  s.rubygems_version = "1.8.15"
+>>>>>>> cb44b98dc69384cf4e61a4d45fc5c6a2da0a18b6
   s.summary = "Simple testing API built on Rack"
 
   if s.respond_to? :specification_version then
