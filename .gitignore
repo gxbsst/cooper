@@ -1,0 +1,12 @@
+cache/*
+log/*
+tmp/*
+*.swp
+/plugins/.registry/
+/plugins/.channels/
+/.settings/
+.DS_Store
+*.tmproj
+public/image
+public/pic
+public/system

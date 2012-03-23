@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<%= render '/refinery/head' %>
+  <body>
+    <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
+	<div id="allcontent">
+	<div id="header">
+	  <h1 id="logo"><a href="#">这儿放标题</a></h1>
+	  <div class="r">
+	    <div class="site">
+	    <div id="topselectcontent">
+	       <div class="text">品牌家族</div>
+	       <div class="none">
+	         <ul>
+	          <li><a href="#">品牌家族</a></li>
+	          <li><a href="#">品牌家族</a></li>
+	          <li><a href="#">品牌家族</a></li>
+	          <li><a href="#">品牌家族</a></li>
+	         </ul>
+	       </div>
+	    </div>
+	    <a class="a" href="#">联系我们</a><a class="a" href="#">网站地图</a><a class="a" href="#">固铂全球官网</a>
+	    </div>
+	    <div id="nav">
+	      <ul>
+	        <li class="home"><a href="#"></a></li>
+	        <li><a href="#">关于固铂</a></li>
+	        <li><a href="#">无固铂，不越野</a></li>
+	        <li><a href="products_select.htm">产品和服务</a></li>
+	        <li><a href="news_list.htm">新闻媒体</a></li>
+	        <li><a href="shop_search1.htm">营销网络</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+	<div id="maincontent">
+		
+	   <section id="page">
+	        <%= yield %>
+	      </section>
+	
+</div>
+<div id="footer"><label><a href="#">联系我们</a><a href="#">隐私条款</a><a href="#">网站地图</a></label> Copyright <span>&copy;</span> 2012 Cooper Tire & Rubber Company | 沪ICP备12001223号</div>
+</div>
+<script language="javascript" type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/global.js"></script>
+</body>
+</html>
