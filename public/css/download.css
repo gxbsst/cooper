@@ -1,5 +1,5 @@
 ﻿#downloadcontent{}
-#downloadcontent dt{ font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#E04C36; font-weight:bold; height:25px; line-height:25px;}
+#downloadcontent dt{ font-size:14px;  color:#E04C36; font-weight:bold; height:25px; line-height:25px;}
 #downloadcontent dl{ border-bottom:solid 1px #CBCBCB; padding:20px 0px 20px 20px;}
 #downloadcontent dd{ padding:10px;}
 #downloadcontent .videolist{ }
@@ -39,7 +39,7 @@
 #searchresult .dl .p{ font-size:14px; font-weight:bold; height:30px; line-height:30px; }
 #searchresult .dl dd{ line-height:20px; background:url(../pic/li06.jpg) no-repeat 0px 15px; padding:8px 0px 0px 14px;}
 #searchresult .searchtitle{ height:32px; font-size:14px; line-height:32px;}
-#searchresult .searchtitle .back{ float:right; width:132px; height:32px; background:url(../pic/searchtitle.jpg) no-repeat 0px 0px; text-align:center; line-height:32px; color:White; font-size:14px; text-decoration:none; font-family:Arial, Helvetica, sans-serif;}
+#searchresult .searchtitle .back{ float:right; width:132px; height:32px; background:url(../pic/searchtitle.jpg) no-repeat 0px 0px; text-align:center; line-height:32px; color:White; font-size:14px; text-decoration:none; }
 #searchresult ul{ padding:10px 0px 0px 0px;}
 #searchresult li{ padding-top: 10px; padding-right: 10px; padding-bottom: 15px;	padding-left: 20px; *padding:1px 0px; border-bottom:dotted 1px #CBCBCB;}
 #searchresult .img{ float:left; width:160px;}
@@ -57,7 +57,7 @@
 #productsearch .t{ height:4px; overflow:hidden; background:url(../pic/searchitem_t.jpg) no-repeat 0px 0px;}
 #productsearch .b{ height:4px; overflow:hidden; background:url(../pic/searchitem_b.jpg) no-repeat 0px 0px;}
 #productsearch .body{ padding:20px 15px 15px 15px; background-color:#E7F0F7;}
-#productsearch .body strong{  display:block; height:24px; line-height:24px; font-size:14px; float:left; width:120px; color:#044B8C; font-family:Arial, Helvetica, sans-serif;}
+#productsearch .body strong{  display:block; height:24px; line-height:24px; font-size:14px; float:left; width:120px; color:#044B8C; }
 #productsearch .searchbtn{ float:right; width:132px; height:32px; position:relative; top:-4px; border:0px; cursor:pointer; font-size:12px; color:White; font-weight:bold; background:url(../pic/searchbtn.jpg) no-repeat 0px 0px; vertical-align:middle; margin:0px 10px 0px 10px;}
 #productsearch .select{ width:210px; float:left; margin:0px 8px 0px 0px; height:22px; vertical-align:middle; border:solid 1px #DDDDDD; line-height:22px;}
 .selectcontentinner{ }
@@ -79,7 +79,7 @@
 #shopsearch .body{ padding:20px 0px 0px 0px;}
 #shopsearch .search{ padding:30px 0px;}
 #shopsearch .searchtxt{ color:#656565; margin:0px 8px; height:24px; line-height:24px; padding:0px 5px; background:url(../pic/text_bg.jpg) repeat-x 0px 0px; vertical-align:middle; border:solid 1px #B9B9B9; width:300px;}
-#shopsearch .searchbtn{ font-family:Arial, Helvetica, sans-serif;width:132px; height:32px; line-height:31px; border:0px; cursor:pointer; background:url(../pic/searchbtn2.jpg) no-repeat 0px 0px; color:White;  font-weight:bold; vertical-align:middle;}
+#shopsearch .searchbtn{  width:132px; height:32px; line-height:31px; border:0px; cursor:pointer; background:url(../pic/searchbtn2.jpg) no-repeat 0px 0px; color:White;  font-weight:bold; vertical-align:middle;}
 #shopsearch .list{ padding:10px 0px 0px 0px; border-top:solid 2px #CBCBCB; }
 #shopsearch .list li{  *display:inline-block; background:url(../pic/li04.jpg) no-repeat 30px 27px; padding:20px 0px 0px 40px; position:relative;}
 #shopsearch .list dt{ line-height:22px; height:22px; overflow:hidden; color:#E04C36; font-weight:bold;}

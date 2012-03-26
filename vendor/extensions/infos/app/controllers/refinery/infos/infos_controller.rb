@@ -5,6 +5,7 @@ module Refinery
       before_filter :find_all_infos
       before_filter :find_page
 
+
       def index
         # you can use meta fields from your model instead (e.g. browser_title)
         # by swapping @page for @info in the line below:
@@ -19,10 +20,15 @@ module Refinery
         present(@page)
       end
 
-    protected
+      protected
 
       def find_all_infos
-        @infos = Info.order('position ASC')
+        params[:page] ||= 1
+        if params[:q].present?
+          @infos = Info.where(["created_at < ?", 1.year.ago ]).order('position ASC').paginate(:page => params[:page], :per_page => 20)
+        else
+          @infos = Info.order('position ASC').paginate(:page => params[:page], :per_page => 20)
+        end
       end
 
       def find_page

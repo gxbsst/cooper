@@ -11,6 +11,7 @@ function()
     $("#product_detail03").hide();
     $("#product_detail04").hide();
     $("#product_detail05").hide();
+    $("#product_detail06").hide();
     $("#product_detail0" + $(this).attr("tabindex")).show();
   }
   );

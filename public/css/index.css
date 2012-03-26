@@ -3,7 +3,7 @@
 #bannercontent .next{width:32px; height:38px; background:url(../pic/next.png) no-repeat 0px 0px; cursor:pointer; position:absolute; right:20px; top:80px;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/next.png',sizingMethod='image');}
 #bannerlist{ height:216px;  position:relative; width:980px;overflow:hidden;}
 #bannerlist img{ width:980px; height:216px;}
-#bannerlist ul{ width:999999999px; position:absolute; left:0px; top:0px;}
+#bannerlist ul{ width:3920px; position:absolute; left:0px; top:0px;}
 #bannerlist li{ width:980px; float:left; height:216px; overflow:hidden;}
 #map_news{ padding:10px 0px 0px 0px;}
 #mapcontent{ width:600px; overflow:hidden; float:left;}
