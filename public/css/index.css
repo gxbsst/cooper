@@ -7,6 +7,7 @@
 #bannerlist li{ width:980px; float:left; height:216px; overflow:hidden;}
 #map_news{ padding:10px 0px 0px 0px;}
 #mapcontent{ width:600px; overflow:hidden; float:left;}
+#mapcontent .map{ padding:15px 0px 10px 0px;}
 #newscontent{ float:right; width:286px; overflow:hidden;}
 #newscontent ul{ padding:5px 0px;}
 #newscontent li{ line-height:20px; padding:5px 0px; border-bottom:dotted 1px #989898;}
@@ -21,8 +22,8 @@
 #flash_product_search h3 .more{ margin:4px 0px 0px 0px; color:#839870; font-weight:normal; float:right; }
 #flash_product_search h3 span{ vertical-align:middle; padding:0px 0px 0px 5px; font-family:MS Sans Serif;color:#839870; font-weight:bold;}
 #flashcontent{ float:left; width:270px;}
-#flashcontent .flash{ margin:20px auto 0px auto; width:248px; height:154px; background:url(../pic/flash_bg.jpg) no-repeat 0px 0px; padding:5px 7px 8px 6px;}
-#flashcontent .flash img{ width:248px; height:154px;} 
+#flashcontent .flash{ margin:20px auto 0px auto; width:248px; cursor:pointer; height:154px; background:url(../pic/flash_bg.jpg) no-repeat 0px 0px; padding:5px 7px 8px 6px;}
+#flashcontent .flash img{ width:248px; cursor:pointer; height:154px;} 
 #productcontent{ margin:0px 0px 0px 30px; float:left; width:300px;}
 #productcontent dl{ padding:20px 0px 10px 0px;}
 #productcontent dt{ height:30px; line-height:30px; overflow:hidden;}
@@ -39,6 +40,31 @@
 #searchmenu .current{ background-position:0px 0px;}
 #searchcontent .body{ background-color:#F5F5F5; padding:25px 0px 5px 10px; height:107px; border:solid 3px #CBCBCB;}
 #searchcontent .condition{ padding:0px 0px 20px 0px; height:24px;}
-#searchcontent .body .select{ height:22px; float:left;  line-height:22px; vertical-align:middle; width:84px; margin:0px 5px 0px 0px;}
+#searchcontent .body .select{ height:22px; float:left;  border:solid 1px #DDDDDD; line-height:22px; vertical-align:middle; width:84px; margin:0px 5px 0px 0px;}
 #searchcontent .body .searchbtn{ width:132px; height:32px; line-height:31px; background:url(../pic/searchbtn.jpg) no-repeat 0px 0px; cursor:pointer; border:0px; vertical-align:middle; color:White; font-weight:bold;}
 #searchcontent .body .morelink{color:#839870;  background:url(../pic/index_more.jpg) no-repeat 10px 2px; line-height:20px; display:inline-block; padding:0px 0px 0px 30px;}
+#flashcontents{ display:none; position:absolute;}
+#flashcontents .inner{ padding:15px; background-color:White; z-index:99999; position:relative; box-shadow:0 0 90px 5px #000000; width:850px; height:475px;}
+#flashcontents .close{ position:absolute; right:-21px; top:-21px; width:36px; display:block; height:36px; background:url(../pic/overlay-close.png) no-repeat 0px 0px;}
+
+div#interactive-map { position: relative; width: 100%; height: 100%; overflow: visible; background: transparent url(../pic/world.gif) no-repeat; }
+div#interactive-map div.site { float: left; margin-right: 20px; padding: 6px 4px; -moz-opacity: .7; opacity: .7; background-color: #fff; border: 6px solid #849970; -moz-border-radius: 8px; border-radius: 8px; }
+div#interactive-map img { display: none; }
+div#interactive-map p.button { height: 36px; line-height: 36px; margin: 0 7px; text-align: center; background: transparent url(../pic/button-red-left.png) no-repeat; }
+div#interactive-map p.button a { display: block; height: 36px; padding: 0 8px; color: #fff; text-decoration: none; background: transparent url(../pic/button-red-right.png) no-repeat right; }
+div#interactive-map.active { min-height: 274px; }
+div#interactive-map.map-north-america { background-image: url(../pic/world-north-america-highlight.gif); }
+div#interactive-map.map-asia { background-image: url(../pic/world-asia-highlight.gif); }	
+div#interactive-map.map-europe { background-image: url(../pic/world-europe-highlight.gif); }	
+div#interactive-map.active img { display: block; margin-bottom: 10px; }
+div#interactive-map.active div.site { display: none; position: absolute; z-index: 2; -moz-opacity: .99; opacity: .99; }
+div#interactive-map.active h2 { position: absolute; top: 58px; right: -20px; width: 15px; height: 26px; text-indent: -10000em; background: transparent url(../pic/notch-right.png) no-repeat; }
+div#interactive-map.active div#site-north-america { top: 20px; left: 200px; }
+div#interactive-map.active div#site-north-america h2 { left: -20px; background-image: url(../pic/notch-left.png); }
+div#interactive-map.active div#site-asia { top: 30px; left: 102px; }
+div#interactive-map.active div#site-europe { top: 23px; left: 18px; }				
+div#interactive-map div.imagemap { display: none; position: absolute; z-index: 1; top: 0px; left: 0px; }
+div#interactive-map.active div.imagemap { display: block; }
+div#interactive-map area, div#interactive-map map, div#interactive-map img { outline: none; border: none; }	
+#interactive-map ul{ margin-left:20px; padding:0px 0px 8px 0px; line-height:18px; list-style-type:disc;}
+#interactive-map li{ line-height:18px; list-style-type:disc;}

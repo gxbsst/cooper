@@ -39,7 +39,7 @@
 #searchresult .dl .p{ font-size:14px; font-weight:bold; height:30px; line-height:30px; }
 #searchresult .dl dd{ line-height:20px; background:url(../pic/li06.jpg) no-repeat 0px 15px; padding:8px 0px 0px 14px;}
 #searchresult .searchtitle{ height:32px; font-size:14px; line-height:32px;}
-#searchresult .searchtitle .back{ float:right; width:132px; height:32px; background:url(../pic/searchtitle.jpg) no-repeat 0px 0px; text-align:center; line-height:32px; color:White; font-size:14px; text-decoration:none; font-family:'微软雅黑';}
+#searchresult .searchtitle .back{ float:right; width:132px; height:32px; background:url(../pic/searchtitle.jpg) no-repeat 0px 0px; text-align:center; line-height:32px; color:White; font-size:14px; text-decoration:none; font-family:Arial, Helvetica, sans-serif;}
 #searchresult ul{ padding:10px 0px 0px 0px;}
 #searchresult li{ padding-top: 10px; padding-right: 10px; padding-bottom: 15px;	padding-left: 20px; *padding:1px 0px; border-bottom:dotted 1px #CBCBCB;}
 #searchresult .img{ float:left; width:160px;}
@@ -57,9 +57,9 @@
 #productsearch .t{ height:4px; overflow:hidden; background:url(../pic/searchitem_t.jpg) no-repeat 0px 0px;}
 #productsearch .b{ height:4px; overflow:hidden; background:url(../pic/searchitem_b.jpg) no-repeat 0px 0px;}
 #productsearch .body{ padding:20px 15px 15px 15px; background-color:#E7F0F7;}
-#productsearch .body strong{  display:block; height:24px; line-height:24px; font-size:14px; float:left; width:120px; color:#044B8C; font-family:'微软雅黑';}
+#productsearch .body strong{  display:block; height:24px; line-height:24px; font-size:14px; float:left; width:120px; color:#044B8C; font-family:Arial, Helvetica, sans-serif;}
 #productsearch .searchbtn{ float:right; width:132px; height:32px; position:relative; top:-4px; border:0px; cursor:pointer; font-size:12px; color:White; font-weight:bold; background:url(../pic/searchbtn.jpg) no-repeat 0px 0px; vertical-align:middle; margin:0px 10px 0px 10px;}
-#productsearch .select{ width:210px; float:left; margin:0px 8px 0px 0px; height:22px; vertical-align:middle; line-height:22px;}
+#productsearch .select{ width:210px; float:left; margin:0px 8px 0px 0px; height:22px; vertical-align:middle; border:solid 1px #DDDDDD; line-height:22px;}
 .selectcontentinner{ }
 .selectcontent{ margin:0px 10px 0px 0px; z-index:999; position:relative;  background:url(../pic/select02.jpg) no-repeat 0px 0px;}
 .selectcontent .text{ cursor:pointer; line-height:24px; float:left; height:24px; padding:0px 0px 0px 15px;}
@@ -79,7 +79,7 @@
 #shopsearch .body{ padding:20px 0px 0px 0px;}
 #shopsearch .search{ padding:30px 0px;}
 #shopsearch .searchtxt{ color:#656565; margin:0px 8px; height:24px; line-height:24px; padding:0px 5px; background:url(../pic/text_bg.jpg) repeat-x 0px 0px; vertical-align:middle; border:solid 1px #B9B9B9; width:300px;}
-#shopsearch .searchbtn{ font-family:'微软雅黑'; width:132px; height:32px; line-height:31px; border:0px; cursor:pointer; background:url(../pic/searchbtn2.jpg) no-repeat 0px 0px; color:White;  font-weight:bold; vertical-align:middle;}
+#shopsearch .searchbtn{ font-family:Arial, Helvetica, sans-serif;width:132px; height:32px; line-height:31px; border:0px; cursor:pointer; background:url(../pic/searchbtn2.jpg) no-repeat 0px 0px; color:White;  font-weight:bold; vertical-align:middle;}
 #shopsearch .list{ padding:10px 0px 0px 0px; border-top:solid 2px #CBCBCB; }
 #shopsearch .list li{  *display:inline-block; background:url(../pic/li04.jpg) no-repeat 30px 27px; padding:20px 0px 0px 40px; position:relative;}
 #shopsearch .list dt{ line-height:22px; height:22px; overflow:hidden; color:#E04C36; font-weight:bold;}
@@ -90,7 +90,7 @@
 #shopsearch .searchtable{ padding:30px 0px;}
 #shopsearch .searchtable td{ padding:5px;}
 #shopsearch .searchtable .td{ text-align:right;}
-#shopsearch .searchtable .select{ width:205px; margin:0px 10px 0px 0px; height:22px; vertical-align:middle; line-height:22px;}
+#shopsearch .searchtable .select{ width:205px; margin:0px 10px 0px 0px; height:22px; vertical-align:middle; border:solid 1px #DDDDDD; line-height:22px;}
 #products_mapping_pcr{ position:relative; background:url(../pic/products_mapping_bg.jpg) no-repeat center 20px; height:620px;}
 #products_mapping_pcr li{ width:100px; height:130px; overflow:hidden;position:absolute;}
 #products_mapping_pcr li a{ display:block; height:130px; width:100px; text-indent:-99999px;}
@@ -103,7 +103,7 @@
 #products_mapping_pcr .l4 a{ width:125px;}
 #products_mapping_pcr .l5{ left:525px; width:135px; top:75px;}
 #products_mapping_pcr .l5 a{ width:135px;}
-#products_mapping{ width:698px; height:649px; position:relative; background:url(../pic/products_mapping_bgs.jpg) no-repeat 0px 20px;}
+#products_mapping{ width:698px; height:649px; margin-top:10px; position:relative; background:url(../pic/products_mapping_bgs.jpg) no-repeat 0px 20px;}
 #products_mapping li{position:absolute; overflow:hidden;}
 #products_mapping li a{ display:block; text-indent:-9999px; overflow:hidden;}
 #products_mapping .l1{ width:79px; height:140px; top:120px; left:0px;}
@@ -124,3 +124,12 @@
 #products_mapping .l8 a{ width:90px; height:130px;}
 #products_mapping .l9{ width:100px; height:130px; left:500px; top:125px;}
 #products_mapping .l9 a{ width:100px; height:130px;}
+#products_tips{ padding:10px 0px 0px 0px;}
+#products_tips dl{ padding:15px 0px 0px 20px; }
+#products_tips .current dt{}
+#products_tips .current dt strong{ background:url(../pic/products_tips_close.jpg) no-repeat right 4px;}
+#products_tips .current dd{ display:block;}
+#products_tips dt{ cursor:pointer; height:25px; line-height:25px;background:url(../pic/quality_safety_li.jpg) no-repeat 0px 4px; padding:0px 0px 0px 20px;}
+#products_tips dt strong{color:#E04C36; font-size:14px; padding:0px 20px 0px 0px; background:url(../pic/products_tips_hide.jpg) no-repeat right 4px;}
+#products_tips dd{ display:none; line-height:20px; padding:10px 15px 15px 40px; border-bottom:dotted 1px #CBCBCB;}
+#products_tips dd ul{ padding:15px 20px 0px 15px;}
