@@ -8,3 +8,7 @@
 
 # Added by Refinery CMS Pages extension
 Refinery::Pages::Engine.load_seed
+
+Refinery::Infos::Engine.load_seed
+
+Refinery::Mideas::Engine.load_seed

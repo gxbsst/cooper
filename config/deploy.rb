@@ -18,7 +18,7 @@ set :user, "rails"
 
 set :use_sudo, false
 
-set :branch, "master"
+# set :branch, "master"
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true

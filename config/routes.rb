@@ -1,4 +1,6 @@
 CooperCom::Application.routes.draw do
+  
+  match "downloads", :to => "downloads#index"
 
   # This line mounts Refinery's routes at the root of your application.
   # This means, any requests to the root URL of your application will go to Refinery::PagesController#home.

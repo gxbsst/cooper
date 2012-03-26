@@ -2,7 +2,7 @@
 source 'http://ruby.taobao.org'
 
 
-gem 'rails', '3.2.0'
+gem 'rails', '3.2.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -51,4 +51,13 @@ gem 'refinerycms-i18n',   '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
 
+
 gem 'capistrano'
+
+gem 'refinerycms-infos', :path => 'vendor/extensions'
+
+gem "mini_magick"
+
+group :development, :test do
+  gem 'pry'  # "binding.pry" in action
+end
