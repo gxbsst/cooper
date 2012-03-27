@@ -13,6 +13,7 @@
 #newscontent li{ line-height:20px; padding:5px 0px; border-bottom:dotted 1px #989898;}
 #newscontent li p{ color:#A0A0A0; line-height:18px; font-size:11px;}
 #newscontent li label{ padding:0px 0px 0px 8px; color:#E04C36; font-size:9px; font-style:italic;}
+#newscontent li a{ height:20px; display:block; overflow:hidden;}
 #newscontent .more{ line-height:20px; text-align:right;}
 #newscontent .more a{ color:#839870;}
 #newscontent .more span{ padding:0px 0px 0px 5px; font-weight:bold; font-family:MS Sans Serif;}
@@ -40,7 +41,7 @@
 #searchmenu .current{ background-position:0px 0px;}
 #searchcontent .body{ background-color:#F5F5F5; padding:25px 0px 5px 10px; height:107px; border:solid 3px #CBCBCB;}
 #searchcontent .condition{ padding:0px 0px 20px 0px; height:24px;}
-#searchcontent .body .select{ height:22px; float:left;  border:solid 1px #DDDDDD; line-height:22px; vertical-align:middle; width:84px; margin:0px 5px 0px 0px;}
+#searchcontent .body .select{ height:22px; float:left;  line-height:22px; vertical-align:middle; width:84px; margin:0px 5px 0px 0px;}
 #searchcontent .body .searchbtn{ width:132px; height:32px; line-height:31px; background:url(../pic/searchbtn.jpg) no-repeat 0px 0px; cursor:pointer; border:0px; vertical-align:middle; color:White; font-weight:bold;}
 #searchcontent .body .morelink{color:#839870;  background:url(../pic/index_more.jpg) no-repeat 10px 2px; line-height:20px; display:inline-block; padding:0px 0px 0px 30px;}
 #flashcontents{ display:none; position:absolute;}

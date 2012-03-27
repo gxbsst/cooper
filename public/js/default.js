@@ -1,4 +1,4 @@
-﻿$(document).ready(
+$(document).ready(
 function()
 {
   $("#searchmenu li").mouseover(
@@ -10,45 +10,38 @@ function()
     $("#searchcontent .body0" + $(this).attr("tabindex")).show();
   }
   );
+  $("#bannercontent").hover(
+  function(){clearTimeout(time);},
+  function(){time = setInterval(function(){$("#nextbtn").click();},5000);}
+  );
   $("#prevbtn").click(
   function()
   {
-    if($("#bannerlist ul").css("left").replace("px","") < (-980 * ($("#bannerlist ul li").length - 2)))
+    if(Number($("#bannerlist ul").css("left").replace("px","")) < - 2 * totalwidth)
     {
-      $("#bannerlist ul").animate({left:'0px'},'fast');
+      $("#bannerlist ul").css("left",Number($("#bannerlist ul").css("left").replace("px","")) + totalwidth);
     }
-    else
-    {
-     $("#bannerlist ul").animate({left:'-=980px'},'fast');
-    }
+    $("#bannerlist ul").animate({left:'-=980px'},'fast');
   }
   );
   $("#nextbtn").click(
   function()
   {
-    if($("#bannerlist ul").css("left").replace("px","") >= 0)
+    if(Number($("#bannerlist ul").css("left").replace("px","")) > - totalwidth)
     {
-     $("#bannerlist ul").animate({left:"-" + 980 * ($("#bannerlist ul li").length - 1) + "px"},'fast');
+      $("#bannerlist ul").css("left",Number($("#bannerlist ul").css("left").replace("px","")) - totalwidth);
     }
-    else
-    {
-     $("#bannerlist ul").animate({left:'+=980px'},'fast');
-    }
+    $("#bannerlist ul").animate({left:'+=980px'},'fast');    
   }
   );
-  setInterval(function(){$("#prevbtn").click();},5000);
-  $("#bannermenus li").mouseover(
-  function()
-  {
-    $("#bannermenus li").removeClass("current");
-    currents = $(this);
-    $(this).addClass("current");
-    $("#bannerlist ul").stop().animate({top:-230*Number($(this).attr("tabindex"))});
-  }
-  );
-  setInterval("scrollimg()",5000);
+ time = setInterval(function(){$("#nextbtn").click();},5000);
+ var totalwidth = Number($("#bannerlist ul li").length) * 980;
+ $("#bannerlist ul").html($("#bannerlist ul").html() + $("#bannerlist ul").html() + $("#bannerlist ul").html());
+ $("#bannerlist ul").css("width",totalwidth*3);
+ $("#bannerlist ul").css("left","-" + totalwidth + "px");
 }
 );
+var time;
 var current = $("#bannermenus li:first");
 function scrollimg()
 {

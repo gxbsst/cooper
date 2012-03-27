@@ -7,7 +7,7 @@
 #downloadcontent .videolist a{ color:#8B9E79; color:#8B9E79; margin:0px 0px 0px 15px; text-decoration:underline;}
 #downloadcontent .videolist a:hover{ text-decoration:none;}
 #downloadcontent .newslist{ display:inline-block;}
-#downloadcontent .newslist li{ float:left; padding:0px 0px 5px 0px; height:20px; line-height:20px; width:300px;}
+#downloadcontent .newslist li{  padding:0px 0px 5px 0px;}
 #downloadcontent .newslist .pic{ float:left; margin:2px 7px 0px 0px;}
 #downloadcontent .newslist a{ color:#8B9E79; margin:0px 0px 0px 15px; text-decoration:underline;}
 #downloadcontent .newslist a:hover{ color:#8B9E79; text-decoration:none;}
@@ -33,6 +33,7 @@
 #newsdetail .h2{ padding:20px 0px 0px 0px; text-align:center; font-size:14px;}
 #newsdetail p{ padding:10px 0px; text-indent:2em;}
 #newsdetail h3{ padding:10px 0px;}
+#newsdetail .p{ text-indent:0px;}
 #newsdetail .img{ text-align:center; padding:10px 0px;}
 #searchresult{ padding:20px 10px;}
 #searchresult .dl{border-bottom:dotted 1px #CBCBCB; padding:0px 0px 15px 0px; margin:0px; position:relative; left:-8px; width:auto; float:none;}
@@ -59,7 +60,7 @@
 #productsearch .body{ padding:20px 15px 15px 15px; background-color:#E7F0F7;}
 #productsearch .body strong{  display:block; height:24px; line-height:24px; font-size:14px; float:left; width:120px; color:#044B8C; }
 #productsearch .searchbtn{ float:right; width:132px; height:32px; position:relative; top:-4px; border:0px; cursor:pointer; font-size:12px; color:White; font-weight:bold; background:url(../pic/searchbtn.jpg) no-repeat 0px 0px; vertical-align:middle; margin:0px 10px 0px 10px;}
-#productsearch .select{ width:210px; float:left; margin:0px 8px 0px 0px; height:22px; vertical-align:middle; border:solid 1px #DDDDDD; line-height:22px;}
+#productsearch .select{ width:210px; float:left; margin:0px 8px 0px 0px; height:22px; vertical-align:middle; line-height:22px;}
 .selectcontentinner{ }
 .selectcontent{ margin:0px 10px 0px 0px; z-index:999; position:relative;  background:url(../pic/select02.jpg) no-repeat 0px 0px;}
 .selectcontent .text{ cursor:pointer; line-height:24px; float:left; height:24px; padding:0px 0px 0px 15px;}
@@ -90,7 +91,7 @@
 #shopsearch .searchtable{ padding:30px 0px;}
 #shopsearch .searchtable td{ padding:5px;}
 #shopsearch .searchtable .td{ text-align:right;}
-#shopsearch .searchtable .select{ width:205px; margin:0px 10px 0px 0px; height:22px; vertical-align:middle; border:solid 1px #DDDDDD; line-height:22px;}
+#shopsearch .searchtable .select{ width:205px; margin:0px 10px 0px 0px; height:22px; vertical-align:middle;  line-height:22px;}
 #products_mapping_pcr{ position:relative; background:url(../pic/products_mapping_bg.jpg) no-repeat center 20px; height:620px;}
 #products_mapping_pcr li{ width:100px; height:130px; overflow:hidden;position:absolute;}
 #products_mapping_pcr li a{ display:block; height:130px; width:100px; text-indent:-99999px;}

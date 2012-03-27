@@ -1,4 +1,4 @@
-﻿$(document).ready(
+$(document).ready(
 function()
 {
   $("#productdetailmenu li").mouseover(
