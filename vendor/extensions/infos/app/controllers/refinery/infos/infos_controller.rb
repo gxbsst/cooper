@@ -14,7 +14,8 @@ module Refinery
 
       def show
         @info = Info.find(params[:id])
-
+        @info.visit_count ||= 0
+        @info.update_attribute(:visit_count, @info.visit_count + 1)        
         # you can use meta fields from your model instead (e.g. browser_title)
         # by swapping @page for @info in the line below:
         present(@page)

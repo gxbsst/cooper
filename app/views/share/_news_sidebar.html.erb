@@ -4,8 +4,9 @@
     <dt><strong>新闻中心</strong></dt>
   	<dd>
   		<ul>
-        <li><a href="/infos">公司新闻</a></li>
-        <li class="hover"><a href="/infos?q=history">历年新闻</a></li>
+		
+        <li <% unless params[:q].present? %> class="hover" <% end %> ><a  href="/infos">公司新闻</a></li>
+        <li <% if  params[:q].present? %> class="hover" <% end %> ><a href="/infos?q=history">历年新闻</a></li>
       </ul>
   	</dd>
   </dl>
