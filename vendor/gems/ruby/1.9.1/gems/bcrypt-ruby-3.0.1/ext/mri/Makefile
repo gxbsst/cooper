@@ -124,8 +124,8 @@ STATIC_LIB =
 
 BINDIR        = $(bindir)
 RUBYCOMMONDIR = $(sitedir)$(target_prefix)
-RUBYLIBDIR    = $(sitelibdir)$(target_prefix)
-RUBYARCHDIR   = $(sitearchdir)$(target_prefix)
+RUBYLIBDIR = /aries-lv-01/aries_srv/rails/cooper/releases/20120323082717/vendor/gems/ruby/1.9.1/gems/bcrypt-ruby-3.0.1/lib$(target_prefix)
+RUBYARCHDIR = /aries-lv-01/aries_srv/rails/cooper/releases/20120323082717/vendor/gems/ruby/1.9.1/gems/bcrypt-ruby-3.0.1/lib$(target_prefix)
 HDRDIR        = $(rubyhdrdir)/ruby$(target_prefix)
 ARCHHDRDIR    = $(rubyhdrdir)/$(arch)/ruby$(target_prefix)
 

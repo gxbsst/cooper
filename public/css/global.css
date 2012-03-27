@@ -58,5 +58,5 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #footer{color:#656565; padding:5px 10px 20px 10px; width:900px; margin:0px auto; border-top:solid 3px #ABB79F; line-height:25px; text-align:right;}
 #footer label{ float:left;}
 #footer span{ font-family:Arial;}
-#footer a{margin:0px 10px 0px 0px; color:#656565; background:url(../pic/li04.jpg) no-repeat 0px 5px; padding:0px 0px 0px 8px;}
+#footer a{margin:0px 10px 0px 0px; color:#656565; background:url(../pic/li04.jpg) no-repeat 0px 10px; display:inline-block;padding:0px 0px 0px 8px;}
 .totop{ padding:50px 0px 0px 0px; text-align:right;}
