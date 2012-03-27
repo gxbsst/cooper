@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
    before_filter :set_locale
 
   def index
-  
+    
   end
 
   def set_locale

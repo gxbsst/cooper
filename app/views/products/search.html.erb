@@ -1,0 +1,66 @@
+<%= render "share/products_sidebar" %>
+
+<div id="rightcontent">
+	<%= render "share/product_position"%>
+	<div id="productsearch">
+		
+		  		
+		<div class="searchtitle">在线选配轮胎</div>
+		<div class="item">
+			<div class="t"></div>
+			
+			<%= form_tag "/searchs" do  -%>
+			
+			<div class="body">
+				<strong>按尺寸查找</strong>
+				<%= select_tag 'tyre', options_for_select(Product.tyre_collection), :prompt => "轮胎", :class => "select", :style => "width:100px" %>
+				<%= select_tag 'aspect_ratio', options_for_select(Product.aspect_ratio_collection), :prompt => "扁平比", :class => "select", :style => "width:100px" %>
+				<%= select_tag 'diameter', options_for_select(Product.diameter_collection), :prompt => "轮鋼直径", :class => "select", :style => "width:115px"%>
+				<input type="submit" class="searchbtn" value="查询轮胎" />
+				<div class="clear"></div>
+			</div>
+			
+			<% end -%>
+			
+			<div class="b"></div>
+		</div>
+		<div class="item">
+			<div class="t"></div>
+			
+			<%= form_tag "/searchs" do  -%>
+			
+			<div class="body">
+				<strong>按厂商/品牌查找</strong>
+				<%= select_tag 'brand', options_for_select(Product.brand_collection), :prompt => "选择厂商/品牌", :class => "select", :style => "width:180px" %>
+				<%= select_tag 'car_type', options_for_select(Product.car_type_collection), :prompt => "车型", :class => "select", :style => "width:140px" %>
+				<input type="submit" class="searchbtn" value="查询轮胎" />
+				<div class="clear"></div>
+			</div>
+			
+			<% end -%>
+			
+			<div class="b"></div>
+		</div>
+		<div class="item">
+			<div class="t"></div>
+			<%= form_tag "/searchs" do  -%>
+			
+			<div class="body">
+				<strong>按花纹牌查找</strong>
+				<%= select_tag 'decorative', options_for_select(Product.decorative_collection), :prompt => "选择花纹", :class => "select", :style => "width:180px" %>
+				<input type="submit" class="searchbtn" value="查询轮胎" />
+				<div class="clear"></div>
+			</div>
+			
+			<% end -%>
+			
+			<div class="b"></div>
+		</div>
+		
+		
+		
+	</div>
+	<div class="totop"><a href="#header"><img src="pic/totop.jpg" alt="回顶部" title="回顶部" /></a></div>
+</div>
+<div class="clear"></div>
+</div>
