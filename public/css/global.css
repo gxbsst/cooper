@@ -9,6 +9,8 @@ input{ outline:none;}
 .none{ display:none;}
 a:hover{ color:#E04C36; text-decoration:underline;}
 body{ background:url(../pic/scratched.jpg) repeat-x 0px 0px #FCFAF5 fixed;}
+h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
+.mt-10 {margin-top:10px;}
 /*.png{_behavior:url(pic/iepngfix.htc); }
 .img_png{opacity:0.60;filter:Alpha(Opacity=60);background:url(../pic/friend_flow_bg2.png) no-repeat!important;background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/friend_flow_bg2.png',sizingMethod='image');}
 */
