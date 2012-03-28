@@ -13,7 +13,7 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 .mt-10 {margin-top:10px;}
 /*.png{_behavior:url(pic/iepngfix.htc); }
 .img_png{opacity:0.60;filter:Alpha(Opacity=60);background:url(../pic/friend_flow_bg2.png) no-repeat!important;background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/friend_flow_bg2.png',sizingMethod='image');}
-*/
+*/ 
 #allcontent{background-color:#FFFFFF; _overflow:hidden; margin:0px auto;padding:0 30px;position:relative; width: 920px; -moz-box-shadow: 0 0 20px 1px #666; -webkit-box-shadow: 0 0 20px #666; box-shadow:0 0 20px 1px #666;behavior: url('js/PIE.htc'); }
 #header{ height:69px; padding:15px 0px 20px 0px; width:920px; margin:0px auto;}
 #logo{ float:left; width:184px; height:69px; background:url(../pic/logo.jpg) no-repeat 0px 0px;}
