@@ -1,4 +1,4 @@
-#reasoncontent{}
+﻿#reasoncontent{}
 #reasoncontent .title{ padding:25px 0px 0px 0px; text-align:center;}
 #reasoncontent li{ margin:25px 0px 0px 0px; position:relative;}
 #reasoncontent .l1{ margin-top:5px; background:url(../pic/7reasons_01.jpg) no-repeat center 0px; height:444px;}
@@ -59,17 +59,17 @@
 #datcontent li{ line-height:20px; position:relative;}
 #datcontent p{ position:absolute;}
 #datcontent dl{ position:absolute;}
-#datcontent dt{ color:#04448C; font-weight:bold;}
+#datcontent dt{ color:#04448C; font-weight:bold;font-size:14px;margin-bottom:5px;}
 #datcontent dd{ color:#585756;}
-#datcontent .l1{ height:369px; background:url(../pic/dat_img01.jpg) no-repeat center 0px;}
-#datcontent .l1 p{ left:40px; top:100px; padding-right:40px;}
-#datcontent .l1 dl{ width:270px; left:40px; top:225px;}
+#datcontent .l1{ height:388px; background:url(../pic/dat_img01.jpg) no-repeat center 0px;}
+#datcontent .l1 p{ left:40px; top:115px; padding-right:40px;}
+#datcontent .l1 dl{ width:260px; left:40px; top:235px;}
 #datcontent .l2{height:147px; background:url(../pic/dat_img02.jpg) no-repeat center 0px;}
 #datcontent .l2 dl{ width:370px; left:40px; top:35px;}
 #datcontent .l3{height:142px; background:url(../pic/dat_img03.jpg) no-repeat center 0px;}
 #datcontent .l3 dl{ width:320px; left:40px; top:40px;}
 #datcontent .l4{height:156px; background:url(../pic/dat_img04.jpg) no-repeat center 0px;}
-#datcontent .l4 dl{ width:230px; left:40px; top:50px;}
+#datcontent .l4 dl{ width:230px; left:40px; top:40px;}
 #facilities{line-height:20px; padding:25px 20px 20px 20px;}
 #facilities h3{ line-height:25px; color:#E04C36; font-size:18px;}
 #facilities .h3{ padding-top:50px;}
@@ -123,3 +123,7 @@
 #recruitcontent dd{ display:none; padding:0px 0px 5px 0px; line-height:20px;}
 #recruitcontent dd .p{ color:#989898;}
 #recruitcontent dd p{ color:#585858;}
+
+#flashcontents{ display:none; position:absolute;}
+#flashcontents .inner{ padding:15px; background-color:White; z-index:99999; position:relative; box-shadow:0 0 90px 5px #000000; width:850px; height:475px;}
+#flashcontents .close{ position:absolute; right:-21px; top:-21px; width:36px; display:block; height:36px; background:url(../pic/overlay-close.png) no-repeat 0px 0px;}
