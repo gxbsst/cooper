@@ -21,7 +21,7 @@
 			<%=  link_to image.url  do %>
 			 <image src="<%= image.thumb_url %>" width=160 />
 			<% end %>
-			<p><a href="#">1200*1587</a></p>
+			<p><%= image.name %></p>
 		</li>
 		<% end %>
        </ul>
@@ -32,7 +32,7 @@
      <dd>
        <ul class="videolist">
 		<% for movie in @movies %>
-         <li><%= movie.name %> <%= link_to "下载", movie.url %></li>
+         <li><%= movie.name %> <%= link_to "下载", movie.file_url %></li>
 		<% end %>
        </ul>
      </dd>
