@@ -1,4 +1,4 @@
-$(document).ready(
+﻿$(document).ready(
 function()
 {
   $("#searchmenu li").mouseover(
@@ -50,13 +50,15 @@ function scrollimg()
   current = $("#bannermenus li:first");
   $(current).mouseover();
 }
-function show_flash()
+function show_flash(url)
 {
  $("#flashcontents").show();
+ document.getElementById("falsh_iframe").src = url;
 }
 function close_flash()
 {
   $("#flashcontents").hide();
+  document.getElementById("falsh_iframe").src = "#";
 }
 var imageheight = 505;
 var imagewidth = 880;
