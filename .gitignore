@@ -8,3 +8,9 @@ tmp/*
 .DS_Store
 *.tmproj
 public/system
+public/.*.htm
+public/._index.htm_bak
+.sass-cache
+.bundle/config
+saved_items
+db/schema.rb

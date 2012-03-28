@@ -11,7 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120326055058) do
+ActiveRecord::Schema.define(:version => 20120327094921) do
+
+  create_table "products", :force => true do |t|
+    t.string   "url"
+    t.string   "norm"
+    t.string   "tyre"
+    t.string   "aspect_ratio"
+    t.string   "diameter"
+    t.string   "brand"
+    t.string   "car_type"
+    t.string   "decorative"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.text     "description"
+    t.string   "image_url"
+    t.string   "name"
+  end
 
   create_table "refinery_images", :force => true do |t|
     t.string   "image_mime_type"
@@ -160,5 +176,22 @@ ActiveRecord::Schema.define(:version => 20120326055058) do
 
   add_index "seo_meta", ["id"], :name => "index_seo_meta_on_id"
   add_index "seo_meta", ["seo_meta_id", "seo_meta_type"], :name => "index_seo_meta_on_seo_meta_id_and_seo_meta_type"
+
+  create_table "stores", :force => true do |t|
+    t.string   "rank"
+    t.string   "sale_dist"
+    t.string   "provice"
+    t.string   "city"
+    t.string   "dist"
+    t.string   "asr"
+    t.string   "dsr"
+    t.string   "retail_code"
+    t.string   "shop_name"
+    t.string   "shop_type"
+    t.string   "longitude"
+    t.string   "latitude"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
 end
