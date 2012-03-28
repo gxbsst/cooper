@@ -129,12 +129,18 @@
 </div>
 
 <%= content_for :flash do %>
-	<div id="flash contents" class="flash contents">
-	<div class="inner">
-	<iframe id="falsh_iframe" frameborder="0" src="flash/flash.htm" scrolling="no" style="width:850px; height:475px;"></iframe>
-	<a href="javascript:void(close_flash())" class="close"></a>
-	 </div>
-	</div>
+<div id="flashcontents" class="flashcontents">
+<div class="inner">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" height="475" width="850">
+<param name="movie" value="Flvplayer.swf?vcastr_file=1.flv">
+<param name="quality" value="high">
+<param name="allowFullScreen" value="true" />
+<embed src="Flvplayer.swf?vcastr_file=1.flv" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="850" height="475">
+</embed>
+</object> 
+<a href="index.htm" class="close"></a>
+ </div>
+</div>
 	<!-- JavaScript -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
