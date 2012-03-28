@@ -127,3 +127,23 @@
   </div>
   <div class="clear"></div>
 </div>
+
+<%= content_for :flash do %>
+	<div id="flash contents" class="flash contents">
+	<div class="inner">
+	<iframe id="falsh_iframe" frameborder="0" src="flash/flash.htm" scrolling="no" style="width:850px; height:475px;"></iframe>
+	<a href="javascript:void(close_flash())" class="close"></a>
+	 </div>
+	</div>
+	<!-- JavaScript -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="js/jquery.hoverIntent.minified.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<!--[if let IE 6]>
+		<script type="text/javascript" src="js/png.js"></script>
+	 <![endif]-->
+	<script language="javascript" type="text/javascript" src="js/global.js"></script>
+	<script language="javascript" type="text/javascript" src="js/default.js"></script>
+	
+<% end %>
