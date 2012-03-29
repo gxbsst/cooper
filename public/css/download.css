@@ -1,5 +1,4 @@
-﻿#downloadcontent{}
-#downloadcontent dt{ font-size:14px;  color:#E04C36; font-weight:bold; height:25px; line-height:25px;}
+﻿#downloadcontent dt{ font-size:14px;  color:#E04C36; font-weight:bold; height:25px; line-height:25px;}
 #downloadcontent dl{ border-bottom:solid 1px #CBCBCB; padding:20px 0px 20px 20px;}
 #downloadcontent dd{ padding:10px;}
 #downloadcontent .videolist{ }
@@ -20,7 +19,7 @@
 #newslist ul{ padding:20px;}
 #newslist li{ padding:2px 0px; height:25px; line-height:25px; overflow:hidden;}
 #newslist li span{ color:#A0A0A0;  display:inline-block; width:80px;}
-#newslist li label{ color:#CB0201; font-family:Arial; font-size:10px; font-style:italic; padding:0px 0px 0px 5px;}
+#newslist li label{ color:#CB0201; font-size:10px; font-style:italic; padding:0px 0px 0px 5px;}
 #newslist li a{ text-decoration:underline;}
 #newslist li a:hover{ text-decoration:none; color:#484848;}
 #newslist .page{ padding:10px 0px 0px 0px; border-top:solid 1px #DDDDDD; text-align:right;}
@@ -47,7 +46,7 @@
 #searchresult .img img{ width:160px; height:120px;}
 #searchresult dl{ float:right; width:425px; line-height:20px;}
 #searchresult dt{ height:30px; line-height:30px; overflow:hidden;}
-#searchresult dt a{ font-family:Arial; font-size:18px; font-weight:bold; color:#E04C36; background:url(../pic/li05.jpg) no-repeat right 4px; padding:0px 15px 0px 0px;}
+#searchresult dt a{ font-size:18px; font-weight:bold; color:#E04C36; background:url(../pic/li05.jpg) no-repeat right 4px; padding:0px 15px 0px 0px;}
 #searchresult .more{ background:url(../pic/more.jpg) no-repeat 0px 2px; color:#839870; padding:0px 0px 0px 20px; display:block; height:20px;}
 #searchresult dd{ padding:5px 0px 0px 0px;}
 #searchresult .dd{ height:60px; overflow:hidden;}
