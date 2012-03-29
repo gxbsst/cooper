@@ -58,7 +58,7 @@ gem 'refinerycms-infos', :path => 'vendor/extensions'
 
 gem "mini_magick"
 
-gem "command-builder", "~> 0.3.0"
+# gem "command-builder", "~> 0.3.0"
 
 group :development, :test do
   gem 'pry'  # "binding.pry" in action
