@@ -9,6 +9,7 @@
 #mapcontent{ width:600px; overflow:hidden; float:left;}
 #mapcontent .map{ padding:15px 0px 10px 0px;}
 #newscontent{ float:right; width:286px; overflow:hidden;}
+#newscontent .more a:hover {text-decoration:none;}
 #newscontent ul{ padding:5px 0px;}
 #newscontent li{ line-height:20px; padding:5px 0px; border-bottom:dotted 1px #989898;}
 #newscontent li p{ color:#A0A0A0; line-height:18px; font-size:11px;}
@@ -16,19 +17,20 @@
 #newscontent li a{ height:20px; display:block; overflow:hidden;}
 #newscontent .more{ line-height:20px; text-align:right;}
 #newscontent .more a{ color:#839870;}
-#newscontent .more span{ padding:0px 0px 0px 5px; font-weight:bold; font-family:MS Sans Serif;}
+#newscontent .more span{ padding:0px 0px 0px 5px; font-weight:bold; }
 #map_news h3{ border-bottom:solid 1px #CBCBCB; height:30px; line-height:30px; overflow:hidden; color:#E04C36; font-size:14px;}
 #flash_product_search{ padding:0px 0px 10px 0px;}
 #flash_product_search h3{ border-bottom:solid 1px #CBCBCB; height:30px; line-height:30px; overflow:hidden; color:#E04C36; font-size:14px;}
 #flash_product_search h3 .more{ margin:4px 0px 0px 0px; color:#839870; font-weight:normal; float:right; }
-#flash_product_search h3 span{ vertical-align:middle; padding:0px 0px 0px 5px; font-family:MS Sans Serif;color:#839870; font-weight:bold;}
+#flash_product_search h3 span{ vertical-align:middle; padding:0px 0px 0px 5px;color:#839870; font-weight:bold;}
 #flashcontent{ float:left; width:270px;}
 #flashcontent .flash{ margin:20px auto 0px auto; width:248px; cursor:pointer; height:154px; background:url(../pic/flash_bg.jpg) no-repeat 0px 0px; padding:5px 7px 8px 6px;}
 #flashcontent .flash img{ width:248px; cursor:pointer; height:154px;} 
 #productcontent{ margin:0px 0px 0px 30px; float:left; width:300px;}
+#productcontent h3 a:hover{text-decoration:none;}
 #productcontent dl{ padding:20px 0px 10px 0px;}
 #productcontent dt{ height:30px; line-height:30px; overflow:hidden;}
-#productcontent dt a{ font-size:20px; font-weight:bold; color:#839870; font-family:Arial;}
+#productcontent dt a{ font-size:20px; font-weight:bold; color:#839870;}
 #productcontent dd{ line-height:19px; color:#585858; padding:5px 125px 0px 0px; width:175px; position:relative;}
 #productcontent dd p{ color:#585858;}
 #productcontent .img{ text-align:right; position:absolute; right:0px; top:-5px;}

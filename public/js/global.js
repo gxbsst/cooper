@@ -11,5 +11,15 @@ function()
     $(this).parent().addClass("current");
   }
   );
+  $("#nav .li").hover(
+  function()
+  {
+    $(this).addClass("current");
+  },
+  function()
+  {
+    $(this).removeClass("current");
+  }
+  );
 }
 );
