@@ -5,7 +5,7 @@ class Product < ActiveRecord::Base
 
     # 轮胎
     def tyre_collection
-      group(:tyre).collect{|p| [p.tyre, p.tyre] unless p.tyre.blank? }.compact
+      group(:tyre).collect{|p| [("&nbsp;&nbsp;" + p.tyre).html_safe, p.tyre] unless p.tyre.blank? }.compact
     end
 
     # 扁平比
