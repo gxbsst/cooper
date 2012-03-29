@@ -30,7 +30,7 @@
 #product_detail01 .size .l2{background:url(../pic/size02.jpg) no-repeat 63px bottom;}
 #product_detail01 .size .l3{background:url(../pic/size03.jpg) no-repeat 72px bottom;}
 #product_detail01 .image{ overflow:hidden; position:relative; line-height:18px;}
-#product_detail01 .image p{ color:#585858; position:absolute; top:-100px;}
+#product_detail01 .image p{color:#585858;position:absolute;top:-100px;height: 45px;}
 #productdetail .table{}
 #productdetail .table table{ width:100%; background-color:#D1DEEA;}
 #productdetail .table td{ vertical-align:top; color:#585858; background-color:White; padding:5px 15px; line-height:20px;text-align:center;}
