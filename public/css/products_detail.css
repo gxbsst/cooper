@@ -33,8 +33,8 @@
 #product_detail01 .image p{ color:#585858; position:absolute; top:-100px;}
 #productdetail .table{}
 #productdetail .table table{ width:100%; background-color:#D1DEEA;}
-#productdetail .table td{ vertical-align:top; color:#585858; background-color:White; padding:5px 15px; line-height:20px;}
-#productdetail .table th{ color:#323232; background-color:#BDCEDD; padding:5px 10px; text-align:left; line-height:20px;}
+#productdetail .table td{ vertical-align:top; color:#585858; background-color:White; padding:5px 15px; line-height:20px;text-align:center;}
+#productdetail .table th{ color:#323232; background-color:#BDCEDD; padding:5px 10px; line-height:20px;}
 #productdetail .table .split td{ background-color:#E1EAF2;}
 #productdetail .info{ padding:0px 20px 0px 0px; float:right; width:440px;}
 #productdetail .img{ float:left; width:202px;}
