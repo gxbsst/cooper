@@ -15,14 +15,14 @@ class SearchsController < ApplicationController
     car_type = params[:car_type]
     decorative = params[:decorative]
     
-    products = Product.order(:tyre)
+    products = Product.order(:tyre).group(:name)
     # products = products.where("tyre like ?", "%#{keywords}%") if keywords.present?
-    products = products.where(tyre: tyre) if tyre.present?
-    products = products.where(aspect_ratio: aspect_ratio) if aspect_ratio.present?
-    products = products.where(diameter: diameter) if diameter.present?
-    products = products.where(brand: brand) if brand.present?
-    products = products.where(car_type: car_type) if car_type.present?
-    products = products.where(decorative: decorative) if decorative.present?
+    products = products.where(tyre: tyre).group(:name) if tyre.present?
+    products = products.where(aspect_ratio: aspect_ratio).group(:name) if aspect_ratio.present?
+    products = products.where(diameter: diameter).group(:name) if diameter.present?
+    products = products.where(brand: brand).group(:name) if brand.present?
+    products = products.where(car_type: car_type).group(:name) if car_type.present?
+    products = products.where(decorative: decorative).group(:name) if decorative.present?
     products
   end
 

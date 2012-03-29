@@ -58,5 +58,13 @@ namespace :app do
     end
     
   end
+  
+  task :init_video => :environment do
+    yaml = YAML::load(open(Rails.root.join('lib', 'tasks', 'data','video.yml')))
+    yaml.each do |key, value|
+       value["name"] = key
+       Video.find_or_create_by_name(value)
+    end
+  end
 
 end
