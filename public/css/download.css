@@ -147,4 +147,5 @@
 #products_tips dt{ cursor:pointer; height:25px; line-height:25px;background:url(../pic/quality_safety_li.jpg) no-repeat 0px 4px; padding:0px 0px 0px 20px;}
 #products_tips dt strong{color:#E04C36; font-size:14px; padding:0px 20px 0px 0px; background:url(../pic/products_tips_hide.jpg) no-repeat right 4px;}
 #products_tips dd{ display:none; line-height:20px; padding:10px 15px 15px 40px; border-bottom:dotted 1px #CBCBCB;}
-#products_tips dd ul{ padding:15px 20px 0px 15px;}
+#products_tips dd ul{ padding:0 20px 0px 15px;}
+ul.tips li { list-style: disc;}
