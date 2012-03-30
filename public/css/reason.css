@@ -81,7 +81,7 @@
 #facilities dd{ padding:5px 0px 0px 15px;}
 #video_online{ padding:30px 0px 30px 20px;}
 #video_online ul{ display:inline-block;}
-#video_online li{ height:240px; padding:0px 98px 0px 0px; width:202px; float:left;}
+#video_online li{ padding:0px 98px 0px 0px; width:202px; float:left;margin-bottom:30px;}
 #video_online img{ width:202px; height:119px;}
 #video_online dt{ padding:5px 0px 0px 0px; height:28px; line-height:30px;}
 #video_online dt a{ font-size:14px; font-weight:bold; }
