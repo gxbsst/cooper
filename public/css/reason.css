@@ -15,10 +15,18 @@
 #reasoncontent .l5 .p1{ left:38px; top:60px; width:180px;}
 #reasoncontent .l5 .p2{left:480px; top:60px; width:170px;}
 #reasoncontent .l6{ background:url(../pic/7reasons_06.jpg) no-repeat center 0px; height:160px;}
-#reasoncontent .l6 p{ left:38px; top:60px; width:400px;}
+#reasoncontent .l6 p{
+	left:38px;
+	top:60px;
+	width:407px;
+}
 #reasoncontent .l7{ background:url(../pic/7reasons_07.jpg) no-repeat center 0px; height:160px;}
 #reasoncontent .l7 p{ left:38px; top:60px; width:400px;}
-#reasoncontent li p{ line-height:20px; position:absolute;}
+#reasoncontent li p{
+	line-height:20px;
+	position:absolute;
+	height: 59px;
+}
 #aboutcontent{}
 #aboutcontent dl{ line-height:19px; padding:30px 20px 20px 20px;}
 #aboutcontent dt{color:#E04C36; font-weight:bold; font-size:18px; line-height:25px;}
