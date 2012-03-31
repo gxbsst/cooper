@@ -1,13 +1,23 @@
+# encoding: utf-8
 class Product < ActiveRecord::Base
 
 
   class << self
+    
+    
+    def tyre_all_collection
+      Product.tyre_collection + [["轮胎直径", 'disable']] + Product.tyre_with_x_collection
+    end
 
     # 轮胎
     def tyre_collection
-      group(:tyre).collect{|p| [("&nbsp;&nbsp;" + p.tyre).html_safe, p.tyre] unless p.tyre.blank? }.compact
+      where(["tyre not like ?", "%X%"]).group(:tyre).collect{|p| [("&nbsp;&nbsp;" + p.tyre).html_safe, p.tyre] unless p.tyre.blank? }.compact
     end
-
+    
+    def tyre_with_x_collection
+      where(["tyre like ?", "%X%"]).group(:tyre).collect{|p| [("&nbsp;&nbsp;" + p.tyre).html_safe, p.tyre] unless p.tyre.blank? }.compact
+    end
+    
     # 扁平比
     def aspect_ratio_collection
       group(:aspect_ratio).collect{|p| [p.aspect_ratio, p.aspect_ratio] unless p.aspect_ratio.blank? }.compact

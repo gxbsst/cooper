@@ -100,29 +100,31 @@
    <div class="body body01">
 	<%= form_tag "/searchs" do  -%>
 	<div class="condition">
-
-		<%= select_tag 'tyre', options_for_select(Product.tyre_collection), :prompt => "轮胎", :class => "select" %>
-		<%= select_tag 'aspect_ratio', options_for_select(Product.aspect_ratio_collection), :prompt => "扁平比", :class => "select" %>
-		<%= select_tag 'diameter', options_for_select(Product.diameter_collection), :prompt => "轮鋼直径", :class => "select" %>
+		<%= render "product_search_form" %>
 	</div>
 
-	<input type="submit" class="searchbtn" value="查询轮胎" />
-	<a class="morelink" href="products_list.htm">查看所有轮胎</a>
-	<% end -%>   </div>
+	<input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="products_list.htm">查看所有轮胎</a>
+	<% end -%> 
+  </div>
 
 
    <div class="body body02 none">
+
+	<%= form_tag "/searchs?type=brand" do  -%>
      <div class="condition">
-     <select class="select" style="width:150px;"><option>&nbsp;选择厂商/品牌&nbsp;</option></select>
-     <select class="select" style="width:107px;"><option>&nbsp;车型&nbsp;</option></select>
+    	<%= render "brand_search_form" %>
      </div>
      <input type="button" class="searchbtn" value="查询轮胎" /><a class="morelink" href="products_list.htm">查看所有轮胎</a>
+	<% end -%> 
+
    </div>
    <div class="body body03 none">
+		<%= form_tag "/searchs?type=brand" do  -%>
      <div class="condition">
-     <select class="select" style="width:200px;"><option>&nbsp;选择花纹&nbsp;</option></select>
+			<%= select_tag 'name', options_for_select(Brand.decorative_collection), :prompt => "选择花纹", :class => "select", :style => "width:200px" %>
      </div>
-     <input type="button" class="searchbtn" value="查询轮胎" /><a class="morelink" href="products_list.htm">查看所有轮胎</a>
+     <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="products_list.htm">查看所有轮胎</a>
+			<% end -%> 
    </div>
   </div>
   <div class="clear"></div>
@@ -142,6 +144,8 @@
  </div>
 </div>
 	<!-- JavaScript -->
+
+  <%= javascript_include_tag "jquery", "jquery-ui","jquery_ujs","underscore", "backbone", "products", "brands"%>
 	<script type="text/javascript" src="/js/jquery.tools.min.js"></script>
 	<script type="text/javascript" src="/js/jquery.hoverIntent.minified.js"></script>
 	<script type="text/javascript" src="/js/base.js"></script>
