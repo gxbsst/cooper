@@ -1,4 +1,0 @@
-zh-CN:
-  plugins:
-    <%= plural_name %>:
-      title: <%= plural_name.titleize %>
