@@ -5,7 +5,8 @@ class DownloadsController < ApplicationController
 
   def index
     @files = Refinery::Resource.where("media_type = '新闻通稿'")
-    @images = Refinery::Resource.where("media_type = '高清图片'")
+    @images_poster =  Refinery::Resource.where("media_type = '高清图片' AND image_type = '海报'")
+    @images_foldout = Refinery::Resource.where("media_type = '高清图片' AND image_type = '折页'")    
     @movies = Video.where("media_type = '视频'")
   end
 end

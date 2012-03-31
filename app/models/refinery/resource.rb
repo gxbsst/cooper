@@ -1,8 +1,9 @@
+# encoding: utf-8
 module Refinery
   class Resource < Refinery::Core::BaseModel
     include Resources::Validators
 
-    attr_accessible :id, :file, :media_type, :name
+    attr_accessible :id, :file, :media_type, :name, :image_type
 
     resource_accessor :file
 
@@ -26,7 +27,12 @@ module Refinery
         file_dirname = File.dirname(file_path)
         file = MiniMagick::Image.open(file_path)
         
-        file.resize "160x120"
+        if image_type == "折页"
+          file.resize "320x"
+         else
+           file.resize "120x"
+         end
+         
         file.format "jpg"
         file.write(File.join( file_dirname, file_name + "_thumb.jpg" ))
       end 
@@ -67,7 +73,7 @@ module Refinery
           resources << create(params)
         else
           params[:file].each do |resource|
-            resources << create(:file => resource, :media_type => params[:media_type], :name => params[:name])
+            resources << create(:file => resource, :media_type => params[:media_type], :name => params[:name], :image_type => params[:image_type])
           end
         end
         

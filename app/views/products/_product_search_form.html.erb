@@ -1,7 +1,7 @@
 <div class="body">
 	<strong>按尺寸查找</strong>
 	<span id="tyre">
-		<%= select_tag 'tyre',options_for_select(Product.tyre_all_collection, :disabled => "disable" ), :disable_with => '165', :prompt => "轮胎", :class => "select", :style => "width:100px" %>
+		<%= select_tag 'tyre',options_for_select(Product.tyre_all_collection, :disabled => "disable" ), :disable_with => '165', :prompt => "断面宽", :class => "select", :style => "width:100px" %>
 	</span>
 	<span id="aspect_ratio" >
 		<%= select_tag 'aspect_ratio', options_for_select([]), :prompt => "扁平比", :class => "select", :style => "width:100px" %>

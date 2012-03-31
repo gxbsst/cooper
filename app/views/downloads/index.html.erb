@@ -15,16 +15,29 @@
    <dl>
      <dt>高清图片</dt>
      <dd>
-       <ul class="imagelist">
-		<% for image in @images  do %>
+	   
+       <ul class="imagelist foldout">
+		<% for image  in @images_foldout  do %>
          <li>
 			<%=  link_to image.url  do %>
-			 <image src="<%= image.thumb_url %>" width=160 />
+			 <image src="<%= image.thumb_url %>" />
 			<% end %>
 			<p><%= image.name %></p>
 		</li>
 		<% end %>
        </ul>
+		<div class="clear"></div>
+	<ul class="imagelist">
+		<% for image  in @images_poster  do %>
+         <li>
+			<%=  link_to image.url  do %>
+			 <image src="<%= image.thumb_url %>" />
+			<% end %>
+			<p><%= image.name %></p>
+		</li>
+		<% end %>
+		
+	</ul>
      </dd>
    </dl>
    <dl>

@@ -3,7 +3,7 @@
 <div id="rightcontent">
 	<%= render "share/product_position"%>
  <div id="searchresult">
- <div class="searchtitle"><a href="#" class="back">返回重新查找</a>为您找到以下轮胎产品：</div>
+ <div class="searchtitle"><a href="/products/search" class="back">返回重新查找</a>为您找到以下轮胎产品：</div>
  <% unless @products.first.blank? %>
  <ul>
  	<%= render @products %>
