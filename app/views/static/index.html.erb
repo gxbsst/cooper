@@ -114,7 +114,7 @@
      <div class="condition">
     	<%= render "brand_search_form" %>
      </div>
-     <input type="button" class="searchbtn" value="查询轮胎" /><a class="morelink" href="products_list.htm">查看所有轮胎</a>
+     <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="products_list.htm">查看所有轮胎</a>
 	<% end -%> 
 
    </div>
@@ -124,7 +124,7 @@
 			<%= select_tag 'name', options_for_select(Brand.decorative_collection), :prompt => "选择花纹", :class => "select", :style => "width:200px" %>
      </div>
      <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="products_list.htm">查看所有轮胎</a>
-			<% end -%> 
+	<% end -%> 
    </div>
   </div>
   <div class="clear"></div>
