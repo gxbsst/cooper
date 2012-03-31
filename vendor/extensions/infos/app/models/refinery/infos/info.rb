@@ -7,7 +7,7 @@ module Refinery
 
       validates :title, :presence => true, :uniqueness => true
       
-      scope :recent, :limit => 5, :order => "id DESC"   
+      scope :recent, :limit => 5, :order => "position ASC"   
     end
   end
 end
