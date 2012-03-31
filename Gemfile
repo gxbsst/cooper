@@ -24,7 +24,11 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'backbone-on-rails'
 
+# 处理Google地图
+gem "geocoder"
+gem 'gmaps4rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
