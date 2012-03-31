@@ -109,6 +109,7 @@ $(function(){
 
     window.ProvinceView = LocationsView.extend({
       setSelectedId: function(parent_id) {
+        
         this.cityView.selectedId = null;
         this.cityView.setProvinceId(parent_id);
         this.districtView.collection.reset();
@@ -122,10 +123,11 @@ $(function(){
       setSelectedId: function(parent_id) {
         this.districtView.selectedId = null;
         this.districtView.setCityId(parent_id);
+        
         // $("#user_users_profile_city").val(parent_id);
       },
       setProvinceId: function(parent_id) {
-        this.populateFrom("/api/regions/locals?parent_id=" + parent_id );
+        this.populateFrom("/api/regions/locals?parent_id=" + encodeURI(parent_id) );
       }
 
     });

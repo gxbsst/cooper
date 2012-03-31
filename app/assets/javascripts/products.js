@@ -124,7 +124,6 @@ $(function(){
         
         // if 30x10.5
         var patt = /x/ig;
-        console.log(parent_id);
         if(patt.test(parent_id))
         {
           this.cityView.setDisabled(true);

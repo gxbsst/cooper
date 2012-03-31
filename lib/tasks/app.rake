@@ -66,8 +66,16 @@ namespace :app do
       
       # full_address = ""
       
-      shop_types = {"CPC" => "嘉车坊", "CTCC" => "替换中心",  "CSS+" => "店招店" ,  "CSS" => "招牌店",  "Indenpendent" => "独立授权店" , "Others" => "其他" }
+      shop_types = {"CPC" => "嘉车坊", "CTCC" => "替换中心",  "CSS+" => "店招店" ,  "CSS" => "招牌店",  "INDENPENDENT" => "独立授权店" , "OTHERS" => "其他" }
      
+      if item[13].blank?
+        shop_type = "OTHERS"
+      else
+        shop_type = item[13].upcase
+      end
+      
+      address = item[10] == '0' ?  address = "" : item[10].to_s.force_encoding("UTF-8") 
+                   
       Store.create({rank: item[0].to_s.force_encoding("UTF-8"),
                     sale_dist: item[1].to_s.force_encoding("UTF-8"),
                     provice: item[2].to_s.force_encoding("UTF-8"),
@@ -75,11 +83,12 @@ namespace :app do
                     dist: item[4].to_s.force_encoding("UTF-8"),
                     asr: item[5].to_s.force_encoding("UTF-8"),
                     dsr: item[6].to_s.force_encoding("UTF-8"),
+                    telephone: item[12].to_s.force_encoding("UTF-8"),
                     retail_code: item[7].to_s.force_encoding("UTF-8"),
                     shop_name: item[8].to_s.force_encoding("UTF-8"),
-                    address: item[10].to_s.force_encoding("UTF-8"),
-                    full_address: (item[2] + item[3] +  shop_types["#{item[13]}"]).to_s.force_encoding("UTF-8"),
-                    shop_type: item[13].to_s.force_encoding("UTF-8")})
+                    address: address,
+                    full_address: (item[2] + item[3] +  shop_types["#{item[13].upcase}"]).to_s.force_encoding("UTF-8"),
+                    shop_type: shop_type })
     end
     
   end
