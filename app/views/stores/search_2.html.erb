@@ -12,11 +12,7 @@
      </ul>
    </div>
    <div class="body">
-	<% if flash[:error] -%>
-	  <br />
-	  <h2 class='error'><%=h flash[:error] %>.</h2>
-	  <br />
-	<% end -%>
+
      <div class="map">
 	 	<%= render "map", :tudes => @tudes, :center => @center, :zoom => @zoom %>
      </div>
