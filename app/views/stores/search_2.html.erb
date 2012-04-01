@@ -29,6 +29,13 @@
 	
 	<% if request.post? %>
 	<%= render  @stores_2 %>
+	<!--
+	<% if flash[:error] -%>
+	  <br />
+	  <h2 class='error'><%=h flash[:error] %>.</h2>
+	  <br />
+	<% end -%>
+	-->
 	<% end %>
 	</div>
 

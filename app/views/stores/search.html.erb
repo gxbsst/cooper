@@ -10,11 +10,6 @@
        <li><a href="/stores/search_2">模糊查找</a></li>
      </ul>
    </div>
-<% if flash[:error] -%>
-  <br />
-  <h2 class='error'><%=h flash[:error] %>.</h2>
-  <br />
-<% end -%>
 
    <div class="body">
      <div class="map">
@@ -29,6 +24,16 @@
 	<% end -%>
 	<% if request.post? %>
 	<%= render  @stores_2 %>
+	
+	<!--
+	<% if flash[:error] -%>
+	  <br />
+	  <h2 class='error'><%=h flash[:error] %>.</h2>
+	  <br />
+	<% end -%>
+	
+	-->
+	
 	<% end %>
    </div>
  </div>
