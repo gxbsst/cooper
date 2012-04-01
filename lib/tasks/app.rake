@@ -167,11 +167,11 @@ namespace :app do
     csv.shift
     
     csv.each_with_index do |i, index|
-      i[14] ||= ""
+      i[14] =  i[14] ? "<p align='center'><img src='#{i[14].gsub("..","")}' /></p>" + i[9] : ""
       puts  i[9].to_s.force_encoding("UTF-8")
       info = {
         :title => i[1].to_s.force_encoding("UTF-8"),
-        :content => (i[14] + i[9]).to_s.force_encoding("UTF-8"),
+        :content => i[14].to_s.force_encoding("UTF-8"),
         :created_at => Time.parse(i[11]),
         :position => index,
         :visit_count => i[10].to_s.force_encoding("UTF-8").to_i
