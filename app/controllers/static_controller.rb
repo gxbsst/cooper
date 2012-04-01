@@ -7,18 +7,22 @@ class StaticController < ApplicationController
 
   ## 更新到最新版本
   def git_pull
-    path = Rails.root.to_s
-    cmd = CommandBuilder::new("cd")
-    cmd << path
-    cmd.execute!
+   # path = "/aries-lv-01/aries_srv/rails/cooper/current/"
+  #  cmd = CommandBuilder::new("cd")
+    #path = "/srv/rails/cooper/current/"
+  #  cmd << path
+  #  cmd.execute!
+    #Dir.chdir(path)
+    # system "git pull origin deploy"
+
+    exec " cd /srv/rails/cooper/current/ && git pull origin  deploy"  
+   # git = CommandBuilder::new("git")
+   # git << "pull"
+   # git << "origin"
+   # git << "deploy"
     
-    git = CommandBuilder::new("git")
-    git << "pull"
-    git << "origin"
-    git << "deploy"
-    
-    git.execute!
-    render :text => git.execute!, :layout => false
+   # git.execute!
+    render :text => "a", :layout => false
   end
   
 end
