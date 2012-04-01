@@ -19,7 +19,8 @@
        <ul class="imagelist foldout">
 		<% for image  in @images_foldout  do %>
          <li>
-			<%=  link_to image.file_url  do %>
+	
+			<%=  link_to image.full_file_url  do %>
 			 <image src="<%= image.thumb_url %>" />
 			<% end %>
 			<p><%= image.name %></p>
