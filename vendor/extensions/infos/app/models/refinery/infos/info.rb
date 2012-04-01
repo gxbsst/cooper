@@ -7,7 +7,7 @@ module Refinery
 
       validates :title, :presence => true, :uniqueness => true
       
-      scope :recent, :limit => 5, :order => "position ASC"   
+      scope :recent, where("created_at > ?", Time.now.at_beginning_of_year)
     end
   end
 end

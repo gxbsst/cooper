@@ -26,9 +26,9 @@ module Refinery
       def find_all_infos
         params[:page] ||= 1
         if params[:q].present?
-          @infos = Info.where(["created_at < ?", 1.year.ago ]).order('position ASC').paginate(:page => params[:page], :per_page => 20)
+          @infos = Info.where(["created_at < ?", Time.now.at_beginning_of_year ]).order('created_at DESC, position ASC').paginate(:page => params[:page], :per_page => 20)
         else
-          @infos = Info.order('position ASC').paginate(:page => params[:page], :per_page => 20)
+          @infos = Info.where(["created_at > ?", Time.now.at_beginning_of_year]).order('position ASC').paginate(:page => params[:page], :per_page => 20)
         end
       end
 

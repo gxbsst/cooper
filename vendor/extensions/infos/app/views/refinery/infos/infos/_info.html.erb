@@ -5,6 +5,6 @@
 		<label>NEW！</label>
 		<% end %>
 	</p>
-	<%= link_to info.title, refinery.infos_info_path(info) %>
+	<%= link_to truncate( info.title, :length => 28, :omission => '... '), refinery.infos_info_path(info) %>
 </li>
 
