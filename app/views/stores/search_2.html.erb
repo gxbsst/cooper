@@ -27,6 +27,9 @@
 	<input type="submit" class="searchbtn" value="查询" />
 	<% end -%>
 	
+	<% if request.post? %>
+	<%= render  @stores_2 %>
+	<% end %>
 	</div>
 
    </div>

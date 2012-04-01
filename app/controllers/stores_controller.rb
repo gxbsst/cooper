@@ -7,8 +7,8 @@ class StoresController < ApplicationController
     @zoom = 10
     if request.post?
       @stores ||= find_store
-      
-      
+      # 即使没有经纬度， 也应该显示门店
+      @stores_2 ||= find_all_store
       @tudes = []
       @stores.each_with_index do |store, index|
         a = []
@@ -43,7 +43,8 @@ class StoresController < ApplicationController
     @zoom = 10
     if request.post?
       @stores ||= find_store
-      
+      # 即使没有经纬度， 也应该显示门店
+      @stores_2 ||= find_all_store
       
       @tudes = []
       @stores.each_with_index do |store, index|
@@ -83,6 +84,21 @@ class StoresController < ApplicationController
     @stores = @stores.where(shop_type: shop_type) if shop_type.present?
     @stores = @stores.where([ "full_address like ?", "%#{params[:region][:full_address].gsub(/\s+/, "")}%" ]) if full_address.present?
     @stores
+  end
+  
+  def find_all_store
+    province = params[:region][:province]
+    city = params[:region][:city]
+    shop_type = params[:region][:shop_type]
+    full_address = params[:region][:full_address]
+    
+    @stores_2 = Store.order("shop_type")
+    # products = products.where("tyre like ?", "%#{keywords}%") if keywords.present?
+    @stores_2 = @stores.where(provice: province) if province.present?
+    @stores_2 = @stores.where(city: city) if city.present?
+    @stores_2 = @stores.where(shop_type: shop_type) if shop_type.present?
+    @stores_2 = @stores.where([ "full_address like ?", "%#{params[:region][:full_address].gsub(/\s+/, "")}%" ]) if full_address.present?
+    @stores_2
   end
   
 
