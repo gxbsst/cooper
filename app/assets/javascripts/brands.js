@@ -99,7 +99,7 @@ $(function(){
       setSelectedId: function(parent_id) {
       },
       setProvinceId: function(parent_id) {
-        this.populateFrom("/api/regions/car_type?parent_id=" + parent_id );
+        this.populateFrom("/api/regions/car_type?parent_id=" + encodeURI(parent_id) );
       }
     });
 

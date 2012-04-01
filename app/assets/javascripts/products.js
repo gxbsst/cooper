@@ -142,7 +142,7 @@ $(function(){
         // $("#user_users_profile_city").val(parent_id);
       },
       setProvinceId: function(parent_id) {
-        this.populateFrom("/api/regions/aspect_ratio?parent_id=" + parent_id );
+        this.populateFrom("/api/regions/aspect_ratio?parent_id=" + encodeURI(parent_id) );
       }
 
     });
@@ -156,7 +156,7 @@ $(function(){
       setCityId: function(parent_id, parent_type) {
         // this.populateFrom("cities/" + cityId + "/suburbs");
         parent_type = parent_type || "aspect_ratio"
-        this.populateFrom("/api/regions/diameter?parent_id=" + parent_id + "&parent_type=" + parent_type );
+        this.populateFrom("/api/regions/diameter?parent_id=" + encodeURI(parent_id) + "&parent_type=" + parent_type );
       }
     });
 
