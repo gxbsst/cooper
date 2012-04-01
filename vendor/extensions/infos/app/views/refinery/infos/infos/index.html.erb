@@ -7,7 +7,8 @@
 		<% @infos.each do |info| %>       
 	      <li>	
 			<span><%=  info.created_at.strftime("%Y.%m.%d ") %></span>
-	        <%= link_to info.title, refinery.infos_info_path(info) %>
+			<% a_params =  params[:q].present? ? "?q=history" : "" %>
+	        <%= link_to info.title.html_safe, "/infos/#{info.id}#{a_params}" %>
 			<% if info.created_at > 1.day.ago %>
 			<label>NEW！</label>
 			<% end %>

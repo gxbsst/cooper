@@ -6,7 +6,7 @@
  <div id="newsdetail">
 	
 	
-  <h2 class="h2"><%=raw @info.title %></h2>
+  <h2 class="h2"><%=raw @info.title.html_safe %></h2>
   <div class="date"><span>发布时间：<%=  @info.created_at.strftime("%Y.%m.%d ") %></span><span>新闻来源：<%= @info.source %></span><span>浏览次数：<%= @info.visit_count %></span></div> 
   <%= raw @info.content %>
  </div>
