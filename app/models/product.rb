@@ -30,7 +30,7 @@ class Product < ActiveRecord::Base
     
     # 品牌
     def brand_collection
-      group(:brand).collect{|p| [p.brand, p.brand] unless p.brand.blank? }.compact
+      order(:brand).group(:brand).collect{|p| [p.brand, p.brand] unless p.brand.blank? }.compact
     end
     
     # 车型
