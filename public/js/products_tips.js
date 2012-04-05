@@ -10,7 +10,7 @@ function()
     }
     else
     {
-     $("#products_tips dl").removeClass("current");
+    // $("#products_tips dl").removeClass("current");
      $(this).parent().addClass("current");
     }
   }
@@ -24,7 +24,7 @@ function()
    }
    else
    {
-     $("#recruitcontent dl").removeClass("current");
+     //$("#recruitcontent dl").removeClass("current");
      $(this).parent().addClass("current");
    }
   }

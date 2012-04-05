@@ -12,13 +12,7 @@
 #downloadcontent .newslist a:hover{ color:#8B9E79; text-decoration:none;}
 #downloadcontent .imagelist{ display:inline-block;}
 #downloadcontent .imagelist li{ padding:0px 35px 0px 0px; float:left; width:120px; text-align:center; height:200px;}
-#downloadcontent  .foldout li {
-  width: 300px;
-  padding-right: 10px;
-  height: 300px;
-}
-#downloadcontent .imagelist img{ }
-#downloadcontent .foldout img{ width: 300px }
+#downloadcontent .imagelist img{ width:120px; height:160px;}
 #downloadcontent .imagelist p{ padding:5px 0px 0px 0px; height:25px; line-height:25px; overflow:hidden;}
 #downloadcontent .imagelist p a{color:#8B9E79; text-decoration:underline;}
 #downloadcontent .imagelist p a:hover{ text-decoration:none;}
@@ -86,13 +80,13 @@
 #shopsearch .search{ padding:30px 0px;}
 #shopsearch .searchtxt{ color:#656565; margin:0px 8px; height:24px; line-height:24px; padding:0px 5px; background:url(../pic/text_bg.jpg) repeat-x 0px 0px; vertical-align:middle; border:solid 1px #B9B9B9; width:300px;}
 #shopsearch .searchbtn{  width:132px; height:32px; line-height:31px; border:0px; cursor:pointer; background:url(../pic/searchbtn2.jpg) no-repeat 0px 0px; color:White;  font-weight:bold; vertical-align:middle;}
-#shopsearch .list{ padding:10px 0px 0px 0px; border-top:solid 2px #CBCBCB; }
+#shopsearch .list{ padding:10px 0px 0px 0px; /*border-top:solid 2px #CBCBCB;*/ }
 #shopsearch .list li{  *display:inline-block; background:url(../pic/li04.jpg) no-repeat 30px 27px; padding:20px 0px 0px 40px; position:relative;}
 #shopsearch .list dt{ line-height:22px; height:22px; overflow:hidden; color:#E04C36; font-weight:bold;}
 #shopsearch .list dd{ line-height:20px;}
 #shopsearch .list p{ color:#656565;}
-#shopsearch .list .tip{ height:20px; left:300px; top:25px; background:url(../pic/tip.jpg) no-repeat 0px 0px; position:absolute; padding:0px 0px 0px 10px;}
-#shopsearch .list .tip strong{ line-height:20px;color:#E25642; background:url(../pic/tip.jpg) no-repeat right 0px;  display:inline-block; height:20px; padding:0px 10px 0px 0px;}
+#shopsearch .list .tip{ height:20px; left:300px; top:20px; background:url(../pic/tip.jpg) no-repeat 0px 0px; position:absolute; padding:0px 0px 0px 10px;}
+#shopsearch .list .tip strong{ line-height:20px;color:#ffffff; background:url(../pic/tip.jpg) no-repeat right 0px;  display:inline-block; height:20px; padding:0px 10px 0px 0px;}
 #shopsearch .searchtable{ padding:30px 0px;}
 #shopsearch .searchtable td{ padding:5px;}
 #shopsearch .searchtable .td{ text-align:right;}

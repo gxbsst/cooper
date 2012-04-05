@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120331102453) do
+ActiveRecord::Schema.define(:version => 20120401082632) do
 
   create_table "brands", :force => true do |t|
     t.string   "name"
@@ -59,6 +59,17 @@ ActiveRecord::Schema.define(:version => 20120331102453) do
     t.integer  "visit_count"
     t.string   "source"
     t.text     "content"
+    t.integer  "position"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "refinery_jobs", :force => true do |t|
+    t.string   "title"
+    t.string   "address"
+    t.string   "degree"
+    t.string   "experience"
+    t.text     "description"
     t.integer  "position"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
@@ -138,6 +149,7 @@ ActiveRecord::Schema.define(:version => 20120331102453) do
     t.string   "name"
     t.string   "file_url"
     t.string   "image_type"
+    t.string   "full_file_url"
   end
 
   create_table "refinery_roles", :force => true do |t|

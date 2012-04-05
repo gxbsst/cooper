@@ -7,7 +7,20 @@
     <meta name="Description" content="description ..." />
     <!--<link href="favicon.ico" rel="shortcut icon" />-->
     <link href="css/global.css" rel="stylesheet" type="text/css" />
-    <link href="css/download.css" rel="stylesheet" type="text/css" />
+    <link href="css/download.css" rel="stylesheet" type="text/css" />   
+    <script language="javascript">
+        function fun(id)
+        {
+           if(document.getElementById(id).style.display=="none")
+           {
+            document.getElementById(id).style.display="";
+           }
+           else
+           {
+            document.getElementById(id).style.display="none";
+           }
+        }
+    </script>
 </head>
 <body>
 <div id="allcontent">
@@ -44,7 +57,7 @@
               <li><a href="history.htm">固铂历史</a></li>
               <li><a href="facilities.htm">研发与生产</a></li>
               <li><a href="quality_safety.htm">质量与安全</a></li>
-              <li><a href="/jobs">工作机会</a></li>
+              <li><a href="recruit.htm">工作机会</a></li>
               <li><a href="contactus.htm">联系我们</a></li>
             </ul>
           </div>
@@ -82,11 +95,11 @@
              </ul> 
           </div>
         </li>
-        <li class="li li5"><a class="a" href="shop_search1.htm">营销网络</a>
+        <li class="li li5"><a class="a" href="shop_intro1.htm">营销网络</a>
         <div class="none">
             <ul class="menu">
               <li><a href="shop_intro1.htm">固铂形象店</a></li>
-              <li><a href="shop_search1.htm">查找店铺</a></li>
+              <li><a href="/stores/search">查找店铺</a></li>
             </ul>
           </div>
         </li>
@@ -127,8 +140,8 @@
    <div id="site"><a href="products_mapping.htm">产品和服务</a><span>&gt;</span>轮胎保养小常识</div>
    <div id="products_tips">
    <dl>
-     <dt><strong>养——定期做车辆及轮胎保养（建议每1万公里）</strong></dt>
-     <dd>
+     <dt onclick="fun('dd1');"><strong>养——定期做车辆及轮胎保养（建议每1万公里）</strong></dt>
+     <dd id="dd1" style="display:none;">
        <p>车辆的状态对轮胎的正常使用和安全有着重要的影响，因此，定期做车辆及轮胎保养是必要的。</p>
         <ul style="margin-bottom:10px;" class="tips">
         	<li>定期检查四轮定位。车辆四轮定位出现问题时，会导致轮胎内侧或外侧偏磨、轮胎羽状磨损、低速方向盘抖动等状况出现，从而影响轮胎的正常、安全使用。</li>
@@ -145,8 +158,8 @@
      </dd>
    </dl>
    <dl>
-     <dt><strong>气——每月检查轮胎气压</strong></dt>
-     <dd>
+     <dt onclick="fun('dd2');"><strong>气——每月检查轮胎气压</strong></dt>
+     <dd id="dd2" style="display:none;">
        <p>气压是保证车辆行驶安全、舒适、操控和经济的重要因素。 <br />
      充气压力过低容易造成轮胎的胎侧承受过度的扭曲压力，容易产生更多热量，从而导致胎侧内部脱层；也容易导致胎侧断裂、胎肩快磨、油耗增加等危险状况； <br />
      充气压力过高易造成轮胎过度拉伸，导致损伤、中心快磨、刹车距离长等危险状态。 <br />
@@ -169,8 +182,8 @@
      </dd>
    </dl>
    <dl>
-     <dt><strong>免——有效避免轮胎意外损伤</strong></dt>
-     <dd>
+     <dt onclick="fun('dd3');"><strong>免——有效避免轮胎意外损伤</strong></dt>
+     <dd id="dd3" style="display:none;">
        <ul class="tips">
        	<li>避免野蛮驾驶<br />
        	  起步过猛、骤然转向、紧急制动、在路况不好的地段高速行驶、停车时轮胎刮蹭障碍物等，都会导致轮胎的严重磨损，进而降低轮胎的使用寿命<br />
@@ -182,8 +195,8 @@
      </dd>
    </dl>
    <dl>
-     <dt><strong>换——科学更换轮胎</strong></dt>
-     <dd>
+     <dt onclick="fun('dd4');"><strong>换——科学更换轮胎</strong></dt>
+     <dd id="dd4" style="display:none;">
        <ul class="tips">
          <li>花纹磨损极限1.6mm（毫米） </li>
          <li>轮胎磨损严重或异常损坏，建议更换轮胎 </li>
