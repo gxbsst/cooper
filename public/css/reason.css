@@ -120,14 +120,14 @@
 #dakar2010 .content p{ color:#6F6F6F; text-indent:2em; padding:20px 0px 0px 0px;}
 #recruitcontent{ padding:30px 0px 30px 0px;}
 #recruitcontent .title{ font-weight:bold; padding:0px 0px 0px 15px; height:30px; line-height:30px; overflow:hidden; background:url(../pic/recruit_bg.jpg) repeat-x 0px 0px;}
-#recruitcontent .title .s1{ display:block; height:30px; float:left; width:300px;}
+#recruitcontent .title .s1{ display:block; height:30px; float:left; width:370px;}
 #recruitcontent .title .s2{ float:left; display:block; height:30px;}
 #recruitcontent dl{ border-bottom:solid 1px #DCDCDC; padding:3px 0px 3px 15px;}
 #recruitcontent .current strong{background:url(../pic/products_tips_close.jpg) no-repeat right 2px;}
 #recruitcontent .current dd{ display:block;}
 #recruitcontent dt{ cursor:pointer; height:25px; line-height:25px; overflow:hidden;}
 #recruitcontent dt strong{ cursor:pointer; background:url(../pic/products_tips_hide.jpg) no-repeat right 2px; padding:0px 18px 0px 0px; color:#839870;}
-#recruitcontent dt span{ float:right; color:#585858; display:block; width:375px;}
+#recruitcontent dt span{ float:right; color:#585858; display:block; width:300px;}
 #recruitcontent dd{ display:none; padding:0px 0px 5px 0px; line-height:20px;}
 #recruitcontent dd .p{ color:#989898;}
 #recruitcontent dd p{ color:#585858;}
