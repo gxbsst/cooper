@@ -174,11 +174,11 @@ function initMaps() {
 		});
 	}
 	objImageMapElement.click(function() {
-		objMapElement.find(".imagemap").hide();
-		objMapElement.find(".site").hide();
-		selSiteElement = "#" + strSiteId;
-		$(selSiteElement).fadeIn();
-		return false;
+//		objMapElement.find(".imagemap").hide();
+//		objMapElement.find(".site").hide();
+//		selSiteElement = "#" + strSiteId;
+//		$(selSiteElement).fadeIn();
+//		return false;
 	});
 	if (objMapElement.length > 0) {
 		$("div#start").hide();
@@ -476,28 +476,28 @@ function initCompareButtons() {
 }
 
 $(function() {
-	$(".req-js").removeClass("req-js");
-	$(".non-js").css("display","none");
-	adjustDomains();
-	addClasses();		
-	getNewWindowLinks();	
+//	$(".req-js").removeClass("req-js");
+//	$(".non-js").css("display","none");
+//	adjustDomains();
+//	addClasses();		
+	//getNewWindowLinks();	
 	createAlternateRows();
-	initMainNav();
+	//initMainNav();
 	initMaps();	
-	initOverlay();
-	initAccordion();
-	initScrollable();
-	initSwitcher();
-	initPrint();
-	adjustSearches();
-	clearMePrevious();
-	initTireFlash();
-	initContentRollovers();		
-	adjustBreadcrumb();	
-	adjustDetailLinks();
-	adjustSearchResults();
-	initEventTracking();
-	initVirtualPageTracking();
+//	initOverlay();
+//	initAccordion();
+//	initScrollable();
+//	initSwitcher();
+//	initPrint();
+//	adjustSearches();
+//	clearMePrevious();
+//	initTireFlash();
+//	initContentRollovers();		
+//	adjustBreadcrumb();	
+//	adjustDetailLinks();
+//	adjustSearchResults();
+	//initEventTracking();
+	//initVirtualPageTracking();
 });
 
 $(window).load(function() {
