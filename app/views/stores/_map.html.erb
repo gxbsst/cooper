@@ -12,7 +12,7 @@
 	<% if tudes.present? && !tudes.blank? %>
     var locations =<%= raw tudes.each { |tude| array_or_string_for_javascript(tude) } %>;
     <% else %>
-	var locations =[["中国上海市古北路666号嘉麒大厦17层", 31.2059, 121.399703, 1]];
+	var locations =[["中国上海", 31, 121, 1]];
     <% end %>
    var map = new google.maps.Map(document.getElementById('map'), {
      zoom: <%= zoom %>,
