@@ -37,7 +37,7 @@
 
  <% @jobs.each do |job| %>
     <dl>
-      <dt><span><%= job.address %></span><strong><%= job.title %></strong></dt>
+      <dt><span><%= job.address %></span><h1><%= job.title %></h1></dt>
       <dd>
         <p class="p">学历要求：<%= job.degree %>  |   工作经验：<%= job.experience %></p>
 		<%= raw job.description %>
