@@ -83,10 +83,10 @@
              </ul> 
           </div>
         </li>
-        <li class="li li5"><a class="a" href="/shop_cpc.htm">营销网络</a>
+        <li class="li li5"><a class="a" href="shop_intro1.htm">营销网络</a>
         <div class="none">
             <ul class="menu">
-              <li><a href="shop_cpc.htm">固铂形象店</a></li>
+              <li><a href="shop_intro1.htm">固铂形象店</a></li>
               <li><a href="/stores/search">查找店铺</a></li>
             </ul>
           </div>
@@ -99,7 +99,7 @@
   <div id="leftcontent">
    <h3>营销网络</h3>
     <dl class="current">
-      <dt><a href="/shop_cpc.htm">固铂形象店</a></dt>
+      <dt><a href="shop_intro1.htm">固铂形象店</a></dt>
       <dd>
       <ul>
           <li class="hover"><a href="shop_cpc.htm">固铂嘉车坊</a></li>
@@ -109,12 +109,12 @@
       </dd>
     </dl>
     <dl>
-      <dt><a href="/stores/search">查找店铺</a></dt>
+      <dt><a href="shop_search1.htm">查找店铺</a></dt>
       <dd></dd>
     </dl>   
   </div>
   <div id="rightcontent">
-   <div id="site"><a href="/shop_cpc.htm">营销网络</a><span>&gt;</span>固铂形象店</div>
+   <div id="site"><a href="shop_intro1.htm">营销网络</a><span>&gt;</span>固铂形象店</div>
    	<div style="margin-top:20px;"><img src="pic/shop_cpc.jpg" alt="固铂形象店" width="690" height="1315" /></div>
    <div class="totop"><a href="#header"><img src="pic/totop.jpg" alt="回顶部" title="回顶部" /></a></div>
   </div>
