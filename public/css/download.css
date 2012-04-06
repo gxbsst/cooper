@@ -16,10 +16,10 @@
 #downloadcontent  .foldout li {
    width: 300px;
    padding-right: 10px;
-   height: 300px;
+   height: 200px;
 }
 #downloadcontent .imagelist img{ }
-#downloadcontent .foldout img{ width: 300px }
+#downloadcontent .foldout img{ width: 300px; }
 #downloadcontent .imagelist p{ padding:5px 0px 0px 0px; height:25px; line-height:25px; overflow:hidden;}
 #downloadcontent .imagelist p a{color:#8B9E79; text-decoration:underline;}
 #downloadcontent .imagelist p a:hover{ text-decoration:none;}
