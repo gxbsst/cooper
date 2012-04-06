@@ -13,6 +13,7 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 .mt-10 {margin-top:10px;}
 .sup{ position:relative; left:-81px; top:-4px; font-size:10px; color:#8ea37c;}
 .menu1{ position:relative; left:45px; top:-28px; font-size:10px; color:#8ea37c;}
+.sub {color: #8EA37C;font-size: 10px;left: -81px;position: relative;top: -4px;}
 /*.png{_behavior:url(pic/iepngfix.htc); }
 .img_png{opacity:0.60;filter:Alpha(Opacity=60);background:url(../pic/friend_flow_bg2.png) no-repeat!important;background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pic/friend_flow_bg2.png',sizingMethod='image');}
 */ 
