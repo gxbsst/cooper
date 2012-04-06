@@ -1,9 +1,9 @@
 development: &development
   adapter: mysql2
   host: localhost
-  username: root
-  password: "123456"
-  database: cooper
+  username: coopertire
+  password: "coopertire"
+  database: coopertire
 
 test: &test
   adapter: mysql2
@@ -15,6 +15,6 @@ test: &test
 production: &production
   adapter: mysql2
   host: localhost
-  database: cooper
-  username: root
-  password: "123456"
+  username: coopertire
+  password: "coopertire"
+  database: coopertire
