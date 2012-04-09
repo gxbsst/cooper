@@ -1,5 +1,6 @@
 CooperCom::Application.routes.draw do
   root :to => 'static#index'
+  match "/zh-CN", :to => 'static#index'	
   match "downloads", :to => "downloads#index"
   match "searchs", :to => "searchs#index"
   match "products/search", :to => "products#search"
