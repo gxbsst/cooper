@@ -133,8 +133,8 @@
             <param value="Flvplayer.swf" name="movie">    
             <param value="high" name="quality">    
             <param value="true" name="allowFullScreen">    
-            <param value="vcastr_file=cooper_media/flv/global.flv" name="FlashVars">    
-            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=cooper_media/flv/global.flv" allowfullscreen="true" src="Flvplayer.swf">    
+            <param value="vcastr_file=http://cooper_media.sidways.com/flv/global.flv" name="FlashVars">    
+            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=http://cooper_media.sidways.com/flv/global.flv" allowfullscreen="true" src="Flvplayer.swf">    
           </object>
          <dl>
            <dt>固铂全球宣传片</dt>
@@ -146,8 +146,8 @@
             <param value="Flvplayer.swf" name="movie">    
             <param value="high" name="quality">    
             <param value="true" name="allowFullScreen">    
-            <param value="vcastr_file=cooper_media/flv/DAT.flv" name="FlashVars">    
-            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=cooper_media/flv/DAT.flv" allowfullscreen="true" src="Flvplayer.swf">    
+            <param value="vcastr_file=http://cooper_media.sidways.com/flv/DAT.flv" name="FlashVars">    
+            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=http://cooper_media.sidways.com/flv/DAT.flv" allowfullscreen="true" src="Flvplayer.swf">    
           </object>
          <dl>
            <dt>DAT动态盔甲科技</dt>
@@ -159,8 +159,8 @@
             <param value="Flvplayer.swf" name="movie">    
             <param value="high" name="quality">    
             <param value="true" name="allowFullScreen">    
-            <param value="vcastr_file=cooper_media/flv/STMaxx_design.flv" name="FlashVars">    
-            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=cooper_media/flv/STMaxx_design.flv" allowfullscreen="true" src="Flvplayer.swf">    
+            <param value="vcastr_file=http://cooper_media.sidways.com/flv/STMaxx_design.flv" name="FlashVars">    
+            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=http://cooper_media.sidways.com/flv/STMaxx_design.flv" allowfullscreen="true" src="Flvplayer.swf">    
           </object>
          <dl>
            <dt>STMAXX设计理念片</dt>
@@ -172,8 +172,8 @@
             <param value="Flvplayer.swf" name="movie">    
             <param value="high" name="quality">    
             <param value="true" name="allowFullScreen">    
-            <param value="vcastr_file=cooper_media/flv/STMaxx_test.flv" name="FlashVars">    
-            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=cooper_media/flv/STMaxx_test.flv" allowfullscreen="true" src="Flvplayer.swf">    
+            <param value="vcastr_file=http://cooper_media.sidways.com/flv/STMaxx_test.flv" name="FlashVars">    
+            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=http://cooper_media.sidways.com/flv/STMaxx_test.flv" allowfullscreen="true" src="Flvplayer.swf">    
           </object>
          <dl>
            <dt>STMAXX测试片</dt>
@@ -185,8 +185,8 @@
             <param value="Flvplayer.swf" name="movie">    
             <param value="high" name="quality">    
             <param value="true" name="allowFullScreen">    
-            <param value="vcastr_file=cooper_media/flv/AT3_design.flv" name="FlashVars">    
-            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=cooper_media/flv/AT3_design.flv" allowfullscreen="true" src="Flvplayer.swf">    
+            <param value="vcastr_file=http://cooper_media.sidways.com/flv/AT3_design.flv" name="FlashVars">    
+            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=http://cooper_media.sidways.com/flv/AT3_design.flv" allowfullscreen="true" src="Flvplayer.swf">    
           </object>
          <dl>
            <dt>AT3设计理念片</dt>
@@ -198,8 +198,8 @@
             <param value="Flvplayer.swf" name="movie">    
             <param value="high" name="quality">    
             <param value="true" name="allowFullScreen">    
-            <param value="vcastr_file=cooper_media/flv/AT3_test.flv" name="FlashVars">    
-            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=cooper_media/flv/AT3_test.flv" allowfullscreen="true" src="Flvplayer.swf">    
+            <param value="vcastr_file=http://cooper_media.sidways.com/flv/AT3_test.flv" name="FlashVars">    
+            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=http://cooper_media.sidways.com/flv/AT3_test.flv" allowfullscreen="true" src="Flvplayer.swf">    
           </object>
          <dl>
            <dt>AT3测试片</dt>
@@ -211,8 +211,8 @@
             <param value="Flvplayer.swf" name="movie">    
             <param value="high" name="quality">    
             <param value="true" name="allowFullScreen">    
-            <param value="vcastr_file=cooper_media/flv/HTS_test.flv" name="FlashVars">    
-            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=cooper_media/flv/HTS_test.flv" allowfullscreen="true" src="Flvplayer.swf">    
+            <param value="vcastr_file=http://cooper_media.sidways.com/flv/HTS_test.flv" name="FlashVars">    
+            <embed width="202" height="118" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" flashvars="vcastr_file=http://cooper_media.sidways.com/flv/HTS_test.flv" allowfullscreen="true" src="Flvplayer.swf">    
           </object>
          <dl>
            <dt>HTS测试片</dt>
