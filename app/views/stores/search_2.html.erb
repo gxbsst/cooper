@@ -24,7 +24,14 @@
 	<% end -%>
 	
 	<% if request.post? %>
+	<% unless  @stores_2.blank? %>
 	<%= render  @stores_2 %>
+  <% else %>
+      <br />
+  	  <h2 class='error'>没有找到相应的店铺。</h2>
+  	  <br />
+  <% end %>
+	
 	<!--
 	<% if flash[:error] -%>
 	  <br />
