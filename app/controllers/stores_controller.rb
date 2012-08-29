@@ -97,7 +97,9 @@ class StoresController < ApplicationController
     @stores_2 = @stores_2.where(provice: province) if province.present?
     @stores_2 = @stores_2.where(city: city) if city.present?
     @stores_2 = @stores_2.where(shop_type: shop_type) if shop_type.present?
-    @stores_2 = @stores_2.where([ "full_address like ?", "%#{params[:region][:full_address].gsub(/\s+/, "")}%" ]) if full_address.present?
+    @stores_2 = @stores_2.where([ "full_address like ?  OR address like ?",
+    "%#{params[:region][:full_address].gsub(/\s+/, "")}%", 
+    "%#{params[:region][:full_address].gsub(/\s+/, "")}%" ]) if full_address.present?
     @stores_2
   end
   

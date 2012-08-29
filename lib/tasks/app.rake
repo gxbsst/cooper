@@ -56,43 +56,52 @@ namespace :app do
   
   ## 更新描述和图片
   task :init_store => :environment do
-    file_name = "store.csv"
+    file_name = "store_new.csv"
     csv = CSV.read(Rails.root.join('lib', 'tasks', 'data', file_name))
     csv.each do |item|
+    begin
       # puts item[0]
-      item[2] =  "" if item[2].nil?
-      item[3] = "" if item[3].nil?
-      item[13] = "Others" if item[13].blank? || item[13] == 'CC'
-      
-      # full_address = ""
-      
-      shop_types = {"CPC" => "嘉车坊", "CTCC" => "替换中心",  "CSS+" => "店招店" ,  "CSS" => "招牌店",  "INDENPENDENT" => "独立授权店" , "OTHERS" => "其他" }
-     
-      if item[13].blank?
+      item[0] = ' ' if item[0].blank?
+      item[1] = ' ' if item[1].blank?
+      item[2] = ' ' if item[2].nil?
+      item[3] = ' ' if item[3].nil?
+      if item[5].blank? || item[5] == 'CC'
+        item[5] = "Others"
+      end
+      shop_types = {"CPC" => "嘉车坊", "CTCC" => "替换中心",  "CSS+" => "店招店" ,  "CSS" => "招牌店",  "INDEPENDENT" => "独立授权店" , "OTHERS" => "其他" }
+      if item[5].blank?
         shop_type = "OTHERS"
       else
-        shop_type = item[13].upcase
+        shop_type = item[5].upcase
       end
-      
-      address = item[10] == '0' ?  address = "" : item[10].to_s.force_encoding("UTF-8") 
-                   
-      Store.create({rank: item[0].to_s.force_encoding("UTF-8"),
-                    sale_dist: item[1].to_s.force_encoding("UTF-8"),
-                    provice: item[2].to_s.force_encoding("UTF-8"),
-                    city: item[3].to_s.force_encoding("UTF-8"),
-                    dist: item[4].to_s.force_encoding("UTF-8"),
-                    asr: item[5].to_s.force_encoding("UTF-8"),
-                    dsr: item[6].to_s.force_encoding("UTF-8"),
-                    telephone: item[12].to_s.force_encoding("UTF-8"),
-                    retail_code: item[7].to_s.force_encoding("UTF-8"),
-                    shop_name: item[8].to_s.force_encoding("UTF-8"),
+      #INDENPENDENT
+      #INDEPENDENT
+      #INDEPENDENT
+
+      address = item[3] == '0' ?  address = "" : item[3].to_s.force_encoding("UTF-8") 
+      full_address  = ''
+      full_address << item[0] << item[1] <<  shop_types[shop_type]
+      Store.create({
+        #rank: item[0].to_s.force_encoding("UTF-8"),
+                    #sale_dist: item[1].to_s.force_encoding("UTF-8"),
+                    provice: item[0].to_s.force_encoding("UTF-8"),
+                    city: item[1].to_s.force_encoding("UTF-8"),
+                    dist: item[2].to_s.force_encoding("UTF-8"),
+                    #asr: item[5].to_s.force_encoding("UTF-8"),
+                    #dsr: item[6].to_s.force_encoding("UTF-8"),
+                    telephone: item[4].to_s.force_encoding("UTF-8"),
+                    #retail_code: item[7].to_s.force_encoding("UTF-8"),
+                    shop_name: item[2].to_s.force_encoding("UTF-8"),
                     address: address,
-                    full_address: (item[2] + item[3] +  shop_types["#{item[13].upcase}"]).to_s.force_encoding("UTF-8"),
+                    full_address: full_address.force_encoding("UTF-8"),
                     shop_type: shop_type })
+
+    rescue
+      binding.pry
     end
-    
+    end
   end
-  
+
   ## 更新店地址经纬度
   task :update_store_tuge => :environment do 
   Store.all.each do |r|
