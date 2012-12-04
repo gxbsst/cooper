@@ -21,6 +21,26 @@ namespace :app do
       }
       @product = Product.create(product_item)
     end
+  end
+
+    task :init_product_C7 => :environment do
+    name = []
+    file_name = "tires_C7.csv"
+    csv = CSV.read(Rails.root.join('lib', 'tasks', 'data', file_name))
+    csv.each do |i|
+      puts i[0]
+      product_item = {
+        :decorative => i[0].to_s.force_encoding("UTF-8"), 
+        :name => i[1].to_s.force_encoding("UTF-8"),
+        :image_url => i[2].to_s.force_encoding("UTF-8"),
+        :description => i[3].to_s.force_encoding("UTF-8"),
+        :url => i[4].to_s.force_encoding("UTF-8"), 
+        :tyre => i[5].to_s.force_encoding("UTF-8"), 
+        :aspect_ratio => i[6].to_s.force_encoding("UTF-8"), 
+        :diameter => i[7].to_s.force_encoding("UTF-8")
+      }
+      @product = Product.create(product_item)
+    end
     # (1..18).each do |v|
     #   file_name = "#{v}.csv"
     #   csv = CSV.read(Rails.root.join('lib', 'tasks', 'data', 'product', file_name))
@@ -152,6 +172,25 @@ namespace :app do
   ## init_brand
   task :init_brand => :environment do 
     file_name = "brand.csv"
+    csv = CSV.read(Rails.root.join('lib', 'tasks', 'data', file_name))
+    csv.each do |item|
+      puts item[4]
+      Brand.create({
+        name: item[4],
+        url: item[7],
+        description: item[6],
+        image_url: item[5],
+        brand_name_zh: item[1],
+        brand_name_en: item[0].delete("\n"),
+        car_type_zh: item[2],
+        car_type_en: item[3]
+        })
+      end
+    end
+    
+    ## init_brand_C7  
+    task :init_brand_C7 => :environment do 
+    file_name = "brand_C7.csv"
     csv = CSV.read(Rails.root.join('lib', 'tasks', 'data', file_name))
     csv.each do |item|
       puts item[4]
