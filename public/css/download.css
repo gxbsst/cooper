@@ -97,19 +97,52 @@
 #shopsearch .searchtable{ padding:30px 0px;}
 #shopsearch .searchtable td{ padding:5px;}
 #shopsearch .searchtable .td{ text-align:right;}
-#shopsearch .searchtable .select{ width:205px; margin:0px 10px 0px 0px; height:22px; vertical-align:middle;  line-height:22px;}
-#products_mapping_pcr{ position:relative; background:url(../pic/products_mapping_bg.jpg) no-repeat center 20px; height:620px;}
-#products_mapping_pcr li{ width:100px; height:130px; overflow:hidden;position:absolute;}
+#products_mapping_pcr{ position:relative; background:url(../pic/products_mapping_bg.jpg) no-repeat center 20px; height:550px;}
+#products_mapping_pcr li{
+	width:80px;
+	height:120px;
+	overflow:hidden;
+	position:absolute;
+	top: 144px;
+	left: 461px;
+}
 #products_mapping_pcr li a{ display:block; height:130px; width:100px; text-indent:-99999px;}
-#products_mapping_pcr .l1{ left:125px; top:280px;}
-#products_mapping_pcr .l2{ left:225px; width:90px; top:260px;}
+#products_mapping_pcr .l1{
+	left:302px;
+	top:282px;
+}
+#products_mapping_pcr .l2{
+	left:386px;
+	width:80px;
+	top:274px;
+}
 #products_mapping_pcr .l2 a{ width:90px;}
-#products_mapping_pcr .l3{ left:289px; width:115px; top:160px;}
-#products_mapping_pcr .l3 a{ width:115px;}
-#products_mapping_pcr .l4{ left:405px; width:125px; top:145px;}
-#products_mapping_pcr .l4 a{ width:125px;}
-#products_mapping_pcr .l5{ left:525px; width:135px; top:75px;}
-#products_mapping_pcr .l5 a{ width:135px;}
+#products_mapping_pcr .l3{
+	left:196px;
+	width:85px;
+	top:256px;
+}
+#products_mapping_pcr .l3 a{ width:85px;}
+#products_mapping_pcr .l4{
+	left:96px;
+	width:95px;
+	top:160px;
+}
+#products_mapping_pcr .l4 a{ width:95px;}
+#products_mapping_pcr .l7{
+	left:-1px;
+	width:95px;
+	top:128px;
+}
+#products_mapping_pcr .l7 a{ width:95px;}
+
+#products_mapping_pcr .l8{
+	left:464px;
+	width:95px;
+	top:147px;
+}
+#products_mapping_pcr .l8 a{ width:105px;}
+
 #products_mapping{ width:698px; height:649px; margin-top:10px; position:relative; background:url(../pic/products_mapping_bgs.jpg) no-repeat 0px 20px;}
 #products_mapping li{position:absolute; overflow:hidden;}
 #products_mapping li a{ display:block; text-indent:-9999px; overflow:hidden;}
