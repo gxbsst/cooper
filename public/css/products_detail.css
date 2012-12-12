@@ -16,7 +16,7 @@
 #productdetail{ line-height:19px; padding:0px 0px 60px 0px;}
 #productdetail .menu{ border-bottom:solid 1px #DCDCDC; height:34px;}
 #productdetail .menu li{ color:#839870; cursor:pointer; margin:0px 2px 0px 0px; background:url(../pic/tabbgs.jpg) no-repeat 0px 0px; width:88px; height:34px; text-align:center; line-height:34px; float:left;}
-#productdetail .menu .current{background:url(../pic/tabbgs.jpg) no-repeat 0px 0px; color:#323232;}
+#productdetail .menu .current_menu{background:url(../pic/tabbgs.jpg) no-repeat 0px 0px; color:#323232;}
 #product_detail01{}
 #productdetail dl{ padding:20px 0px 0px 0px;}
 #productdetail dt{ background:url(../pic/li06.jpg) no-repeat 0px 5px; padding:0px 0px 0px 15px; font-weight:bold; color:#323232; font-size:14px; height:25px; line-height:25px; overflow:hidden;}
