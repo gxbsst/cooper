@@ -4,15 +4,24 @@ function()
   $("#productdetailmenu li").mouseover(
   function()
   {
-    $("#productdetailmenu li").removeClass("current");
-    $(this).addClass("current");
-    $("#product_detail01").hide();
-    $("#product_detail02").hide();
-    $("#product_detail03").hide();
-    $("#product_detail04").hide();
-    $("#product_detail05").hide();
-    $("#product_detail06").hide();
-    $("#product_detail0" + $(this).attr("tabindex")).show();
+    $("#productdetailmenu li").removeClass("current_menu");
+
+    $(this).addClass("current_menu");
+    var show_el;
+    show_el = $("#product_detail0" + $(this).attr("tabindex"));
+    show_el.show();
+    $(".product_details").each(function(){
+    debugger;
+      if(show_el.attr('id') != $(this).attr('id')){
+        $(this).hide();
+      }
+    });
+    //$("#product_detail01").hide();
+    //$("#product_detail02").hide();
+    //$("#product_detail03").hide();
+    //$("#product_detail04").hide();
+    //$("#product_detail05").hide();
+    //$("#product_detail06").hide();
   }
   );
 }
@@ -25,7 +34,7 @@ function show_flash(url)
 function close_flash()
 {
   $("#flashcontents").hide();
-  document.getElementById("falsh_iframe").src = "#";
+  document.getElementById("falsh_iframe").src = "";
 }
 var imageheight = 505;
 var imagewidth = 880;
