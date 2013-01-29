@@ -121,6 +121,9 @@
       <dd></dd>
     </dl>
   </div>
+
+
+
   <div id="rightcontent">
    <div id="site"><a href="about.htm">关于固铂</a><span>&gt;</span>工作机会</div>
    <div id="recruitcontent">
@@ -192,6 +195,33 @@
 <script language="javascript" type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
 <script language="javascript" type="text/javascript" src="js/global.js"></script>
 <script language="javascript" type="text/javascript" src="js/products_tips.js"></script>
+
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+
+	$('#rightcontent dt').click(function () {
+
+		debugger;
+		var text = $($(this).siblings()[0]);
+
+		if (text.is(':hidden')) {
+			text.slideDown('200');
+			$(this).children('h1').css('background', 'url(pic/products_tips_close.jpg) no-repeat right 6px');
+		} else {
+			text.slideUp('200');
+			// $(this).children('h1').css('background', 'pic/products_tips_hide.jpg')
+			$(this).children('h1').css('background', 'url(pic/products_tips_hide.jpg) no-repeat right 6px');
+			// $(this).children('span').html('+');		
+		}
+
+	});
+
+});
+
+</script>
+
 <script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fa4d690572a392fb443b76154f5f54484' type='text/javascript'%3E%3C/script%3E"));

@@ -57,6 +57,7 @@ gem 'refinerycms-i18n',   '~> 2.0.0'
 
 
 gem 'capistrano'
+gem 'rvm-capistrano'
 
 gem 'refinerycms-infos', :path => 'vendor/extensions'
 
