@@ -76,9 +76,11 @@ namespace :app do
   
   ## 更新描述和图片
   task :init_store => :environment do
+    ActiveRecord::Base.connection.execute("TRUNCATE TABLE stores")
     file_name = "store_new.csv"
     csv = CSV.read(Rails.root.join('lib', 'tasks', 'data', file_name))
     csv.each do |item|
+
     begin
       # puts item[0]
       item[0] = ' ' if item[0].blank?
@@ -109,15 +111,16 @@ namespace :app do
                     dist: item[2].to_s.force_encoding("UTF-8"),
                     #asr: item[5].to_s.force_encoding("UTF-8"),
                     #dsr: item[6].to_s.force_encoding("UTF-8"),
-                    telephone: item[4].to_s.force_encoding("UTF-8"),
+                    #telephone: item[4].to_s.force_encoding("UTF-8"),
                     #retail_code: item[7].to_s.force_encoding("UTF-8"),
                     shop_name: item[2].to_s.force_encoding("UTF-8"),
                     address: address,
                     full_address: full_address.force_encoding("UTF-8"),
                     shop_type: shop_type })
 
-    rescue
-      binding.pry
+    rescue Exception => e
+      puts e
+      #binding.pry
     end
     end
   end
