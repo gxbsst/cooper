@@ -1,3 +1,15 @@
+GIT
+  remote: git://github.com/alexreisner/geocoder.git
+  revision: fad6274103c3cc8efcc9ee84c282fa863f2040e9
+  specs:
+    geocoder (1.1.6)
+
+GIT
+  remote: git://github.com/zoltankiss/fastthread.git
+  revision: 56e6ce7c1780797a354d5befe9a9a9869bbc7e3e
+  specs:
+    fastthread (1.0.7)
+
 PATH
   remote: vendor/extensions
   specs:
@@ -79,9 +91,7 @@ GEM
     erubis (2.7.0)
     execjs (1.3.0)
       multi_json (~> 1.0)
-    fastthread (1.0.7)
     friendly_id (4.0.3)
-    geocoder (1.1.1)
     globalize3 (0.2.0)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
@@ -230,7 +240,8 @@ DEPENDENCIES
   backbone-on-rails
   capistrano
   coffee-rails (~> 3.2.1)
-  geocoder
+  fastthread!
+  geocoder!
   gmaps4rails
   jquery-rails
   mini_magick
