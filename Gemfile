@@ -27,7 +27,10 @@ gem 'jquery-rails'
 gem 'backbone-on-rails'
 
 # 处理Google地图
-gem "geocoder"
+#gem "geocoder"
+gem 'geocoder', :git => 'git://github.com/alexreisner/geocoder.git'
+gem 'fastthread', :git => 'git://github.com/zoltankiss/fastthread.git'
+
 gem 'gmaps4rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
