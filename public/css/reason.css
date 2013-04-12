@@ -27,6 +27,52 @@
 	position:absolute;
 	height: 59px;
 }
+
+#reasoncontent .l8{ background:url(../pic/7reasons_08.jpg) no-repeat center 0px; height:283px;}
+#reasoncontent .l8 .p1{
+	left:473px;
+	top:156px;
+	width:30px;
+	line-height:14px;
+}
+#reasoncontent .l8 .p2{
+	left:623px;
+	top:156px;
+	width:30px;
+	line-height:14px;
+}
+
+#reasoncontent .l9{ background:url(../pic/7reasons_09.jpg) no-repeat center 0px; height:312px;}
+#reasoncontent .l9 .p1{
+	left:376px;
+	top:135px;
+	width:91px;
+	line-height:14px;
+}
+#reasoncontent .l9 .p2{
+	left:585px;
+	top:139px;
+	width:77px;
+	line-height:14px;
+}
+
+#reasoncontent .l10{ background:url(../pic/7reasons_10.jpg) no-repeat center 0px; height:312px;}
+
+
+
+
+
+#reasoncontent li p{
+	line-height:20px;
+	position:absolute;
+	height: 35px;
+}
+
+
+
+
+
+
 #aboutcontent{}
 #aboutcontent dl{ line-height:19px; padding:30px 20px 20px 20px;}
 #aboutcontent dt{color:#E04C36; font-weight:bold; font-size:18px; line-height:25px;}
