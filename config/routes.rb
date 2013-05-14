@@ -6,7 +6,7 @@ CooperCom::Application.routes.draw do
   match "products/search", :to => "products#search"
   match "stores/search", :to => "stores#search"
   match "stores/search_2", :to => "stores#search_2"
-  match "infos/:year", :to => "refinery/infos/infos#index", :as => :infos
+  match "infos/:year/", :to => "refinery/infos/infos#index", :as => :infos
   match "infos/:year/:id", :to => "refinery/infos/infos#show", :as => :info
   match ':controller(/:action(/:id))', :controller => /api\/[^\/]+/
   mount Refinery::Core::Engine, :at => '/'

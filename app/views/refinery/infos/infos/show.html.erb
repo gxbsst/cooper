@@ -5,7 +5,7 @@
 <%= render "share/news_sidebar"%>
 
 <div id="rightcontent">
- <div id="site"><a href="/infos">新闻媒体</a><span>&gt;</span>新闻中心<span>&gt;</span><% if params[:q].present? %> 历年新闻 <% else %>公司新闻 <% end %></div>
+  <%= render :partial => 'path' %>
  <div id="newsdetail">
 	
 	

@@ -9,8 +9,13 @@ module Refinery
       def index
         # you can use meta fields from your model instead (e.g. browser_title)
         # by swapping @page for @info in the line below:
-
         @histories = years
+
+        if params[:q].present? || !@histories.has_key?(params[:year].to_i) && params[:year].present?
+          info = Refinery::Infos::Info.find(params[:year])
+          redirect_to "/infos/#{info.created_at.year}/#{info.id}", :status => 301
+        end
+
         present(@page)
       end
 

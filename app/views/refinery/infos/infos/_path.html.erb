@@ -1,0 +1,11 @@
+<div id="site">
+  <a href="/infos">新闻媒体</a>
+  <span>&gt;</span>
+  新闻中心
+  <span>&gt;</span>
+  <% if params[:year].to_i != Time.now.year.to_i && params[:year].present? %>
+      历年新闻
+  <% else %>
+      公司新闻
+  <% end %>
+</div>
