@@ -1,14 +1,20 @@
 <div id="leftcontent">
- <h3>新闻媒体</h3>
-  <dl <% if params[:controller].split("/").last == 'infos' %>  class="current" <% end %> > 
+  <h3>新闻媒体</h3>
+  <dl <% if params[:year].present? %>  class="current" <% end %> >
     <dt><strong>新闻中心</strong></dt>
-  	<dd>
-  		<ul>
-		
-        <li <% unless params[:q].present? %> class="hover" <% end %> ><a  href="/infos">公司新闻</a></li>
-        <li <% if  params[:q].present? %> class="hover" <% end %> ><a href="/infos?q=history">历年新闻</a></li>
+    <dd class="info_dd">
+      <ul class="news_sidebar">
+        <li <% unless params[:year].present? %> class="hover" <% end %> ><a  href="/infos">公司新闻</a></li>
+        <li <% if  params[:q].present? %> class="hover" <% end %> >
+          <a href="javascript:void(0)">历年新闻</a>
+          <ul>
+            <% @histories.each do |year, count| %>
+                <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
+            <% end %>
+          </ul>
+        </li>
       </ul>
-  	</dd>
+    </dd>
   </dl>
 
 </div>

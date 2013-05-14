@@ -9,6 +9,16 @@ module Refinery
       validates :title, :presence => true, :uniqueness => true
       
       scope :recent, where("created_at > ?", Time.now.at_beginning_of_year)
+      scope :for_year, lambda {|year| where(["created_at >= ? AND created_at < ?", Date.new(year), Date.new(year+1)]).
+          order('created_at DESC, position ASC')}
+
+      def previous_info
+        self.class.where( ["created_at > ?", created_at]).order("created_at DESC").last
+      end
+
+      def next_info
+        self.class.first(:conditions => ["created_at < ?", created_at], :order => "created_at DESC")
+      end
     end
   end
 end

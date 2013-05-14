@@ -11,7 +11,7 @@
   <%= stylesheet_link_tag "/css/global", "/css/download", "/css/index", "/css/products_detail", "/css/reason" %>
   <%= stylesheet_link_tag "home" if home_page? %>
   <%#= yield :stylesheets %>
-
+  <%= yield :canonical %>
   <%= render '/refinery/google_analytics' %>
 
 </head>

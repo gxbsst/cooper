@@ -59,9 +59,19 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #leftcontent dt strong{ padding:0px 0px 0px 10px; font-weight:normal;}
 #leftcontent dt a:hover{background-position:0px -31px;color:#484848;}
 #leftcontent dd{ display:none;}
+#leftcontent dd.info_dd{ display:block;}
 #leftcontent dd ul{padding:10px 0px 10px 13px; }
 #leftcontent dd li{height:23px; line-height:23px; overflow:hidden;}
+#leftcontent dd ul.news_sidebar li{overflow:auto; height: auto}
+#leftcontent dd ul.news_sidebar li a.hover{color: #E04C36}
 #leftcontent dd a{ text-decoration:none; padding:0px 0px 0px 10px; overflow:hidden; display:block;}
+#leftcontent dd ul.news_sidebar li ul {
+    padding: 0;
+}
+#leftcontent dd ul.news_sidebar li ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
 #leftcontent dd .hover{}
 #leftcontent dd .new{ background:url(../pic/new.jpg) no-repeat 68px 3px;}
 #leftcontent dd .hover a{ color:#E04C36; background:url(../pic/li04.jpg) no-repeat 0px 8px;}
