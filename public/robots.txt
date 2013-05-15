@@ -6,3 +6,7 @@
 User-Agent:	*
 Disallow:	/downloads
 Disallow： /refinery
+Disallow： /mp3
+Disallow： /html
+Disallow： /flash
+
