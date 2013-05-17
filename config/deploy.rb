@@ -34,7 +34,7 @@ elsif ENV['RAILS_ENV'] =='sem'
   set :repository,  "git@git.sidways.lab:ruby/outsourcing/cooper"
   set :user, "rails"
   set :deploy_to, "/srv/rails/cooper-sem"
-else
+elsif ENV['RAILS_ENV'] =='development'
   server "192.168.11.31", :web, :app, :db, primary: true
   set :repository,  "git@git.sidways.lab:ruby/outsourcing/cooper"
   set :user, "rails"
