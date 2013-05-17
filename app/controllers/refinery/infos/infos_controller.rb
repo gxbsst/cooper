@@ -20,6 +20,9 @@ module Refinery
       end
 
       def show
+
+        redirect_to "/infos/#{params[:id]}", :status => 301 if params[:locale]
+
         @histories = years
         @info = Info.find(params[:id])
         @info.visit_count ||= 0
