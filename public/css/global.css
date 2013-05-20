@@ -71,7 +71,6 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #leftcontent dd ul.news_sidebar li ul li {
     list-style-type: disc;
     list-style-position: inside;
-    margin-left: 12px;
 }
 #leftcontent dd ul.news_sidebar li ul li a{
     display: inline;
