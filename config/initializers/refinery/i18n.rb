@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 Refinery::I18n.configure do |config|
-  config.enabled = false
+  config.enabled = true
 
   config.default_locale = "zh-CN"
 
