@@ -11,9 +11,7 @@
  <div class="next" id="nextbtn"></div>
 </div>
 <div id="map_news">
-	
-	
-	
+
 	
    <div id="mapcontent">
      <h3>固铂全球</h3>
@@ -32,16 +30,55 @@
      </div>
    </div>
 
+  <div id="searchcontent">
+
+    <h3>查找轮胎</h3>
+    <div class="sc_con">
+
+    <div id="searchmenu">
+      <ul>
+        <li tabindex="1" class="current">按车辆查找</li>
+        <li tabindex="2">按尺寸查找</li>
+        <li tabindex="3">按花纹查找</li>
+      </ul>
+    </div>
+
+    <div class="body body01">
+      <%= form_tag "/searchs?type=brand" do  -%>
+          <div class="condition">
+            <%= render "brand_search_form" %>
+          </div>
+          <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_list.htm">查看所有轮胎</a>
+      <% end -%>
+
+    </div>
 
 
+      <div class="body body02 none">
 
- <div id="newscontent">
-  <h3>新闻</h3>
-  <ul>
-	<%= render @infos %>
-  </ul>
-  <div class="more"><a href="/infos">更多新闻<span>&gt;&gt;</span></a></div>
+        <%= form_tag "/searchs" do  -%>
+            <div class="condition">
+              <%= render "product_search_form" %>
+            </div>
+
+            <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_list.htm">查看所有轮胎</a>
+        <% end -%>
+
+      </div>
+      <div class="body body03 none">
+        <%= form_tag "/searchs?type=brand" do  -%>
+            <div class="condition">
+              <%= select_tag 'name', options_for_select(Brand.decorative_collection), :prompt => "选择花纹", :class => "select", :style => "width:200px" %>
+            </div>
+            <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_list.htm">查看所有轮胎</a>
+        <% end -%>
+      </div>
+    </div>
+    <!--end sc_con-->
   </div>
+
+
+
   <div class="clear"></div>
 </div>
 <div id="flash_product_search">
@@ -69,47 +106,11 @@
      </dd>
    </dl>
   </div>
-  <div id="searchcontent">
-   <h3>查找轮胎</h3>
-   <div id="searchmenu">
-     <ul>
-       <li tabindex="1" class="current">按尺寸查找</li>
-       <li tabindex="2">按车辆查找</li>
-       <li tabindex="3">按花纹查找</li>
-     </ul>
-   </div>
-
-
-	
-   <div class="body body01">
-	<%= form_tag "/searchs" do  -%>
-	<div class="condition">
-		<%= render "product_search_form" %>
-	</div>
-
-	<input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_list.htm">查看所有轮胎</a>
-	<% end -%> 
-  </div>
-
-
-   <div class="body body02 none">
-
-	<%= form_tag "/searchs?type=brand" do  -%>
-     <div class="condition">
-    	<%= render "brand_search_form" %>
-     </div>
-     <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_list.htm">查看所有轮胎</a>
-	<% end -%> 
-
-   </div>
-   <div class="body body03 none">
-		<%= form_tag "/searchs?type=brand" do  -%>
-     <div class="condition">
-			<%= select_tag 'name', options_for_select(Brand.decorative_collection), :prompt => "选择花纹", :class => "select", :style => "width:200px" %>
-     </div>
-     <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_list.htm">查看所有轮胎</a>
-	<% end -%> 
-   </div>
+  <div id="newscontent">
+    <h3><a href="/infos/" class="more">更多新闻<span>&gt;&gt;</span></a>新闻</h3>
+    <ul>
+      <%= render @infos %>
+    </ul>
   </div>
   <div class="clear"></div>
 </div>
