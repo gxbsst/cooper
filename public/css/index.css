@@ -5,8 +5,8 @@
 #bannerlist img{ width:980px; height:216px;}
 #bannerlist ul{ width:3920px; position:absolute; left:0px; top:0px;}
 #bannerlist li{ width:980px; float:left; height:216px; overflow:hidden;}
-#map_news{ padding:10px 0px 0px 0px;}
-#mapcontent{ width:600px; overflow:hidden; float:left;}
+#map_news{ padding:20px 0px 0px 0px;}
+#mapcontent{ width:560px; overflow:hidden; float:left;}
 #mapcontent .map{ padding:15px 0px 10px 0px;}
 #newscontent{ float:right; width:286px; overflow:hidden;}
 #newscontent .more a:hover {text-decoration:none;}
@@ -36,13 +36,14 @@
 #productcontent .img{ text-align:right; position:absolute; right:0px; top:-5px;}
 #productcontent .morep{ padding:5px 0px 0px 0px; height:16px; line-height:16px;}
 #productcontent .morep a{color:#839870; display:inline-block; background:url(../pic/more.jpg) no-repeat 0px 0px; padding:0px 0px 0px 20px;}
-#searchcontent{ float:right; width:290px; overflow:hidden;}
-#searchmenu{ margin:20px 0px 0px 0px; height:24px;}
-#searchmenu ul{ width:291px;}
-#searchmenu li{ margin:0px 1px 0px 0px; float:left; width:96px; line-height:24px; cursor:pointer; height:24px; text-align:center; color:White; background:url(../pic/index_tab.jpg) no-repeat right 0px;}
+#searchcontent{ float:right; width:330px; overflow:hidden;}
+#searchmenu{ margin:20px 0px 0px 0px; height:28px;}
+#searchmenu ul{ width:330px;}
+#searchmenu li{ margin:0px 1px 0px 0px; float:left; width:106px; line-height:28px; cursor:pointer; height:28px; text-align:center; color:White; background:url(../pic/index_tab.jpg) no-repeat right 0px;}
 #searchmenu .current{ background-position:0px 0px;}
-#searchcontent .body{ background-color:#F5F5F5; padding:25px 0px 5px 10px; height:107px; border:solid 3px #CBCBCB;}
+#searchcontent .body{ background-color:#F5F5F5; padding:50px 0px 5px 20px; height:132px; border:solid 3px #CBCBCB;}
 #searchcontent .condition{ padding:0px 0px 20px 0px; height:24px;}
+#searchcontent .sc_con{ width:320px; margin-left:5px;}
 #searchcontent .body .select{ height:22px; float:left;  line-height:22px; vertical-align:middle; width:84px; margin:0px 5px 0px 0px;}
 #searchcontent .body .searchbtn{ width:132px; height:32px; line-height:31px; background:url(../pic/searchbtn.jpg) no-repeat 0px 0px; cursor:pointer; border:0px; vertical-align:middle; color:White; font-weight:bold;}
 #searchcontent .body .morelink{color:#839870;  background:url(../pic/index_more.jpg) no-repeat 10px 2px; line-height:20px; display:inline-block; padding:0px 0px 0px 30px;}
