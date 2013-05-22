@@ -1,12 +1,12 @@
 <div id="leftcontent">
   <h3>新闻媒体</h3>
-  <dl <% if params[:year].present? %>  class="current" <% end %> >
+  <dl class="current">
     <dt><strong>新闻中心</strong></dt>
     <dd class="info_dd">
       <ul class="news_sidebar">
         <li <% unless params[:year].present? %> class="hover" <% end %> ><a  href="/infos">公司新闻</a></li>
         <li <% if  params[:q].present? %> class="hover" <% end %> >
-          <a href="javascript:void(0)">历年新闻</a>
+          <p style="margin-left: 10px">历年新闻</p>
           <ul>
             <% @histories.each do |year, count| %>
                 <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
