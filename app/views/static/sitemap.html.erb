@@ -11,6 +11,20 @@
             <li><a href="facilities.htm">研发与生产</a></li>
             <li><a href="quality_safety.htm">质量与安全</a></li>
             <li><a href="/jobs">工作机会</a></li>
+            <li style="overflow: auto;height: auto">
+                <p>新闻媒体</p>
+                  <ul>
+                    <li><a href="/infos">新闻中心</a></li>
+                    <li style="overflow: auto; height: auto">
+                      <a href="javascript:void(0)">历年新闻</a>
+                      <ul>
+                        <% @histories.each do |year, count| %>
+                            <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
+                        <% end %>
+                      </ul>
+                    </li>
+                  </ul>
+            </li>
             <li><a href="contactus.htm">联系我们</a></li>
           </ul>
         </dd>
@@ -66,22 +80,7 @@
           </ul>
         </dd>
       </dl>
-      <dl>
-        <dt>新闻媒体</dt>
-        <dd>
-          <ul>
-            <li><a href="/infos">新闻中心</a></li>
-            <li style="overflow: auto; height: auto">
-              <a href="javascript:void(0)">历年新闻</a>
-              <ul>
-                <% @histories.each do |year, count| %>
-                    <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
-                <% end %>
-              </ul>
-            </li>
-          </ul>
-        </dd>
-      </dl>
+
       <dl>
         <dt>营销网络</dt>
         <dd>
