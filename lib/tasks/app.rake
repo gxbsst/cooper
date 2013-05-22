@@ -77,7 +77,7 @@ namespace :app do
   ## 更新描述和图片
   task :init_store => :environment do
     ActiveRecord::Base.connection.execute("TRUNCATE TABLE stores")
-    file_name = "store_0328.csv"
+    file_name = "RT Info 0521.csv"
     csv = CSV.read(Rails.root.join('lib', 'tasks', 'data', file_name))
     csv.each do |item|
 
@@ -127,11 +127,15 @@ namespace :app do
 
   ## 更新店地址经纬度
   task :update_store_tuge => :environment do
-    Store.all.each do |r|
-      tuge = Geocoder.coordinates("#{r.provice}#{r.city}#{r.address}") unless r.address.blank?
-      if r.longitude.blank?
-        r.update_attributes(:longitude => tuge[0], :latitude => tuge[1]) unless tuge.blank?
+    #Store.all.each do |r|
+    (1..26).collect{|i| i*100}.each do |id|
+      Store.where("id > #{id} AND id < #{(id+200)}").each do |r|
+        tuge = Geocoder.coordinates("#{r.provice}#{r.city}#{r.address}") unless r.address.blank?
+        if r.longitude.blank?
+          r.update_attributes(:longitude => tuge[0], :latitude => tuge[1]) unless tuge.blank?
+        end
       end
+      sleep 5
     end
   end
 
