@@ -123,6 +123,7 @@ GEM
     net-ssh (2.3.0)
     net-ssh-gateway (1.1.0)
       net-ssh (>= 1.99.1)
+    nokogiri (1.5.6)
     orm_adapter (0.0.6)
     paper_trail (2.6.2)
       rails (~> 3)
@@ -246,6 +247,7 @@ DEPENDENCIES
   jquery-rails
   mini_magick
   mysql2
+  nokogiri
   passenger
   pry
   rails (= 3.2.1)

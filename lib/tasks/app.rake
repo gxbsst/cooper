@@ -239,4 +239,34 @@ namespace :app do
 
   end
 
+  task :create_sitemap_xml => :environment do
+    page = Nokogiri::HTML(open("http://localhost:3000/sitemap"))
+    @date = Time.now.strftime("%Y-%m-%d")
+    host = 'http://www.coopertire.com.cn'
+    @urls = page.css('.content li a').collect do |a|
+      if a['href'].include? '/'
+        "#{host}#{a['href']}"
+      else
+        "#{host}/#{a['href']}"
+      end
+    end
+
+    info_urls = Refinery::Infos::Info.all.collect do |info|
+      "#{host}/infos/#{info.created_at.year}/#{info.id}"
+    end
+
+    @urls << info_urls
+    @urls.flatten!
+
+    template_file = Rails.root.join('app/views/static/sitemap.xml.erb')
+    template = ERB.new File.new(template_file).read
+    result = template.result(binding)
+
+    sitemap_xml = Rails.root.join('public/sitemap.xml')
+    file = File.open(sitemap_xml, 'w')
+    file.write(result)
+    file.close
+
+  end
+
 end

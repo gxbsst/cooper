@@ -1,1269 +1,1376 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://www.coopertire.com.cn/</loc>
-    <lastmod>2013-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/contactus.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/sitemap.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
+
+   <url>
     <loc>http://www.coopertire.com.cn/about.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/history.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/facilities.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/quality_safety.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/jobs</loc>
-    <lastmod>2013-05-10</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/brand_position.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/7reasons.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/dat.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/armor.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/dakar_2012.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/award.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/video_online.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/products_mapping.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/products_list.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/products_list_pcr.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/products_list_winter.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/products/search</loc>
-    <lastmod>2013-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/products_tips.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/infos</loc>
-    <lastmod>2013-05-10</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/shop_cpc.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/stores/search</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/javascript:void(0)</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/zh-CN/infos/457</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/zh-CN/infos/456</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2011</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/zh-CN/infos/455</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/zh-CN/infos/454</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/zh-CN/infos/453</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/stt_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/contactus.htm</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/privacy.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/brand_position.htm</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/7reasons.htm</loc>
+    <lastmod>2013-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/dat.htm</loc>
+    <lastmod>2013-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/armor.htm</loc>
+    <lastmod>2013-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/dakar_2010.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/products_mapping_pcr.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/award.htm</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/video_online.htm</loc>
+    <lastmod>2013-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/products_mapping.htm</loc>
+    <lastmod>2013-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/products_list.htm</loc>
+    <lastmod>2013-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/stt_detail.htm</loc>
+    <lastmod>2013-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/stmaxx_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/at3_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/atr_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/ats_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/hts_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/xst-a_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/4xs_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/products_list_pcr.htm</loc>
+    <lastmod>2013-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/rs3-s_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/rs3-a_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/asp_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/gls_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/atp_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/sa2_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/st3_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/ait_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/st2_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/m_s_detail.htm</loc>
-    <lastmod>2013-05-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/stores/search_2</loc>
-    <lastmod>2013-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/flash/flash.htm</loc>
-    <lastmod>2013-01-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
+  
+   <url>
     <loc>http://www.coopertire.com.cn/c7_detail.html</loc>
-    <lastmod>2013-03-28</lastmod>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/recruit.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/products_list_winter.htm</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/shop_ctcc.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/sa2_detail.htm</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/shop_css.htm</loc>
-    <lastmod>2013-05-09</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/st3_detail.htm</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/450?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/ait_detail.htm</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/449?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/st2_detail.htm</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/447?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/m_s_detail.htm</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/448?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/products/search</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/446?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/products_tips.htm</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/445?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/shop_cpc.htm</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/444?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/stores/search</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/443?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2013/458</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/442?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2013/457</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/441?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2013/456</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/440?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2013/455</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/439?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2013/454</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/438?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2013/453</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/437?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2013/452</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/436?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2013/451</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/435?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/450</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/434?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/449</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/433?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/447</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/432?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/448</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/2?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/446</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos?page=2&amp;q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/445</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos?page=3&amp;q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/444</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos?page=4&amp;q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/443</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos?page=5&amp;q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/442</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos?page=6&amp;q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/441</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos?page=7&amp;q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/440</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/457</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/439</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/456</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/438</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/455</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/437</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/454</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/436</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/453</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/435</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/452</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/434</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/451</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/433</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/4?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/432</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/1?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/2</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/3?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/4</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/431?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/1</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/430?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2012/3</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/429?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2011/431</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/428?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2011/430</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/425?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2011/429</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/426?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2011/428</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/427?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2011/425</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/416?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2011/426</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/417?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2011/427</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/412?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/416</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/410?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/417</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/409?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/412</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/403?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/410</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/401?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/409</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/395?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/403</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/389?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/401</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/379?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/395</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos?page=1&amp;q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/389</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/380?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/379</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/375?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/380</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/376?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/375</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/373?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/376</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/340?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/373</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/342?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/340</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/343?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/342</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/344?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/343</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/347?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/344</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/350?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/347</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/352?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/350</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/353?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/352</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/361?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/353</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/370?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/361</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/371?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/370</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/269?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/371</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/262?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/269</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/259?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/262</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/248?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/259</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/233?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/248</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/182?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2010/233</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/299?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/278</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/180?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/279</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/179?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/277</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/177?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/276</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/178?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/275</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/296?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/273</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/295?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/272</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/175?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/264</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/174?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/331</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/290?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/329</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/160?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/326</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/157?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/266</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/154?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/324</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/150?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/323</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/151?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/318</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/149?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/316</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/142?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/267</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/283?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/302</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/284?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/301</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/130?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/300</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/109?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/299</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/79?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/182</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/95?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/180</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/57?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/179</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/40?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/177</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/85?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/178</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/38?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/296</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/90?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/295</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/309?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/175</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/88?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/174</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/14?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/290</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/8?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/160</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/10?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/157</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/11?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/154</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/12?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/150</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/6?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/151</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/5?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/149</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/9?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/142</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/7?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/283</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/138?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/284</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/141?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/286</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/286?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/138</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/288?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/141</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/136?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/288</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/115?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/136</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/116?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/115</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/117?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/116</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/118?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/117</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/119?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/118</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/120?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/119</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/121?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/120</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/122?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/121</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/123?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/122</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/124?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/123</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/125?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/124</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/126?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/125</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/127?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/126</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/128?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/127</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/129?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/128</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/278?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/129</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/279?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/130</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/277?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/109</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/276?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2009/79</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/275?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/95</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/273?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/57</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/272?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/40</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/264?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/85</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/331?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/38</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/329?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/90</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/326?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/309</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/266?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/88</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/324?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/14</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/323?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/8</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/318?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/10</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/316?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/11</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/267?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/12</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/302?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/6</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/301?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/5</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>http://www.coopertire.com.cn/infos/300?q=history</loc>
-    <lastmod>2013-05-10</lastmod>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/9</loc>
+    <lastmod>2013-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+   <url>
+    <loc>http://www.coopertire.com.cn/infos/2008/7</loc>
+    <lastmod>2013-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
 </urlset>
