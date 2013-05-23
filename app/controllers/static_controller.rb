@@ -58,7 +58,7 @@ class StaticController < ApplicationController
   protected
 
   def years
-    Refinery::Infos::Info.group("year(created_at)").count.except(Time.now.year)
+    Refinery::Infos::Info.group("year(created_at)").count
   end
   
 end

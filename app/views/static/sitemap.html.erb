@@ -12,18 +12,12 @@
             <li><a href="quality_safety.htm">质量与安全</a></li>
             <li><a href="/jobs">工作机会</a></li>
             <li style="overflow: auto;height: auto">
-                <p><a href="/infos">新闻媒体</a></p>
-                  <ul>
-                    <li><a href="/infos">新闻中心</a></li>
-                    <li style="overflow: auto; height: auto">
-                      <a href="javascript:void(0)">历年新闻</a>
-                      <ul>
-                        <% @histories.each do |year, count| %>
-                            <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
-                        <% end %>
-                      </ul>
-                    </li>
-                  </ul>
+              <p><a href="/infos">新闻媒体</a></p>
+              <ul>
+                <% @histories.each do |year, count| %>
+                    <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
+                <% end %>
+              </ul>
             </li>
             <li><a href="contactus.htm">联系我们</a></li>
           </ul>
@@ -38,7 +32,7 @@
             <li><a href="dat.htm">DAT动态盔甲科技</a></li>
             <!-----2012-03-31 cici提出修改意见,修改人：黄进------>
             <li><a href="armor.htm">Armor-Tek&nbsp;&nbsp;&nbsp;三重盔甲技术</a><span class="sup">3</span></li>
-            <li><a href="dakar_2010.htm">达喀尔拉力赛</a></li>
+            <li><a href="dakar_2013.htm">达喀尔拉力赛</a></li>
             <li><a href="award.htm">所获奖项</a></li>
             <li><a href="video_online.htm">固铂影片在线播放</a></li>
           </ul>

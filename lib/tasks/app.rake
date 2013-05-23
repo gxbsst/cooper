@@ -263,9 +263,9 @@ namespace :app do
     result = template.result(binding)
 
     sitemap_xml = Rails.root.join('public/sitemap.xml')
-    file = File.open(sitemap_xml, 'w')
-    file.write(result)
-    file.close
+    File.open(sitemap_xml, 'w') {|file| file.write result}
+    #file.write(result)
+    #file.close
 
   end
 
