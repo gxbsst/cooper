@@ -65,17 +65,12 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #leftcontent dd ul.news_sidebar li{overflow:auto; height: auto}
 #leftcontent dd ul.news_sidebar li a.hover{color: #E04C36}
 #leftcontent dd a{ text-decoration:none; padding:0px 0px 0px 10px; overflow:hidden; display:block;}
-#leftcontent dd ul.news_sidebar li ul {
-    padding: 0 0 0 10px;
+
+#leftcontent dd.info_dd li {
+    background: #FFF url("../pic/li04.jpg") no-repeat left 9px;
 }
-#leftcontent dd ul.news_sidebar li ul li {
-    list-style-type: disc;
-    list-style-position: inside;
-}
-#leftcontent dd ul.news_sidebar li ul li a{
-    display: inline;
-    padding: 0;
-    margin: 0;
+#leftcontent dd.info_dd li a.hover {
+    color: #E04C36;
 }
 #leftcontent dd .hover{}
 #leftcontent dd .new{ background:url(../pic/new.jpg) no-repeat 68px 3px;}

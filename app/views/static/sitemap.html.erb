@@ -12,18 +12,12 @@
             <li><a href="quality_safety.htm">质量与安全</a></li>
             <li><a href="/jobs">工作机会</a></li>
             <li style="overflow: auto;height: auto">
-                <p><a href="/infos">新闻媒体</a></p>
-                  <ul>
-                    <li><a href="/infos">新闻中心</a></li>
-                    <li style="overflow: auto; height: auto">
-                      <a href="javascript:void(0)">历年新闻</a>
-                      <ul>
-                        <% @histories.each do |year, count| %>
-                            <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
-                        <% end %>
-                      </ul>
-                    </li>
-                  </ul>
+              <p><a href="/infos">新闻媒体</a></p>
+              <ul>
+                <% @histories.each do |year, count| %>
+                    <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
+                <% end %>
+              </ul>
             </li>
             <li><a href="contactus.htm">联系我们</a></li>
           </ul>

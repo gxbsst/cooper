@@ -44,18 +44,11 @@
   </dl>
   <dl class="current">
     <dt><a href="/infos">新闻媒体</a></dt>
-    <dt style="background: none;"><a href="/infos" style="background: none;">新闻中心</a></dt>
     <dd class="info_dd">
-      <ul class="news_sidebar" style="padding-top: 0;">
-        <li <% unless params[:year].present? %> class="hover" <% end %> ><a  href="/infos">公司新闻</a></li>
-        <li <% if  params[:q].present? %> class="hover" <% end %> >
-          <p style="margin-left: 10px">历年新闻</p>
-          <ul>
-            <% @histories.each do |year, count| %>
-                <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
-            <% end %>
-          </ul>
-        </li>
+      <ul>
+        <% @histories.each do |year, count| %>
+            <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
+        <% end %>
       </ul>
     </dd>
     <dd></dd>
