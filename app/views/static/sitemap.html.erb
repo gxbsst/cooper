@@ -12,7 +12,7 @@
             <li><a href="quality_safety.htm" data-priority='0.8'>质量与安全</a></li>
             <li><a href="/jobs" data-priority='0.8'>工作机会</a></li>
             <li style="overflow: auto;height: auto">
-              <p><a href="/infos" data-priority='0.5'>新闻媒体</a></p>
+              <p><a href="/infos" data-priority='0.5'>新闻中心</a></p>
               <ul>
                 <% @histories.each do |year, count| %>
                     <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
