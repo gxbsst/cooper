@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<% @urls.each do |url| %>
    <url>
-    <loc><%= url %></loc>
+    <loc>http://www.coopertire.com.cn</loc>
     <lastmod><%= @date %></lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
+  </url>
+
+<% @urls.delete_if{|i| i.include? 'javascript'}.each do |url| %>
+   <url>
+    <loc><%= url[:url] %></loc>
+    <lastmod><%= @date %></lastmod>
+    <changefreq>monthly</changefreq>
+    <priority><%= url[:priority] %></priority>
   </url>
   <% end %>
 </urlset>

@@ -11,9 +11,9 @@ module InfosHelper
   def link_to_year(year, current_view_year)
     current_year = current_view_year.to_i == year.to_i ? true : false
     if current_year
-      link_to year, infos_year_path(year), :class => :hover
+      link_to year, infos_year_path(year), :class => :hover, 'data-priority' => '0.5'
     else
-      link_to year, infos_year_path(year)
+      link_to year, infos_year_path(year), 'data-priority' => '0.5'
     end
   end
 

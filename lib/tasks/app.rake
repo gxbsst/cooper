@@ -237,14 +237,14 @@ namespace :app do
     host = 'http://www.coopertire.com.cn'
     @urls = page.css('.content li a').collect do |a|
       if a['href'].include? '/'
-        "#{host}#{a['href']}"
+        {:url => "#{host}#{a['href']}", :priority => a['data-priority'] || '0.8'}
       else
-        "#{host}/#{a['href']}"
+        {:url => "#{host}/#{a['href']}", :priority => a['data-priority'] || '0.8'}
       end
     end
 
     info_urls = Refinery::Infos::Info.all.collect do |info|
-      "#{host}/infos/#{info.created_at.year}/#{info.id}"
+      {:url => "#{host}/infos/#{info.created_at.year}/#{info.id}", :priority => '0.5' }
     end
 
     @urls << info_urls
@@ -256,8 +256,6 @@ namespace :app do
 
     sitemap_xml = Rails.root.join('public/sitemap.xml')
     File.open(sitemap_xml, 'w') {|file| file.write result}
-    #file.write(result)
-    #file.close
 
   end
 
