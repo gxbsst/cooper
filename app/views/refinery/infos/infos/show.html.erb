@@ -2,6 +2,10 @@
    <% link_to_canonical(@info) %>
  <% end %>
 
+<% content_for :title do %>
+  <%= @info.title.html_safe %> – 固铂轮胎中国官网
+<% end %>
+
 <%= render "share/news_sidebar"%>
 
 <div id="rightcontent">

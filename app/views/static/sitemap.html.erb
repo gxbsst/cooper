@@ -6,20 +6,20 @@
         <dt>关于固铂</dt>
         <dd>
           <ul>
-            <li><a href="about.htm">固铂概况</a></li>
-            <li><a href="history.htm">固铂历史</a></li>
-            <li><a href="facilities.htm">研发与生产</a></li>
-            <li><a href="quality_safety.htm">质量与安全</a></li>
-            <li><a href="/jobs">工作机会</a></li>
+            <li><a href="about.htm" data-priority='0.8'>固铂概况</a></li>
+            <li><a href="history.htm" data-priority='0.8'>固铂历史</a></li>
+            <li><a href="facilities.htm" data-priority='0.8'>研发与生产</a></li>
+            <li><a href="quality_safety.htm" data-priority='0.8'>质量与安全</a></li>
+            <li><a href="/jobs" data-priority='0.8'>工作机会</a></li>
             <li style="overflow: auto;height: auto">
-              <p><a href="/infos">新闻媒体</a></p>
+              <p><a href="/infos" data-priority='0.5'>新闻中心</a></p>
               <ul>
                 <% @histories.each do |year, count| %>
                     <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
                 <% end %>
               </ul>
             </li>
-            <li><a href="contactus.htm">联系我们</a></li>
+            <li><a href="contactus.htm" data-priority='0.8'>联系我们</a></li>
           </ul>
         </dd>
       </dl>
@@ -27,14 +27,14 @@
         <dt>无固铂，不越野</dt>
         <dd>
           <ul>
-            <li><a href="brand_position.htm">品牌定位</a></li>
-            <li><a href="7reasons.htm">选择固铂的七大理由</a></li>
-            <li><a href="dat.htm">DAT动态盔甲科技</a></li>
+            <li><a href="brand_position.htm" data-priority='0.8'>品牌定位</a></li>
+            <li><a href="7reasons.htm" data-priority='0.8'>选择固铂的七大理由</a></li>
+            <li><a href="dat.htm" data-priority='0.8'>DAT动态盔甲科技</a></li>
             <!-----2012-03-31 cici提出修改意见,修改人：黄进------>
-            <li><a href="armor.htm">Armor-Tek&nbsp;&nbsp;&nbsp;三重盔甲技术</a><span class="sup">3</span></li>
-            <li><a href="dakar_2013.htm">达喀尔拉力赛</a></li>
-            <li><a href="award.htm">所获奖项</a></li>
-            <li><a href="video_online.htm">固铂影片在线播放</a></li>
+            <li><a href="armor.htm" data-priority='0.8'>Armor-Tek&nbsp;&nbsp;&nbsp;三重盔甲技术</a><span class="sup">3</span></li>
+            <li><a href="dakar_2013.htm" data-priority='0.8'>达喀尔拉力赛</a></li>
+            <li><a href="award.htm" data-priority='0.8'>所获奖项</a></li>
+            <li><a href="video_online.htm" data-priority='0.8'>固铂影片在线播放</a></li>
           </ul>
         </dd>
       </dl>
@@ -42,35 +42,35 @@
         <dt>产品和服务</dt>
         <dd>
           <ul>
-            <li><a href="products_mapping.htm">产品定位图</a></li>
+            <li><a href="products_mapping.htm" data-priority='0.9'>产品定位图</a></li>
             <li style="overflow: auto;height: auto">
-              <a href="products_list.htm">
+              <a href="products_list.htm" data-priority='0.9'>
               SUV & 4X4 轮胎产品
               </a>
               <ul>
                 <% @suv.each do |item| %>
-                    <li><%= link_to item[:name], item[:url] %></li>
+                    <li><%= link_to item[:name], item[:url], 'data-priority' => '0.9' %></li>
                 <% end %>
               </ul>
             </li>
             <li style="overflow: auto;height: auto">
-              <a href="products_list_pcr.htm">轿车轮胎产品</a>
+              <a href="products_list_pcr.htm" data-priority='0.9'>轿车轮胎产品</a>
               <ul>
                 <% @saloon_car.each do |item| %>
-                    <li><%= link_to item[:name], item[:url] %></li>
+                    <li><%= link_to item[:name], item[:url], 'data-priority' => '0.9' %></li>
                 <% end %>
               </ul>
             </li>
             <li style="overflow: auto;height: auto">
-              <a href="products_list_winter.htm">冬季轮胎产品</a>
+              <a href="products_list_winter.htm" data-priority='0.9'>冬季轮胎产品</a>
               <ul>
                 <% @winter.each do |item| %>
-                    <li><%= link_to item[:name], item[:url] %></li>
+                    <li><%= link_to item[:name], item[:url], 'data-priority' => '0.9' %></li>
                 <% end %>
               </ul>
             </li>
-            <li><a href="/products/search">在线选配轮胎</a></li>
-            <li><a href="products_tips.htm">轮胎保养小常识</a></li>
+            <li><a href="/products/search" data-priority='0.9'>在线选配轮胎</a></li>
+            <li><a href="products_tips.htm" data-priority='0.9'>轮胎保养小常识</a></li>
           </ul>
         </dd>
       </dl>
@@ -79,8 +79,8 @@
         <dt>营销网络</dt>
         <dd>
           <ul>
-            <li><a href="shop_cpc.htm">固铂形象店</a></li>
-            <li><a href="/stores/search">查找店铺</a></li>
+            <li><a href="shop_cpc.htm" data-priority='0.8'>固铂形象店</a></li>
+            <li><a href="/stores/search" data-priority='0.8'>查找店铺</a></li>
           </ul>
         </dd>
       </dl>

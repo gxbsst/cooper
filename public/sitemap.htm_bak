@@ -73,7 +73,7 @@
             </ul>
           </div>
         </li>
-        <li class="li li4"><a class="a" href="/infos">新闻媒体</a>
+        <li class="li li4"><a class="a" href="/infos">新闻中心</a>
         <div class="none">
             <ul class="menu">
               <li><a href="/infos">新闻中心</a></li>
@@ -139,7 +139,7 @@
    </dd>
  </dl>
  <dl>
-   <dt>新闻媒体</dt>
+   <dt>新闻中心</dt>
    <dd>
      <ul>
        <li><a href="/infos">新闻中心</a></li>

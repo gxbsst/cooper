@@ -1,13 +1,9 @@
 <div id="site">
   <a href="/about.htm">关于固铂</a>
   <span>&gt;</span>
-  <a href="/infos">新闻媒体</a>
+  <a href="/infos">新闻中心</a>
+ <% if params[:year].present? %>
   <span>&gt;</span>
-  新闻中心
-  <span>&gt;</span>
-  <% if params[:year].to_i != Time.now.year.to_i && params[:year].present? %>
-      历年新闻
-  <% else %>
-      公司新闻
-  <% end %>
+  <%= params[:year].to_i %>
+ <% end %>
 </div>
