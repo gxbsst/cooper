@@ -91,6 +91,8 @@ GEM
     erubis (2.7.0)
     execjs (1.3.0)
       multi_json (~> 1.0)
+    fancybox-rails (0.2.1)
+      railties (>= 3.1.0)
     friendly_id (4.0.3)
     globalize3 (0.2.0)
       activemodel (>= 3.0.0)
@@ -241,6 +243,7 @@ DEPENDENCIES
   backbone-on-rails
   capistrano
   coffee-rails (~> 3.2.1)
+  fancybox-rails
   fastthread!
   geocoder!
   gmaps4rails

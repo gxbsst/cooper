@@ -25,6 +25,7 @@ end
 
 gem 'jquery-rails'
 gem 'backbone-on-rails'
+gem 'fancybox-rails'
 
 # 处理Google地图
 #gem "geocoder"

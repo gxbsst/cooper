@@ -16,3 +16,5 @@ saved_items
 db/schema.rb
 config/database.yml
 .idea
+.buildpath
+.project

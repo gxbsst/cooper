@@ -1,6 +1,29 @@
 # encoding: utf-8
 class StoresController < ApplicationController
 
+  def map
+    @zoom = 9
+    @center = params[:center].split(',')
+    if params[:region].present?
+      @stores ||= find_store
+      # 即使没有经纬度， 也应该显示门店
+      @stores_2 ||= find_all_store
+      @tudes = []
+      @stores.each_with_index do |store, index|
+        a = []
+        a << store.address
+        a << store.longitude
+        a << store.latitude
+        a << index + 1
+        @tudes << a
+      end
+    else
+      @tudes = []
+    end
+
+    render :layout => false
+  end
+
   def search
     # @json = Store.first.to_gmaps4rails
     @center =[31.2059, 121.399703] #上海cooper 地址
