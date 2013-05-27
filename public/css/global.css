@@ -86,3 +86,10 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #footer label{ float:left;}
 #footer a{margin:0px 10px 0px 0px; color:#656565; background:url(../pic/li04.jpg) no-repeat 0px 10px; display:inline-block;padding:0px 0px 0px 8px;}
 .totop{ padding:50px 0px 0px 0px; text-align:right;}
+
+.various {
+    float: right;
+    display: block;
+    background: #FFF url("../images/full_map_icon.png") no-repeat left center;
+    padding: 0 0 0 15px;
+}
