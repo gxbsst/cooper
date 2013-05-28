@@ -48,7 +48,7 @@
           <div class="condition">
             <%= render "brand_search_form" %>
           </div>
-          <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_list.htm">查看所有轮胎</a>
+          <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_mapping.htm">查看所有轮胎</a>
       <% end -%>
 
     </div>
@@ -61,7 +61,7 @@
               <%= render "product_search_form" %>
             </div>
 
-            <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_list.htm">查看所有轮胎</a>
+            <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_mapping.htm">查看所有轮胎</a>
         <% end -%>
 
       </div>
@@ -70,7 +70,7 @@
             <div class="condition">
               <%= select_tag 'name', options_for_select(Brand.decorative_collection), :prompt => "选择花纹", :class => "select", :style => "width:200px" %>
             </div>
-            <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_list.htm">查看所有轮胎</a>
+            <input type="submit" class="searchbtn" value="查询轮胎" /><a class="morelink" href="/products_mapping.htm">查看所有轮胎</a>
         <% end -%>
       </div>
     </div>
@@ -95,7 +95,7 @@
      </div>
    </div>
   <div id="productcontent">
-   <h3><a href="/products_list.htm" class="more">更多产品<span>&gt;&gt;</span></a>明星产品</h3>
+   <h3><a href="/products_mapping.htm" class="more">更多产品<span>&gt;&gt;</span></a>明星产品</h3>
    <dl>
      <dt><a href="/stt_detail.htm">DISCOVERER STT</a></dt>
      <dd>
