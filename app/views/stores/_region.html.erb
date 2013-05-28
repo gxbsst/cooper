@@ -7,12 +7,7 @@
 		    	<%= select_tag "region[province]", options_for_select(Store.province_collection), :prompt => '-请选择-', :class => "select" %>
 		    </span>
       </td>
-      <td class="td"></td>
-      <td>
-		    <span id="district" style="display: none">
-		    <%= select_tag "region[district]", options_for_select([]), :prompt => '-请选择-', :class => "select" %>
-		    </span>
-      </td>
+
     </tr>
     <tr>
       <td class="td">城市</td>
@@ -21,19 +16,18 @@
 		    	<%= select_tag "region[city]", options_for_select([]), :prompt => '-请选择-', :class => "select" %>
 		    </span>
       </td>
-      <td></td>
-      <td></td>
+
     </tr>
     <tr>
       <td class="td">店铺类型</td>
       <td>
+
         <%= select_tag "region[shop_type]", options_for_select([["嘉车坊", "CPC"],["店中店", "CC"],["替换中心", "CTCC"],["店招店", "CSSPLUS"],["招牌店", "CSS"],["独立授权店", "INDEPENDENT"],["其他", "OTHERS"]]), :prompt => '-请选择-', :class => "select" %>
       </td>
-      <td></td>
-      <td></td>
+
     </tr>
   </table>
-  <td rowspan="2"><input type="submit" class="searchbtn" value="查询" /></td>
+  <input type="submit" class="searchbtn" value="查询" />
 </div>
 
 <style type="text/css">
@@ -42,10 +36,13 @@
   }
   .searchbtn {
     position: absolute;
-    right: 10px;
-    top: 30px;
+    right: 113px;
+    top: 31px;
   }
   #region_province, #region_city {
     width: 86px;
+  }
+  #region_shop_type {
+    margin-left: 0;
   }
 </style>
