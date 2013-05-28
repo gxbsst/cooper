@@ -8,6 +8,7 @@
   <%= csrf_meta_tags if Refinery::Core.authenticity_token_on_frontend -%>
   <%= yield :meta %>
 
+  <%= javascript_include_tag "jquery" %>
   <%= stylesheet_link_tag "/css/global", "/css/download", "/css/index", "/css/products_detail", "/css/reason" %>
   <%= stylesheet_link_tag "home" if home_page? %>
   <%#= yield :stylesheets %>
