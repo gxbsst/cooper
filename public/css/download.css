@@ -85,7 +85,7 @@
 #shopsearch .tabs .current,#shopsearch .tabs a:hover{ color:Black;  text-decoration:none; background-position:right 0px;}
 #shopsearch .body{ padding:20px 0px 0px 0px; overflow:hidden;}
 #shopsearch .map{ float:left; width:690px; }
-#shopsearch .sc_kk{ float:left; width:400px; }
+#shopsearch .sc_kk{ float:left; }
 
 .sck_text{ padding-top:10px; padding-left:8px; font-weight:bold;}
 
@@ -125,12 +125,13 @@
 
 
 #shopsearch .searchtable{ padding:10px 0px;}
-.sc_top{ float:left; width:180px; padding-left:10px;}
-.sct_btn{ float:left; width:100px; margin-top:35px; padding-left:30px; overflow:hidden;}
+.sc_top{ float:left;  padding-left:10px; overflow:hidden; margin-top:30px;}
+.sct_btn{ float:left; width:100px; padding-left:20px; overflow:hidden; float:left;}
 
-#shopsearch .sct_f1{ overflow:hidden; margin-bottom:15px;}
+#shopsearch .sct_f1{ overflow:hidden; margin-top:7px; float:left; margin-right:22px;}
 #shopsearch .sct_f1 span{ display:block; float: left; line-height:22px;}
-#shopsearch .sct_f1 span.sf_text{ width:55px;}
+#shopsearch .sct_f1 span.sf_text{ width:30px;}
+#shopsearch .sct_f1 span.sf_text2{ width:55px;}
 
 
 
