@@ -21,8 +21,8 @@
 #productdetail dl{ padding:20px 0px 0px 0px;}
 #productdetail dt{ background:url(../pic/li06.jpg) no-repeat 0px 5px; padding:0px 0px 0px 15px; font-weight:bold; color:#323232; font-size:14px; height:25px; line-height:25px; overflow:hidden;}
 #productdetail dd{ padding:10px 0px 0px 0px;}
-#product_detail01 .size{}
-#product_detail01 .size{ width:720px;}
+
+#product_detail01 .size{ width:720px; overflow:hidden;}
 #product_detail01 .size li{ display:inline; height:20px; line-height:15px; overflow:hidden; padding:16px 13px 15px 13px; width:192px; margin:0px 10px 0px 0px; border:solid 3px #CBCBCB; float:left;}
 #product_detail01 .size .s1{ padding:5px 0px 0px 0px; float:left; display:block; width:80px;}
 #product_detail01 .size .s2{ float:right; display:block; width:56px;}
