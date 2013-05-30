@@ -105,7 +105,7 @@
 #awardcontent .table .t2{ width:400px;}
 #awardcontent .table .t3{ width:120px; text-align:center;}
 #contactus{ padding:30px 20px 300px 20px; background:url(../pic/tel.jpg) no-repeat 400px 30px;}
-#contactus ul{ line-height:15px; border-left:solid 3px #F37E6D; padding:0px 0px 0px 20px;}
+#contactus ul{ line-height:15px; border-left:solid 3px #F37E6D; padding:0px 0px 0px 20px; height: 126px;}
 #contactus ul li{ padding:0px 0px 6px 0px; color:#636363;}
 #contactus ul a{ color:#839870;}
 #datcontent{ padding:20px 0px 50px 0px;}
