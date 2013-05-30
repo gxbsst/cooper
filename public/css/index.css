@@ -49,9 +49,8 @@
 #searchcontent .body .morelink{color:#839870;  background:url(../pic/index_more.jpg) no-repeat 10px 2px; line-height:20px; display:inline-block; padding:0px 0px 0px 30px;}
 
 .scc_con{margin-top:20px;}
-.scc_con .slc_title, .slc_xlc, .slc_xlc form  {
-  /*border: 1px solid red;*/
-}
+
+/*fixed for ie 7*/
 body .slc_xlc form  {
   margin: 0;
 }
