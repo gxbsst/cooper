@@ -98,7 +98,6 @@ namespace :app do
         item[1] = ' ' if item[1].blank?
         item[2] = ' ' if item[2].nil?
         item[3] = ' ' if item[3].nil?
-
         address = item[3] == '0' ? address = "" : item[3].to_s.force_encoding("UTF-8")
         full_address = ''
         full_address << item[0] << item[1] << item[3]

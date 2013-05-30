@@ -87,6 +87,9 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #footer a{margin:0px 10px 0px 0px; color:#656565; background:url(../pic/li04.jpg) no-repeat 0px 10px; display:inline-block;padding:0px 0px 0px 8px;}
 .totop{ padding:50px 0px 0px 0px; text-align:right;}
 
+.fx_icon{ overflow:hidden; margin-top:10px;}
+.fx_icon span{ display:block; float:left;}
+.fx_icon span.fxi_text{ line-height:28px; color:#999; }
 .various {
     float: right;
     display: block;

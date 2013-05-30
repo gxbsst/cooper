@@ -34,8 +34,15 @@
 #newslist .page a{ vertical-align:middle; margin:0px 5px;}
 #newslist .page .hover{ font-weight:bold; text-decoration:underline;}
 #newsdetail{ line-height:20px;}
-#newsdetail .date{ margin:0px 0px 10px 0px; padding:5px 0px 20px 0px; border-bottom:solid 1px #DDDDDD; text-align:center;}
-#newsdetail .date span{ color:#A0A0A0; padding:0px 8px;}
+#newsdetail .date{ margin:0px 0px 10px 0px; padding:10px 0px 10px 0px; border-bottom:solid 1px #DDDDDD; text-align:center; overflow:hidden;}
+#newsdetail .date_con{ float:left; padding-left:45px; }
+
+
+
+#newsdetail .date_con span{ color:#A0A0A0; padding:0px 8px; line-height:28px;}
+
+
+
 #newsdetail .h2{ padding:20px 0px 0px 0px; text-align:center; font-size:14px;}
 #newsdetail p{ padding:10px 0px; text-indent:2em;}
 #newsdetail h3{ padding:10px 0px;}
