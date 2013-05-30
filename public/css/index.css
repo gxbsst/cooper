@@ -7,7 +7,7 @@
 #bannerlist li{ width:980px; float:left; height:216px; overflow:hidden;}
 #map_news{ padding:20px 0px 0px 0px;}
 #mapcontent{ width:560px; overflow:hidden; float:left;}
-#mapcontent .map{ padding:15px 0px 10px 0px;}
+#mapcontent .map{ padding:15px 0px 2px 0px;}
 #newscontent{ float:right; width:286px; overflow:hidden;}
 #newscontent .more a:hover {text-decoration:none;}
 #newscontent ul{ padding:5px 0px;}
