@@ -79,15 +79,15 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #leftcontent .current dt a{color:#484848; background-position:0px -31px;}
 #leftcontent .current dd{ display:block;}
 
-#leftcontent span.sx_a{
+#leftcontent span.sx_a, #sitemap li.sx_a_outer .sx_a{
 	position:absolute;
 	font-size:10px;
 	top: -1px;
 	left: 70px;
 }
-
-
-
+#sitemap li.sx_a_outer {
+ position: relative;
+}
 
 #rightcontent{ float:right; _overflow:hidden; width:690px;}
 #site{ padding:0px 10px; height:28px; line-height:28px; overflow:hidden; background-color:#F2F2F2;}

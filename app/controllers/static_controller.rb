@@ -13,9 +13,9 @@ class StaticController < ApplicationController
         {:name => 'DISCOVERER STMAXX', :url => '/stmaxx_detail.htm'},
         {:name => 'DISCOVERER AT3', :url => '/at3_detail.htm'},
         {:name => 'DISCOVERER ATR', :url => 'atr_detail.htm'},
-        {:name => 'DISCOVERER ATS (SUV&LT)', :url => '/ats_detail.htm'},
+        {:name => 'DISCOVERER ATS (SUV& LT)', :url => '/ats_detail.htm'},
         {:name => 'DISCOVERER HTS', :url => '/hts_detail.htm'},
-        {:name => 'ZEON XST-A', :url => '/xst-a_detail.htm'},
+        {:name => 'ZEON XST<span class="sx_a">A</span>', :url => '/xst-a_detail.htm'},
         {:name => 'ZEON 4XS', :url => '/4xs_detail.htm'}
     ]
     @saloon_car =  [
