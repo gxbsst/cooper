@@ -19,19 +19,19 @@ class StaticController < ApplicationController
         {:name => 'ZEON 4XS', :url => '/4xs_detail.htm'}
     ]
     @saloon_car =  [
-        {:name => '驭动-ZEON RS3-S', :url => '/rs3-s_detail.htm'},
+        {:name => 'ZEON C7', :url => '/c7_detail.html'},
         {:name => '驭行-ZEON RS3-A', :url => '/rs3-a_detail.htm'},
+        {:name => '驭动-ZEON RS3-S', :url => '/rs3-s_detail.htm'},
         {:name => 'ZEON ASP', :url => '/asp_detail.htm'},
         {:name => 'LIFELINER GLS', :url => '/gls_detail.htm'},
-        {:name => 'ZEON ATP', :url => '/atp_detail.htm'},
-        {:name => 'ZEON C7', :url => '/c7_detail.html'}
+        {:name => 'ZEON ATP', :url => '/atp_detail.htm'}
     ]
     @winter = [
+        {:name => 'Cooper Discoverer M+S', :url => '/m_s_detail.htm'},
         {:name => 'Cooper Weather Master SA2', :url => '/sa2_detail.htm'},
         {:name => 'Cooper Weather Master ST3', :url => '/st3_detail.htm'},
-        {:name => 'Avon Ice Touring', :url => '/ait_detail.htm'},
         {:name => 'Cooper Weather Master ST2', :url => '/st2_detail.htm'},
-        {:name => 'Cooper Discoverer M+S', :url => '/m_s_detail.htm'}
+        {:name => 'Avon Ice Touring', :url => '/ait_detail.htm'}
     ]
   end
 

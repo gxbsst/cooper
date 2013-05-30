@@ -22,4 +22,25 @@ module ApplicationHelper
       "/stores/map?center=#{center.join(',')}&zoom=#{zoom}"
     end
   end
+
+  def sort_decorative
+    [
+      ["DISCOVERER STT", "DISCOVERER STT"],
+      ["DISCOVERER STMAXX", "DISCOVERER STMAXX"],
+      ["DISCOVERER AT3", "DISCOVERER AT3"],
+      ["DISCOVERER ATR", "DISCOVERER ATR"],
+      ["DISCOVERER ATS", "DISCOVERER ATS"],
+      ["DISCOVERER HTS", "DISCOVERER HTS"],
+      ["ZEON XST-A", "ZEON XST-A"],
+      ["ZEON 4XS", "ZEON 4XS"],
+
+      ["ZEON C7", "ZEON C7"],
+      ["ZEON RS3-A", "ZEON RS3-A"],
+      ["ZEON RS3-S", "ZEON RS3-S"],
+      ["ZEON ASP", "ZEON ASP"],
+      ["LIFELINER GLS", "LIFELINER GLS"],
+      ["ZEON ATP", "ZEON ATP"]
+    ]
+  end
+
 end

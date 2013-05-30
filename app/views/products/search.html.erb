@@ -30,7 +30,7 @@
 
           <div class="body">
             <strong>按花纹牌查找</strong>
-            <%= select_tag 'name', options_for_select(Brand.decorative_collection), :prompt => "选择花纹", :class => "select", :style => "width:180px" %>
+            <%= select_tag 'name', options_for_select(sort_decorative), :prompt => "选择花纹", :class => "select", :style => "width:180px" %>
             <input type="submit" class="searchbtn" value="查询轮胎" />
             <div class="clear"></div>
           </div>
