@@ -12,7 +12,7 @@ function()
   );
   $("#bannercontent").hover(
   function(){clearTimeout(time);},
-  function(){time = setInterval(function(){$("#nextbtn").click();},5000);}
+  function(){time = setInterval(function(){$("#nextbtn").click();},9000);}
   );
   $("#prevbtn").click(
   function()
@@ -21,7 +21,7 @@ function()
     {
       $("#bannerlist ul").css("left",Number($("#bannerlist ul").css("left").replace("px","")) + totalwidth);
     }
-    $("#bannerlist ul").animate({left:'-=980px'},'fast');
+    $("#bannerlist ul").animate({left:'-=980px'},'slow');
   }
   );
   $("#nextbtn").click(
@@ -31,10 +31,10 @@ function()
     {
       $("#bannerlist ul").css("left",Number($("#bannerlist ul").css("left").replace("px","")) - totalwidth);
     }
-    $("#bannerlist ul").animate({left:'+=980px'},'fast');    
+    $("#bannerlist ul").animate({left:'+=980px'},'slow');
   }
   );
- time = setInterval(function(){$("#nextbtn").click();},5000);
+ time = setInterval(function(){$("#nextbtn").click();},9000);
  var totalwidth = Number($("#bannerlist ul li").length) * 980;
  $("#bannerlist ul").html($("#bannerlist ul").html() + $("#bannerlist ul").html() + $("#bannerlist ul").html());
  $("#bannerlist ul").css("width",totalwidth*3);
