@@ -44,9 +44,9 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #nav .li5{ width:102px;border-right:1px solid #cbcbcb;}
 #header .site{ height:24px; line-height:24px; _overflow:hidden; text-align:right;}
 #header .site .a{ margin:0px 10px 0px 0px; color:#839870; background:url(../pic/li04.jpg) no-repeat 0px 10px;display:inline-block; padding:0px 0px 0px 8px;}
-#topselectcontent{ cursor:pointer; float:right; width:92px; position:relative; z-index:999999999999; height:24px; background:url(../pic/select_01.jpg) no-repeat 0px 2px;}
-#topselectcontent .text{ text-align:left; line-height:22px; padding:0px 0px 0px 10px; height:24px;}
-#topselectcontent .none{ text-align:left; width:86px;position:absolute; top:22px; left:0px; border:solid 1px #CBCBCB; border-top-width:0px; background-color:#FFFFFF;}
+#topselectcontent{ cursor:pointer; float:right; width:115px; position:relative; z-index:999999999999; height:24px; background:url(../pic/select_01.jpg) no-repeat 0px 2px;}
+#topselectcontent .text{ text-align:left;  padding:2px 0px 0px 10px; height:22px;}
+#topselectcontent .none{ text-align:left; width:113px;position:absolute; top:22px; left:0px; border:solid 1px #CBCBCB; border-top-width:0px; background-color:#FFFFFF;}
 #topselectcontent .none li{  height:25px; line-height:25px;} 
 #topselectcontent .none li a{ overflow:hidden; display:block; height:25px; padding:0px 0px 0px 10px;}
 #topselectcontent .none li a:hover{ text-decoration:none; background-color:#004D8C; color:White;}
@@ -59,9 +59,19 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #leftcontent dt strong{ padding:0px 0px 0px 10px; font-weight:normal;}
 #leftcontent dt a:hover{background-position:0px -31px;color:#484848;}
 #leftcontent dd{ display:none;}
+#leftcontent dd.info_dd{ display:block;}
 #leftcontent dd ul{padding:10px 0px 10px 13px; }
 #leftcontent dd li{height:23px; line-height:23px; overflow:hidden;}
+#leftcontent dd ul.news_sidebar li{overflow:auto; height: auto}
+#leftcontent dd ul.news_sidebar li a.hover{color: #E04C36}
 #leftcontent dd a{ text-decoration:none; padding:0px 0px 0px 10px; overflow:hidden; display:block;}
+
+#leftcontent dd.info_dd li {
+    background: #FFF url("../pic/li04.jpg") no-repeat left 8px;
+}
+#leftcontent dd.info_dd li a.hover {
+    color: #E04C36;
+}
 #leftcontent dd .hover{}
 #leftcontent dd .new{ background:url(../pic/new.jpg) no-repeat 68px 3px;}
 #leftcontent dd .hover a{ color:#E04C36; background:url(../pic/li04.jpg) no-repeat 0px 8px;}
@@ -80,7 +90,9 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 .fx_icon{ overflow:hidden; margin-top:10px;}
 .fx_icon span{ display:block; float:left;}
 .fx_icon span.fxi_text{ line-height:28px; color:#999; }
-
-
-
-
+.various {
+    float: right;
+    display: block;
+    background: #FFF url("../images/full_map_icon.png") no-repeat left center;
+    padding: 0 0 0 15px;
+}

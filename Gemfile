@@ -25,6 +25,7 @@ end
 
 gem 'jquery-rails'
 gem 'backbone-on-rails'
+gem 'fancybox-rails'
 
 # 处理Google地图
 #gem "geocoder"
@@ -72,3 +73,5 @@ group :development, :test do
   gem 'pry'  # "binding.pry" in action
 end
 gem 'refinerycms-jobs', :path => 'vendor/extensions'
+
+gem 'nokogiri'

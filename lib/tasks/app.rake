@@ -74,64 +74,59 @@ namespace :app do
     # end
   end # end init_products
 
+  def shop_type(line)
+    shop_types = {"CPC" => "嘉车坊",
+                  "CTCC" => "替换中心",
+                  "CSSPLUS" => "店招店",
+                  "CSS+" => "店招店",
+                  "CSS" => "招牌店",
+                  "INDEPENDENT" => "独立授权店",
+                  "OTHERS" => "其他"}
+    return  "OTHERS" if line[4].blank? || !(shop_types.invert.has_key? line[4])
+    shop_types.invert[line[4]]
+  end
+
   ## 更新描述和图片
   task :init_store => :environment do
     ActiveRecord::Base.connection.execute("TRUNCATE TABLE stores")
-    file_name = "store_0328.csv"
-    csv = CSV.read(Rails.root.join('lib', 'tasks', 'data', file_name))
+    file_name = "RT Info 0521.csv"
+    csv = CSV.open(Rails.root.join('lib', 'tasks', 'data', file_name), :headers => true)
     csv.each do |item|
 
       begin
-        # puts item[0]
         item[0] = ' ' if item[0].blank?
         item[1] = ' ' if item[1].blank?
         item[2] = ' ' if item[2].nil?
         item[3] = ' ' if item[3].nil?
-        if item[5].blank? || item[5] == 'CC'
-          item[5] = "Others"
-        end
-        shop_types = {"CPC" => "嘉车坊", "CTCC" => "替换中心", "CSSPLUS" => "店招店", "CSS+" => "店招店", "CSS" => "招牌店", "INDEPENDENT" => "独立授权店", "OTHERS" => "其他"}
-        if item[5].blank?
-          shop_type = "OTHERS"
-        else
-          shop_type = item[5].upcase
-        end
-        #INDENPENDENT
-        #INDEPENDENT
-        #INDEPENDENT
-
         address = item[3] == '0' ? address = "" : item[3].to_s.force_encoding("UTF-8")
         full_address = ''
-        full_address << item[0] << item[1] << shop_types[shop_type]
+        full_address << item[0] << item[1] << item[3]
         Store.create({
-                         #rank: item[0].to_s.force_encoding("UTF-8"),
-                         #sale_dist: item[1].to_s.force_encoding("UTF-8"),
                          provice: item[0].to_s.force_encoding("UTF-8"),
                          city: item[1].to_s.force_encoding("UTF-8"),
                          dist: item[2].to_s.force_encoding("UTF-8"),
-                         #asr: item[5].to_s.force_encoding("UTF-8"),
-                         #dsr: item[6].to_s.force_encoding("UTF-8"),
-                         #telephone: item[4].to_s.force_encoding("UTF-8"),
-                         #retail_code: item[7].to_s.force_encoding("UTF-8"),
                          shop_name: item[2].to_s.force_encoding("UTF-8"),
                          address: address,
                          full_address: full_address.force_encoding("UTF-8"),
-                         shop_type: shop_type})
-
+                         shop_type: shop_type(item)
+                     })
       rescue Exception => e
         puts item
-        #binding.pry
       end
     end
   end
 
   ## 更新店地址经纬度
   task :update_store_tuge => :environment do
-    Store.all.each do |r|
-      tuge = Geocoder.coordinates("#{r.provice}#{r.city}#{r.address}") unless r.address.blank?
-      if r.longitude.blank?
-        r.update_attributes(:longitude => tuge[0], :latitude => tuge[1]) unless tuge.blank?
+    #Store.all.each do |r|
+    (1..26).collect{|i| i*100}.each do |id|
+      Store.where("id > #{id} AND id < #{(id+200)}").each do |r|
+        tuge = Geocoder.coordinates("#{r.provice}#{r.city}#{r.address}") unless r.address.blank?
+        if r.longitude.blank?
+          r.update_attributes(:longitude => tuge[0], :latitude => tuge[1]) unless tuge.blank?
+        end
       end
+      sleep 5
     end
   end
 
@@ -232,6 +227,34 @@ namespace :app do
       Refinery::Infos::Info.create(info)
     end
     # @infos = Refinery::Infos::Info.recent
+
+  end
+
+  task :create_sitemap_xml => :environment do
+    page = Nokogiri::HTML(open("http://localhost:3000/sitemap"))
+    @date = Time.now.strftime("%Y-%m-%d")
+    host = 'http://www.coopertire.com.cn'
+    @urls = page.css('.content li a').collect do |a|
+      if a['href'].include? '/'
+        {:url => "#{host}#{a['href']}", :priority => a['data-priority'] || '0.8'}
+      else
+        {:url => "#{host}/#{a['href']}", :priority => a['data-priority'] || '0.8'}
+      end
+    end
+
+    info_urls = Refinery::Infos::Info.all.collect do |info|
+      {:url => "#{host}/infos/#{info.created_at.year}/#{info.id}", :priority => '0.5' }
+    end
+
+    @urls << info_urls
+    @urls.flatten!
+
+    template_file = Rails.root.join('app/views/static/sitemap.xml.erb')
+    template = ERB.new File.new(template_file).read
+    result = template.result(binding)
+
+    sitemap_xml = Rails.root.join('public/sitemap.xml')
+    File.open(sitemap_xml, 'w') {|file| file.write result}
 
   end
 

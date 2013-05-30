@@ -72,11 +72,11 @@
             </ul>
           </div>
         </li>
-        <li class="li li4"><a class="a" href="/infos">新闻媒体</a>
+        <li class="li li4"><a class="a" href="/infos">新闻中心</a>
         <div class="none">
             <ul class="menu">
               <li><a href="/infos">新闻中心</a></li>
-              <li><a href="/downloads">媒体中心</a></li> 
+
              </ul> 
           </div>
         </li>
@@ -225,7 +225,7 @@
   </div>
   <div class="clear"></div>
 </div>
-<div id="footer"><label><a href="contactus.htm">联系我们</a><a href="privacy.htm">版权声明</a><a href="sitemap.htm">网站地图</a></label> Copyright <span>&copy;</span> 2012 Cooper Tire & Rubber Company | 沪ICP备12001223号-1</div>
+<div id="footer"><label><a href="contactus.htm">联系我们</a><a href="privacy.htm">版权声明</a><a href="sitemap.htm">网站地图</a></label> Copyright <span>&copy;</span> 2012 Cooper Tire & Rubber Company | 沪ICP备13016907号-1</div>
 </div>
 <div id="flashcontents" class="flashcontents">
 <div class="inner">

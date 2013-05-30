@@ -1,10 +1,33 @@
 # encoding: utf-8
 class StoresController < ApplicationController
 
+  def map
+    @zoom = 9
+    @center = params[:center].split(',')
+    if params[:region].present?
+      @stores ||= find_store
+      # 即使没有经纬度， 也应该显示门店
+      @stores_2 ||= find_all_store
+      @tudes = []
+      @stores.each_with_index do |store, index|
+        a = []
+        a << store.address
+        a << store.longitude
+        a << store.latitude
+        a << index + 1
+        @tudes << a
+      end
+    else
+      @tudes = []
+    end
+
+    render :layout => false
+  end
+
   def search
     # @json = Store.first.to_gmaps4rails
     @center =[31.2059, 121.399703] #上海cooper 地址
-    @zoom = 10
+    @zoom = 8
     if request.post?
       @stores ||= find_store
       # 即使没有经纬度， 也应该显示门店
@@ -21,11 +44,11 @@ class StoresController < ApplicationController
       
       @center =  [@stores.first.longitude, @stores.first.latitude] unless @tudes.blank?
       
-      if params[:region][:city].present?
-        @zoom = 10
-      else
-        @zoom = 8
-      end
+      #if params[:region][:city].present?
+      #  @zoom = 8
+      #else
+      #  @zoom = 8
+      #end
       
       flash[:error] = "查找不到店铺" if @store_2.blank?
       
@@ -40,7 +63,7 @@ class StoresController < ApplicationController
   def search_2
     # @json = Store.first.to_gmaps4rails
     @center =[31.2059, 121.399703] #上海cooper 地址
-    @zoom = 10
+    @zoom = 8
     if request.post?
       @stores ||= find_store
       # 即使没有经纬度， 也应该显示门店
@@ -58,11 +81,11 @@ class StoresController < ApplicationController
       
       @center =  [@stores.first.longitude, @stores.first.latitude] unless @tudes.blank?
       
-      if params[:region][:city].present?
-        @zoom = 10
-      else
-        @zoom = 8
-      end
+      #if params[:region][:city].present?
+      #  @zoom = 5
+      #else
+      #  @zoom = 5
+      #end
       
       flash[:error] = "查找不到店铺" if @store_2.blank?
       

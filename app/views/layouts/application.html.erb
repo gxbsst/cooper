@@ -23,6 +23,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 </script>
 
 <%= render '/refinery/head' %>
+
   <body>
     <%#= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
 	<div id="allcontent">
@@ -34,10 +35,10 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 	       <div class="text">品牌家族</div>
 	       <div class="none">
 	         <ul>
-	          <li><a href="http://www.mctires.com.cn" target="_blank" title="MC China">MC China</a></li>
-	          <li><a href="http://www.mastercrafttires.com" target="_blank" title="Mastercraft">Mastercraft</a></li>
+	          <!--<li><a href="http://www.mctires.com.cn" target="_blank" title="MC China">MC China</a></li>-->
+	          <li><a href="http://www.mctires.com.cn" target="_blank" title="Mastercraft">Mastercraft</a></li>
 	          <li><a href="http://www.avontyres.com/" target="_blank" title="Avon Tyres">Avon Tyres</a></li>
-	          <li><a href="http://www.mickeythompsontires.com/" target="_blank" title="M/T">M/T</a></li>
+	          <li><a href="http://www.mickeythompsontires.com/" target="_blank" title="M/T">Mickey Thompson</a></li>
 	          <li><a href="http://www.starfiretire.com.cn/" target="_blank" title="Starfire">Starfire</a></li>
 	          <li><a href="http://www.chengshantire.com/" target="_blank" title="Cheng Shan">Cheng Shan</a></li>
 	          <li><a href="http://www.dickcepek.com/" title="Dick Cepek" target="_blank">Dick Cepek</a></li>
@@ -61,6 +62,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 	              <li><a href="/facilities.htm">研发与生产</a></li>
 	              <li><a href="/quality_safety.htm">质量与安全</a></li>
 	              <li><a href="/jobs">工作机会</a></li>
+                  <li><a href="/infos">新闻中心</a></li>
 	              <li><a href="/contactus.htm">联系我们</a></li>
 	            </ul>
 	          </div>
@@ -72,7 +74,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 	              <li><a href="/7reasons.htm">选择固铂的七大理由</a></li>
 	              <li><a href="/dat.htm">DAT动态盔甲科技</a></li>
 	              <li><a href="/armor.htm">Armor-Tek<sup>3</sup>三重盔甲技术</a></li>
-	              <li><a href="/dakar_2012.htm">固铂与达喀尔拉力赛</a></li>
+	              <li><a href="/dakar_2013.htm">固铂与达喀尔拉力赛</a></li>
 	              <li><a href="/award.htm">所获奖项</a></li>
 	              <li><a href="/video_online.htm">固铂影片在线播放</a></li>
 	            </ul>
@@ -90,14 +92,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 	            </ul>
 	          </div>
 	        </li>
-	        <li class="li li4"><a class="a" href="/infos">新闻媒体</a>
-	        <div class="none">
-	            <ul class="menu">
-	              <li><a href="/infos">新闻中心</a></li>
-	              <li><a href="/downloads">媒体中心</a></li> 
-	             </ul> 
-	          </div>
-	        </li>
+
 	        <li class="li li5"><a class="a" href="/shop_cpc.htm">营销网络</a>
 	        <div class="none">
 	            <ul class="menu">
@@ -121,9 +116,9 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 	
 </div>
 
-<div id="footer"><label><a href="/contactus.htm">联系我们</a><a href="/privacy.htm">隐私条款</a><a href="/sitemap.htm">网站地图</a></label> Copyright <span>&copy;</span> 2012 Cooper Tire & Rubber Company | 沪ICP备12001223号-1</div>
+<div id="footer"><label><a href="/contactus.htm">联系我们</a><a href="/privacy.htm">隐私条款</a><a href="/sitemap.htm">网站地图</a></label> Copyright <span>&copy;</span> 2012 Cooper Tire & Rubber Company | 沪ICP备13016907号-1</div>
 </div>
-<script type="text/javascript" src="/js/jquery.min.js"></script>
+
 
 <%= yield :flash %>
 <script language="javascript" type="text/javascript" src="/js/global.js"></script>

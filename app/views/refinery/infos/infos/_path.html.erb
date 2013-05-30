@@ -1,0 +1,9 @@
+<div id="site">
+  <a href="/about.htm">关于固铂</a>
+  <span>&gt;</span>
+  <a href="/infos">新闻中心</a>
+ <% if params[:year].present? %>
+  <span>&gt;</span>
+  <%= params[:year].to_i %>
+ <% end %>
+</div>
