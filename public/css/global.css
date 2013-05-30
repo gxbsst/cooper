@@ -45,7 +45,7 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #header .site{ height:24px; line-height:24px; _overflow:hidden; text-align:right;}
 #header .site .a{ margin:0px 10px 0px 0px; color:#839870; background:url(../pic/li04.jpg) no-repeat 0px 10px;display:inline-block; padding:0px 0px 0px 8px;}
 #topselectcontent{ cursor:pointer; float:right; width:115px; position:relative; z-index:999999999999; height:24px; background:url(../pic/select_01.jpg) no-repeat 0px 2px;}
-#topselectcontent .text{ text-align:left;  padding:2px 0px 0px 10px; height:22px;}
+#topselectcontent .text{ text-align:left;  padding:2px 0px 0px 24px; height:22px;}
 #topselectcontent .none{ text-align:left; width:113px;position:absolute; top:22px; left:0px; border:solid 1px #CBCBCB; border-top-width:0px; background-color:#FFFFFF;}
 #topselectcontent .none li{  height:25px; line-height:25px;} 
 #topselectcontent .none li a{ overflow:hidden; display:block; height:25px; padding:0px 0px 0px 10px;}
