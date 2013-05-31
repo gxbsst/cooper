@@ -257,5 +257,18 @@ namespace :app do
     File.open(sitemap_xml, 'w') {|file| file.write result}
 
   end
+  
+  # 再公路 => 在公路
+  task :update_atr => :environment do
+    Product.where(:decorative => "Discoverer\n ATR").each do |p|
+      p.description = 'Discoverer ATR 在公路驾驶和越野行车的需求之间达成了完美的平衡。独特的内部结构，形成了均匀的接地面，带来均匀磨耗。'
+      p.save!
+    end
+    Brand.where(:name => "Discoverer ATR").each do |p|
+      p.description = 'Discoverer ATR 在公路驾驶和越野行车的需求之间达成了完美的平衡。独特的内部结构，形成了均匀的接地面，带来均匀磨耗。'
+      p.save!
+    end
+
+  end
 
 end
