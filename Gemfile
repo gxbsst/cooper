@@ -71,6 +71,7 @@ gem "mini_magick"
 
 group :development, :test do
   gem 'pry'  # "binding.pry" in action
+  gem 'rspec-rails'
 end
 gem 'refinerycms-jobs', :path => 'vendor/extensions'
 
