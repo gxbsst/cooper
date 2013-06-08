@@ -21,6 +21,7 @@ set :application, "Cooper"
 set :branch, "deploy"
 
 if ENV['RAILS_ENV'] =='production'
+  set :branch, "sem"
   require "rvm/capistrano"
   #server "www.coopertire.com.cn", :web, :app, :db, primary: true
   server "jh_web3", :web, :app, :db, primary: true
