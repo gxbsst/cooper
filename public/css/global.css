@@ -93,6 +93,10 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #site{ padding:0px 10px; height:28px; line-height:28px; overflow:hidden; background-color:#F2F2F2;}
 #site span{ color:#879B75;font-weight:bold; padding:0px 5px;}
 #site a{ color:#879B75;display:inline-block;}
+#site h1 {
+  display: inline;
+  font-weight: normal;
+}
 #footer{color:#656565; padding:5px 10px 20px 10px; width:900px; margin:0px auto; border-top:solid 3px #ABB79F; line-height:25px; text-align:right;}
 #footer label{ float:left;}
 #footer a{margin:0px 10px 0px 0px; color:#656565; background:url(../pic/li04.jpg) no-repeat 0px 10px; display:inline-block;padding:0px 0px 0px 8px;}
