@@ -71,7 +71,7 @@
 #productsearch .t{ height:4px; overflow:hidden; background:url(../pic/searchitem_t.jpg) no-repeat 0px 0px;}
 #productsearch .b{ height:4px; overflow:hidden; background:url(../pic/searchitem_b.jpg) no-repeat 0px 0px;}
 #productsearch .body{ padding:20px 15px 15px 15px; background-color:#E7F0F7;}
-#productsearch .body strong{  display:block; height:24px; line-height:24px; font-size:14px; float:left; width:120px; color:#044B8C; }
+#productsearch .body strong, #productsearch .body h2{  display:block; height:24px; line-height:24px; font-size:14px; float:left; width:120px; color:#044B8C; }
 #productsearch .searchbtn{ float:right; width:132px; height:32px; position:relative; top:-4px; border:0px; cursor:pointer; font-size:12px; color:White; font-weight:bold; background:url(../pic/searchbtn.jpg) no-repeat 0px 0px; vertical-align:middle; margin:0px 10px 0px 10px;}
 #productsearch .select{ width:210px; float:left; margin:0px 8px 0px 0px; height:22px; vertical-align:middle; line-height:22px;}
 .selectcontentinner{ }
@@ -261,10 +261,10 @@
 #products_tips{ padding:10px 0px 0px 0px;}
 #products_tips dl{ padding:15px 0px 0px 20px; }
 #products_tips .current dt{}
-#products_tips .current dt strong{ background:url(../pic/products_tips_close.jpg) no-repeat right 4px;}
+#products_tips .current dt strong, #products_tips .current dt h2{ background:url(../pic/products_tips_close.jpg) no-repeat right 4px;}
 #products_tips .current dd{ display:block;}
 #products_tips dt{ cursor:pointer; height:25px; line-height:25px;background:url(../pic/quality_safety_li.jpg) no-repeat 0px 4px; padding:0px 0px 0px 20px;}
-#products_tips dt strong{color:#E04C36; font-size:14px; padding:0px 20px 0px 0px; background:url(../pic/products_tips_hide.jpg) no-repeat right 4px;}
+#products_tips dt strong, #products_tips dt h2{display: inline; color:#E04C36; font-size:14px; padding:0px 20px 0px 0px; background:url(../pic/products_tips_hide.jpg) no-repeat right 4px;}
 #products_tips dd{ display:none; line-height:20px; padding:10px 15px 15px 40px; border-bottom:dotted 1px #CBCBCB;}
 #products_tips dd ul{ padding:0 20px 0px 15px;}
 ul.tips li { list-style: disc;}

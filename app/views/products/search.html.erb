@@ -4,7 +4,6 @@
   <%= render "share/product_position"%>
   <div id="productsearch">
 
-
     <div class="searchtitle">在线选配轮胎</div>
 
     <div class="item">
@@ -29,7 +28,7 @@
       <%= form_tag "/searchs?type=brand" do  -%>
 
           <div class="body">
-            <strong>按花纹牌查找</strong>
+            <h2>按花纹牌查找</h2>
             <%= select_tag 'name', options_for_select(sort_decorative), :prompt => "选择花纹", :class => "select", :style => "width:180px" %>
             <input type="submit" class="searchbtn" value="查询轮胎" />
             <div class="clear"></div>

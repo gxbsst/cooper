@@ -28,7 +28,13 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
     <%#= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
 	<div id="allcontent">
 	<div id="header">
+    <% if controller_name == 'products' && action_name == 'search' %>
+	  <h3 id="logo"><a href="/">固铂轮胎</a></h3>
+  <% elsif controller_name == 'stores' %>
+	  <h2 id="logo"><a href="/">固铂轮胎</a></h2>
+  <% else %>
 	  <h1 id="logo"><a href="/">固铂轮胎</a></h1>
+  <% end %>
 	  <div class="r">
 	    <div class="site">
 	    <div id="topselectcontent">
