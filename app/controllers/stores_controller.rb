@@ -25,6 +25,9 @@ class StoresController < ApplicationController
   end
 
   def search
+    @title = '查找店铺_全国汽车轮胎专卖店|轮胎价格咨询 - 固铂轮胎中国官网'
+    @meta_keywords = '固铂轮胎价格,汽车轮胎价格,轮胎专卖,汽车轮胎店'
+    @meta_description = '固铂轮胎专卖店，招牌店，嘉车坊等全国汽车轮胎店联系信息尽在查找店铺。汽车轮胎价格，轮胎店铺服务等，尽在您的掌握。'
     # @json = Store.first.to_gmaps4rails
     @center =[31.2059, 121.399703] #上海cooper 地址
     @zoom = 8
@@ -61,6 +64,9 @@ class StoresController < ApplicationController
   end
   
   def search_2
+    @title = '查找店铺_全国汽车轮胎专卖店|轮胎价格咨询 - 固铂轮胎中国官网'
+    @meta_keywords = '固铂轮胎价格,汽车轮胎价格,轮胎专卖,汽车轮胎店'
+    @meta_description = '固铂轮胎专卖店，招牌店，嘉车坊等全国汽车轮胎店联系信息尽在查找店铺。汽车轮胎价格，轮胎店铺服务等，尽在您的掌握。'
     # @json = Store.first.to_gmaps4rails
     @center =[31.2059, 121.399703] #上海cooper 地址
     @zoom = 8
