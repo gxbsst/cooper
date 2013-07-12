@@ -52,7 +52,7 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 #topselectcontent .none li a:hover{ text-decoration:none; background-color:#004D8C; color:White;}
 #maincontent{ padding:0px 0px 5px 0px; width:920px; margin:0px auto;}
 #leftcontent{ width:200px; border-bottom:solid 1px #DDDDDD; float:left;}
-#leftcontent h2, #leftcontent h3{ height:27px; line-height:27px; background-color:#F2F2F2; color:#E04C36; font-size:14px; font-weight:bold; padding:0px 0px 0px 10px;}
+#leftcontent h2, #leftcontent h3, #leftcontent strong{ display:block;height:27px; line-height:27px; background-color:#F2F2F2; color:#E04C36; font-size:14px; font-weight:bold; padding:0px 0px 0px 10px;}
 #leftcontent dt{ height:31px; line-height:31px; overflow:hidden;}
 #leftcontent dt{ cursor:pointer;   text-decoration:none; height:31px; display:block;}
 #leftcontent dt a{ padding:0px 0px 0px 10px; text-decoration:none; height:31px; display:block;  background:url(../pic/left_menu_bg.jpg) no-repeat 0px 0px;}
