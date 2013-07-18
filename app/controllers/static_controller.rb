@@ -10,6 +10,7 @@ class StaticController < ApplicationController
   end
 
   def sitemap
+    @title = '网站地图 - 固铂轮胎中国官网'
     @histories = years
 
     @suv = [
