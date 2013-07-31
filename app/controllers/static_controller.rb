@@ -1,6 +1,8 @@
 # encoding: utf-8
 class StaticController < ApplicationController
 
+  caches_page :index, :cache_path => lambda {|controller| controller.params}
+
   def index
     @title = '固铂轮胎官网 - 美国汽车轮胎品牌领导者,全球越野轮胎大师'
     @meta_keywords = '固铂轮胎,cooper轮胎,固铂轮胎官网,汽车轮胎品牌,越野轮胎'
