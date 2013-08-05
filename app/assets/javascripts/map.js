@@ -18,18 +18,22 @@ $(document).ready(function(){
 $(document).ready(function() {
 
  $(".iframe").fancybox({
-          maxWidth	: 790,
-          maxHeight	: 411,
+ 		  padding: 10,
+ 		  autoCenter: false,
+          maxWidth	: 680,
+          maxHeight	: 420,
           fitToView	: false,
           width		: '100%',
+          autoScale: false,
           height		: '100%',
           autoSize	: false,
           closeClick	: false,
           openEffect	: 'none',
           closeEffect	: 'none',
           helpers:  {
-              overlay : null
+              // overlay : null
           }
+
       });
 
 
