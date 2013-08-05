@@ -18,11 +18,15 @@ $(document).ready(function(){
 $(document).ready(function() {
 
  $(".iframe").fancybox({
- 		  padding: 10,
+ 		  padding: 8,
+      margin: 0,
  		  autoCenter: false,
-          maxWidth	: 680,
-          maxHeight	: 420,
+          maxWidth	: 647,
+          maxHeight	: 414,
+          // scrolling: 'no',
+          // scrollOutside: false,
           fitToView	: false,
+
           width		: '100%',
           autoScale: false,
           height		: '100%',
