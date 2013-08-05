@@ -10,6 +10,7 @@ CooperCom::Application.routes.draw do
   match "infos/:year/", :to => "refinery/infos/infos#index", :as => :infos
   match "infos/:year/:id", :to => "refinery/infos/infos#show", :as => :info
   match "/sitemap", :to => "static#sitemap"
+  match "/flash", :to => "static#flash"
   match ':controller(/:action(/:id))', :controller => /api\/[^\/]+/
   mount Refinery::Core::Engine, :at => '/'
   # This line mounts Refinery's routes at the root of your application.

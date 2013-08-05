@@ -14,3 +14,23 @@ $(document).ready(function(){
   $('.imagemap area').live({mouseenter:showTips});
   $('.imagemap area').live({mouseleave:hideTips});
 });
+
+$(document).ready(function() {
+
+ $(".iframe").fancybox({
+          maxWidth	: 790,
+          maxHeight	: 411,
+          fitToView	: false,
+          width		: '100%',
+          height		: '100%',
+          autoSize	: false,
+          closeClick	: false,
+          openEffect	: 'none',
+          closeEffect	: 'none',
+          helpers:  {
+              overlay : null
+          }
+      });
+
+
+});

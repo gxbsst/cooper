@@ -62,6 +62,10 @@ class StaticController < ApplicationController
     render :text => "a", :layout => false
   end
 
+  def flash
+    render :layout => false
+  end
+
   protected
 
   def years
