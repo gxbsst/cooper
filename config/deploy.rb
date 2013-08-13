@@ -1,3 +1,4 @@
+# encoding: utf-8
 require "bundler/capistrano"
 
 # Add RVM's lib directory to the load path.
@@ -14,9 +15,9 @@ set :deploy_via, :remote_cache
 
 set :application, "Cooper"
 
-#set :default_environment, {
-#'LANG' => 'en_US.UTF-8'
-#}
+set :default_environment, {
+'LANG' => 'en_US.UTF-8'
+}
 
 set :branch, "deploy"
 
@@ -76,6 +77,7 @@ namespace :deploy do
     run "mkdir -p #{shared_path}/config"
     put File.read("config/database.yml.mysql"), "#{shared_path}/config/database.yml"
     puts "Now edit the config files in #{shared_path}."
+    puts "请设置tmp 和 public文件为可写"
     # photos
     run "mkdir -p /srv/rails/coopertire_stuff/system"
   end
