@@ -1,19 +1,9 @@
 # encoding: utf-8
 require "bundler/capistrano"
 
-# Add RVM's lib directory to the load path.
-#$:.unshift(File.expand_path('./lib', ENV['rvm_path']))
-#set :bundle_cmd, 'source $HOME/.bash_profile && bundle'
-# Load RVM's capistrano plugin.    
-
-#set :rvm_ruby_string, '1.9.2'
-#set :rvm_type, :user  # Don't use system-wide RVM
-#set :rvm_type, :user
-
-
 set :deploy_via, :remote_cache
 
-set :application, "Cooper"
+set :application, "coopertire.com.cn"
 
 set :default_environment, {
 'LANG' => 'en_US.UTF-8'
@@ -31,11 +21,15 @@ if ENV['RAILS_ENV'] =='production'
   set :deploy_to, "/srv/rails/coopertire_deploy"
   set :user, "root"
 elsif ENV['RAILS_ENV'] =='sem'
-  server "192.168.11.31", :web, :app, :db, primary: true
+  set :default_environment, {
+      'PATH' => "/home/deployer/.rbenv/versions/1.9.3-p448/bin/:$PATH"
+  }
+  server "jh_web3", :web, :app, :db, primary: true
   set :branch, "sem"
-  set :repository,  "git@git.sidways.lab:ruby/outsourcing/cooper"
-  set :user, "rails"
-  set :deploy_to, "/srv/rails/cooper-sem"
+  set :repository,  "git@git.sidways.com:ruby/outsourcing/cooper"
+  set :user, "deployer"
+  # set :deploy_to, "/srv/rails/cooper-sem"
+  set :deploy_to, "/home/#{user}/apps/#{application}"
 elsif ENV['RAILS_ENV'] =='development'
   server "192.168.11.31", :web, :app, :db, primary: true
   set :repository,  "git@git.sidways.lab:ruby/outsourcing/cooper"
@@ -79,38 +73,21 @@ namespace :deploy do
     puts "Now edit the config files in #{shared_path}."
     puts "请设置tmp 和 public文件为可写"
     # photos
-    run "mkdir -p /srv/rails/coopertire_stuff/system"
+    # run "mkdir -p /srv/rails/coopertire_stuff/system"
   end
 
   after "deploy:setup", "deploy:setup_config"
 
   task :symlink_config, roles: :app do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
-    #   run "ln -nfs #{shared_path}/config/database.yml  /srv/rails/cooper/releases/20121205032322/config/database.yml"
     run "ln -nfs #{shared_path}/system #{release_path}/public/system"
   end
   after "deploy:finalize_update", "deploy:symlink_config"
 
-  task :bundle_install do 
-    run("cd #{deploy_to}/current; bundle install --path=vendor/gems")
-  end
-
-  task :migration do 
-    run("cd #{deploy_to}/current; rake db:migrate ")
-  end
 
   task :change_tmp do
-    run("chmod -R 777 #{current_path}/tmp")
+    # run("chmod -R 777 #{current_path}/tmp")
   end
   after "deploy:finalize_update", "deploy:change_tmp"
 
 end
-
-
-# 设置数据库
-# namespace :deploy do
-#   task :config_database do 
-#     run "#{try_sudo} cp #{File.join(current_path,'config','database.yml.mysql')}  #{File.join(current_path,'config','database.yml')}"
-#   end
-# end
-
