@@ -1,78 +1,128 @@
-- patern:  ['SUV|4X4','SUV和4X4','SUV和4X4(轮胎)?','(4X4|SUV)轮胎']
+- patern:  ['SUV和4X4轮胎','SUV和4X4','4X4轮胎', 'SUV轮胎', 'SUV','4X4']
   url: 'http://www.coopertire.com.cn/products_list_pcr.htm'
-- patern: '越野轮胎'
+
+- patern: ['越野轮胎']
   url: 'http://www.coopertire.com.cn/brand_position.htm'
-- patern: '轿车轮胎'
+
+- patern: ['轿车轮胎']
   url: 'http://www.coopertire.com.cn/products_list_pcr.htm'
-- patern: '冬季轮胎'
+
+- patern: ['冬季轮胎']
   url: 'http://www.coopertire.com.cn/products_list_winter.htm'
-- patern: 'DISCOVERER STT'
+
+- patern: ['DISCOVERER STT']
   url: 'http://www.coopertire.com.cn/stmaxx_detail.htm'
-- patern: 'DISCOVERER STMAXX'
+
+- patern: ['DISCOVERER STMAXX']
   url: 'http://www.coopertire.com.cn/at3_detail.htm'
 
-- patern: 'DISCOVERER ATR'
-  url: ''
+- patern: ['DISCOVERER ATR']
+  url: 'http://www.coopertire.com.cn/atr_detail.htm'
 
-- patern: 'DISCOVERER ATS (SUV&LT)'
-  url: ''
-- patern: 'DISCOVERER HTS'
-  url: ''
-- patern: 'ZEON XST-A'
-  url: ''
-- patern: 'ZEON 4XS'
-  url: ''
-- patern: '驭动ZEON RS3-S'
-  url: ''
-- patern: 'ZEON RS3-S'
-  url: ''
-- patern: '驭行ZEON RS3-A'
-  url: ''
-- patern: 'ZEON RS3-A'
-  url: ''
-- patern: 'ZEON ASP'
-  url: ''
-- patern: 'LIFELINER GLS'
-  url: ''
-- patern: 'ZEON ATP'
-  url: ''
-- patern: 'Weather Master SA2'
-  url: ''
-- patern: 'Weather Master S/T3'
-  url: ''
-- patern: 'Avon Ice Touring'
-  url: ''
-- patern: 'Weather Master S/T2'
-  url: ''
-- patern: 'Discoverer M+S'
-  url: ''
-- patern: '本田'
-  url: ''
-- patern: 'crv'
-  url: ''
-- patern: '本田crv'
-  url: ''
-- patern: '本田crv轮胎'
-  url: ''
-- patern: '标致'
-  url: ''
-- patern: '408'
-  url: ''
-- patern: '标致408'
-  url: ''
-- patern: '标致408轮胎'
-  url: ''
-- patern: '本田'
-  url: ''
-- patern: '本田'
-  url: ''
-- patern: '本田'
-  url: ''
-- patern: '本田'
-  url: ''
-- patern: '本田'
-  url: ''
-- patern: '本田'
-  url: ''
-- patern: '本田'
-  url: ''
+- patern: ['DISCOVERER ATS (SUV&LT)']
+  url: 'http://www.coopertire.com.cn/ats_detail.htm'
+
+- patern: ['DISCOVERER HTS']
+  url: 'http://www.coopertire.com.cn/hts_detail.htm'
+
+- patern: ['ZEON XST-A']
+  url: 'http://www.coopertire.com.cn/xst-a_detail.htm'
+
+- patern: ['ZEON 4XS']
+  url: 'http://www.coopertire.com.cn/4xs_detail.htm'
+
+- patern: ['驭动ZEON RS3-S', 'ZEON RS3-S']
+  url: 'http://www.coopertire.com.cn/rs3-s_detail.htm'
+
+- patern: ['驭行ZEON RS3-A', 'ZEON RS3-A']
+  url: 'http://www.coopertire.com.cn/rs3-a_detail.htm'
+
+- patern: ['ZEON ASP']
+  url: 'http://www.coopertire.com.cn/asp_detail.htm'
+
+- patern: ['LIFELINER GLS']
+  url: 'http://www.coopertire.com.cn/gls_detail.htm'
+
+- patern: ['ZEON ATP']
+  url: 'http://www.coopertire.com.cn/atp_detail.htm'
+
+- patern: ['Weather Master SA2']
+  url: 'http://www.coopertire.com.cn/sa2_detail.htm'
+
+- patern: ['Weather Master S/T3']
+  url: 'http://www.coopertire.com.cn/st3_detail.htm'
+
+- patern: ['Avon Ice Touring']
+  url: 'http://www.coopertire.com.cn/ait_detail.htm'
+
+- patern: ['Weather Master S/T2']
+  url: 'http://www.coopertire.com.cn/st2_detail.htm'
+
+- patern: ['Discoverer M+S']
+  url: 'http://www.coopertire.com.cn/m_s_detail.htm'
+
+- patern: ['本田crv轮胎', '本田crv', '本田', 'crv']
+  url: 'http://www.coopertire.com.cn/ats_detail.htm'
+
+- patern: ['标致408轮胎', '标致408', '标致', '408']
+  url: 'http://www.coopertire.com.cn/asp_detail.htm'
+
+- patern: ['别克英朗轮胎', '别克英朗', '别克', '英朗']
+  url: 'http://www.coopertire.com.cn/gls_detail.htm'
+
+- patern: ['大众cc轮胎', '大众cc', '大众', 'cc']
+  url: 'http://www.coopertire.com.cn/rs3-a_detail.htm'
+
+- patern: ['奇瑞a3轮胎', '奇瑞a3', '奇瑞', 'a3']
+  url: 'http://www.coopertire.com.cn/atp_detail.htm'
+
+- patern: ['斯柯达明锐轮胎', '斯柯达明锐', '斯柯达', '明锐']
+  url: 'http://www.coopertire.com.cn/gls_detail.htm'
+
+- patern: ['雪铁龙c5轮胎', '雪铁龙c5', '雪铁龙', 'c5']
+  url: 'http://www.coopertire.com.cn/asp_detail.htm'
+
+- patern: ['奥迪a4轮胎', '奥迪a4', 'a4']
+  url: 'http://www.coopertire.com.cn/c7_detail.html'
+
+- patern: ['奥迪a6轮胎', '奥迪a6', 'a6']
+  url: 'http://www.coopertire.com.cn/c7_detail.html'
+
+- patern: ['奥迪q5轮胎', '奥迪q5', 'q5']
+  url: 'http://www.coopertire.com.cn/at3_detail.htm'
+
+- patern: ['奥迪轮胎', '奥迪']
+  url: 'http://www.coopertire.com.cn/rs3-s_detail.htm'
+
+- patern: ['宝马x5轮胎', '宝马x5', 'x5']
+  url: 'http://www.coopertire.com.cn/hts_detail.htm'
+
+- patern: ['宝马x6轮胎', '宝马x6', 'x6']
+  url: 'http://www.coopertire.com.cn/4xs_detail.htm'
+
+- patern: ['宝马轮胎', '宝马']
+  url: 'http://www.coopertire.com.cn/xst-a_detail.htm'
+
+- patern: ['保时捷轮胎', '保时捷']
+  url: 'http://www.coopertire.com.cn/rs3-s_detail.htm'
+
+- patern: ['奔驰轮胎', '奔驰']
+  url: 'http://www.coopertire.com.cn/rs3-a_detail.htm'
+
+- patern: ['悍马轮胎', '悍马']
+  url: 'http://www.coopertire.com.cn/at3_detail.htm'
+
+- patern: ['路虎轮胎', '路虎']
+  url: 'http://www.coopertire.com.cn/4xs_detail.htm'
+
+- patern: ['荣威轮胎', '荣威']
+  url: 'http://www.coopertire.com.cn/gls_detail.htm'
+
+- patern: ['夏利轮胎', '夏利']
+  url: 'http://www.coopertire.com.cn/atp_detail.htm'
+
+- patern: ['长城轮胎', '长城']
+  url: 'http://www.coopertire.com.cn/atr_detail.htm'
+
+- patern: ['全球越野轮胎大师']
+  url: 'http://www.coopertire.com.cn/7reasons.htm'

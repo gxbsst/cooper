@@ -10,25 +10,22 @@ set :default_environment, {
 }
 
 set :branch, "deploy"
+set :branch, "sem"
+set :repository,  "git@git.sidways.com:ruby/outsourcing/cooper.git"
 
-if ENV['RAILS_ENV'] =='production'
-  set :branch, "sem"
-  require "rvm/capistrano"
-  #server "www.coopertire.com.cn", :web, :app, :db, primary: true
-  server "jh_web3", :web, :app, :db, primary: true
-  set :repository,  "ssh://git@www.sidways.com:20248/ruby/outsourcing/cooper"
-  # set :deploy_to, "/srv/rails/coopertire_deploy"
-  set :deploy_to, "/srv/rails/coopertire_deploy"
-  set :user, "root"
+if ENV['RAILS_ENV'] =='cancer'
+  set :default_environment, {
+      'PATH' => "/home/deployer/.rbenv/versions/1.9.3-p448/bin/:$PATH"
+  }
+  server "cancer", :web, :app, :db, primary: true
+  set :user, "deployer"
+  set :deploy_to, "/home/#{user}/apps/test/#{application}"
 elsif ENV['RAILS_ENV'] =='sem'
   set :default_environment, {
       'PATH' => "/home/deployer/.rbenv/versions/1.9.3-p448/bin/:$PATH"
   }
   server "jh_web3", :web, :app, :db, primary: true
-  set :branch, "sem"
-  set :repository,  "git@git.sidways.com:ruby/outsourcing/cooper"
   set :user, "deployer"
-  # set :deploy_to, "/srv/rails/cooper-sem"
   set :deploy_to, "/home/#{user}/apps/#{application}"
 elsif ENV['RAILS_ENV'] =='development'
   server "192.168.11.31", :web, :app, :db, primary: true

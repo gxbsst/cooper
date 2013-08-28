@@ -41,7 +41,7 @@
 
 #newsdetail .date_con span{ color:#A0A0A0; padding:0px 8px; line-height:28px;}
 
-
+#newsdetail a {color: #E04C36;text-decoration: underline;}
 
 #newsdetail .h2{ padding:20px 0px 0px 0px; text-align:center; font-size:14px;}
 #newsdetail p{ padding:10px 0px; text-indent:2em;}
