@@ -19,6 +19,9 @@
 - patern: ['DISCOVERER ATR']
   url: 'http://www.coopertire.com.cn/atr_detail.htm'
 
+- patern: ['DISCOVERER AT3']
+  url: 'http://www.coopertire.com.cn/at3_detail.htm'
+
 - patern: ['DISCOVERER ATS (SUV&LT)']
   url: 'http://www.coopertire.com.cn/ats_detail.htm'
 
@@ -70,34 +73,34 @@
 - patern: ['别克英朗轮胎', '别克英朗', '别克', '英朗']
   url: 'http://www.coopertire.com.cn/gls_detail.htm'
 
-- patern: ['大众cc轮胎', '大众cc', '大众', 'cc']
+- patern: ['大众cc轮胎', '大众cc', '大众']
   url: 'http://www.coopertire.com.cn/rs3-a_detail.htm'
 
-- patern: ['奇瑞a3轮胎', '奇瑞a3', '奇瑞', 'a3']
+- patern: ['奇瑞a3轮胎', '奇瑞a3', '奇瑞']
   url: 'http://www.coopertire.com.cn/atp_detail.htm'
 
 - patern: ['斯柯达明锐轮胎', '斯柯达明锐', '斯柯达', '明锐']
   url: 'http://www.coopertire.com.cn/gls_detail.htm'
 
-- patern: ['雪铁龙c5轮胎', '雪铁龙c5', '雪铁龙', 'c5']
+- patern: ['雪铁龙c5轮胎', '雪铁龙c5', '雪铁龙']
   url: 'http://www.coopertire.com.cn/asp_detail.htm'
 
-- patern: ['奥迪a4轮胎', '奥迪a4', 'a4']
+- patern: ['奥迪a4轮胎', '奥迪a4']
   url: 'http://www.coopertire.com.cn/c7_detail.html'
 
-- patern: ['奥迪a6轮胎', '奥迪a6', 'a6']
+- patern: ['奥迪a6轮胎', '奥迪a6']
   url: 'http://www.coopertire.com.cn/c7_detail.html'
 
-- patern: ['奥迪q5轮胎', '奥迪q5', 'q5']
+- patern: ['奥迪q5轮胎', '奥迪q5']
   url: 'http://www.coopertire.com.cn/at3_detail.htm'
 
 - patern: ['奥迪轮胎', '奥迪']
   url: 'http://www.coopertire.com.cn/rs3-s_detail.htm'
 
-- patern: ['宝马x5轮胎', '宝马x5', 'x5']
+- patern: ['宝马x5轮胎', '宝马x5']
   url: 'http://www.coopertire.com.cn/hts_detail.htm'
 
-- patern: ['宝马x6轮胎', '宝马x6', 'x6']
+- patern: ['宝马x6轮胎', '宝马x6']
   url: 'http://www.coopertire.com.cn/4xs_detail.htm'
 
 - patern: ['宝马轮胎', '宝马']
