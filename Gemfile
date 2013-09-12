@@ -76,3 +76,4 @@ end
 gem 'refinerycms-jobs', :path => 'vendor/extensions'
 
 gem 'nokogiri'
+gem 'thin'
