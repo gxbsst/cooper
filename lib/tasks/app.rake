@@ -271,4 +271,11 @@ namespace :app do
 
   end
 
+  # 更新新闻的关键词加URL
+  task :add_key_url => :environment do 
+    require Rails.root.join('lib/mapping_keyword.rb')
+    m = MappingKeyword.new
+    m.run
+  end
+
 end

@@ -18,5 +18,5 @@ config/database.yml
 .idea
 .buildpath
 .project
-*.csv
+lib/tasks/data/*.csv
 *.swo
