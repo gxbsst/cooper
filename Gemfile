@@ -2,7 +2,7 @@
 source 'http://ruby.taobao.org'
 
 
-gem 'rails', '3.2.1'
+gem 'rails', '3.2.14'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -50,10 +50,10 @@ gem 'gmaps4rails'
 
 
 # Refinery CMS
-gem 'refinerycms', '~> 2.0.0'
+gem 'refinerycms', '2.0.2'
 
 # Specify additional Refinery CMS Extensions here (all optional):
-gem 'refinerycms-i18n',   '~> 2.0.0'
+gem 'refinerycms-i18n',   '2.0.2'
 #  gem 'refinerycms-blog', '~> 2.0.0'
 #  gem 'refinerycms-inquiries', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
@@ -76,4 +76,3 @@ end
 gem 'refinerycms-jobs', :path => 'vendor/extensions'
 
 gem 'nokogiri'
-gem 'thin'
