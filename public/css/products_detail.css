@@ -34,7 +34,7 @@
 	color:#585858;
 	position:absolute;
 	top:-100px;
-	height: 39px;
+	height: 34px;
 	width: 250px;
 }
 #productdetail .table td.carname {text-align:left;}
@@ -71,7 +71,3 @@
 	.tabTitle a {display:block;width:73px;height:51px; background:url(../pic/at3_pic2.jpg) no-repeat;text-align:center;color:#444; line-height:50px;   font-size:12px;  text-decoration:none;} 
 	.tabTitle a.current { color:#e04d37; }
 	.tabTitle a:hover { color:#e04d37; } 
-
-
-
-

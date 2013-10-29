@@ -74,6 +74,7 @@ h1.title {font-size:18px;color:#E04C36;font-weight:bold;line-height:25px;}
 }
 #leftcontent dd .hover{}
 #leftcontent dd .new{ background:url(../pic/new.jpg) no-repeat 68px 3px;}
+#leftcontent dd .new2{ background:url(../pic/new.jpg) no-repeat 60px 3px;}
 #leftcontent dd .hover a{ color:#E04C36; background:url(../pic/li04.jpg) no-repeat 0px 8px;}
 #leftcontent .current dt{background:url(../pic/left_menu_bg.jpg) no-repeat 0px -31px;}
 #leftcontent .current dt a{color:#484848; background-position:0px -31px;}
