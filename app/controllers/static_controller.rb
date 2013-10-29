@@ -34,6 +34,7 @@ class StaticController < ApplicationController
         {:name => 'ZEON ATP', :url => '/atp_detail.htm'}
     ]
     @winter = [
+        {:name => 'ICE 100', :url => '/ice100_detail.htm'},
         {:name => 'Cooper Discoverer M+S', :url => '/m_s_detail.htm'},
         {:name => 'Cooper Weather Master SA2', :url => '/sa2_detail.htm'},
         {:name => 'Cooper Weather Master ST3', :url => '/st3_detail.htm'},
