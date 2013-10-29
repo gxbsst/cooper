@@ -27,6 +27,15 @@ elsif ENV['RAILS_ENV'] =='sem'
   server "jh_web3", :web, :app, :db, primary: true
   set :user, "deployer"
   set :deploy_to, "/home/#{user}/apps/#{application}"
+
+elsif ENV['RAILS_ENV'] =='backup'
+  set :default_environment, {
+      'PATH' => "/home/deployer/.rbenv/versions/1.9.3-p125/bin/:$PATH"
+  }
+  server "leap", :web, :app, :db, primary: true
+  set :user, "deployer"
+  set :deploy_to, "/home/#{user}/apps/#{application}"
+
 elsif ENV['RAILS_ENV'] =='development'
   server "192.168.11.31", :web, :app, :db, primary: true
   set :repository,  "git@git.sidways.lab:ruby/outsourcing/cooper"

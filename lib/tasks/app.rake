@@ -23,6 +23,83 @@ namespace :app do
     end
   end
 
+
+
+  def parse_cart(string_formate)
+    result = []
+    string_to_array = string_formate.split(";")
+    string_to_array.each do |item|
+      item_to_array = item.split("-")
+      result << {:brand_name_zh => item_to_array[0], :brand_name_en => item_to_array[0], :car_type_zh => item_to_array[1], :car_type_en => item_to_array[1]}
+    end
+    result
+  end
+
+  desc "Add ICE 100"
+  task :init_ice_100 => :environment do
+    decorative = 'ICE 100'
+    name = 'ICE 100'
+    image_url = '/image/ice100_detail_img04.jpg'
+    description = 'COOPER ICE 100外观柔美细致，特有超“软”配方科技、“△”底纹以及极限密集刀槽，让您在冰地驰骋游刃有余，尽显王者霸气。'
+    url = '/ice100_detail.htm'
+    specs = [
+      {:tyre => '215', :aspect_ratio => '55', :diameter => '17', :cart => '丰田-雷克萨斯ES350;本田-奥德赛2.4;丰田-锐志3.0V;丰田-凯美瑞;日产-天籁;标致-407' },
+      {:tyre => '225', :aspect_ratio => '50', :diameter => '17', :cart => '奥迪-A6;奥迪-A4L/A5;宝马-5系;丰田-雷克萨斯GS' },
+      {:tyre => '205', :aspect_ratio => '55', :diameter => '16', :cart => '大众-途安1.8T/2.0;大众-高尔夫;丰田-卡罗拉1.8/2.0;大众-昊锐1.8T/2.0;本田-思域;大众-领驭1.8T/2.0'},
+      {:tyre => '215', :aspect_ratio => '60', :diameter => '16', :cart => '丰田-皇冠2.5;丰田-凯美瑞;丰田-锐志;本田-雅阁;丰田-雷克萨斯ES330;本田-奥德赛' },
+      {:tyre => '195', :aspect_ratio => '65', :diameter => '15', :cart => '马自达-3;大众-帕萨特领驭;大众-宝来;福特-福克斯;标致-307;大众-高尔夫;大众-朗逸;大众-明锐;大众-途安' },
+      {:tyre => '195', :aspect_ratio => '60', :diameter => '15', :cart => '丰田-花冠;起亚-赛拉图;莲花-L3;众泰-梦迪博朗;比亚迪-F3;吉利-远景;力帆-620;东风-风神S30' }
+    ]
+
+
+    # update product
+
+    specs.each do |s| 
+      product = {
+        :decorative => decorative, 
+        :name => name, 
+        :image_url => image_url, 
+        :description => description, 
+        :url => url,
+        :tyre => s[:tyre],
+        :aspect_ratio => s[:aspect_ratio],
+        :diameter => s[:diameter]
+      }
+      new_product = Product.new product
+      if new_product.valid?
+        new_product.save
+      else
+        puts "#{s[:tyre]} - #{s[:aspect_ratio]} - #{s[:diameter]} not save.....\n"
+      end
+    end
+
+    # update brand
+    specs.each do |s|
+      cars = parse_cart(s[:cart])
+      cars.each do |cart|
+        brand =  {
+          :name => name,
+          :url => url,
+          :description => description,
+          :image_url => image_url,
+          :brand_name_zh => cart[:brand_name_zh],
+          :brand_name_en => Brand.find_by_brand_name_zh(cart[:brand_name_zh]).try(:brand_name_en) || cart[:brand_name_zh],
+          :car_type_zh => cart[:car_type_zh],
+          :car_type_en => Brand.find_by_car_type_zh(cart[:car_type_zh]).try(:car_type_en) ||  cart[:car_type_zh]
+        }
+
+        new_brand = Brand.new(brand)
+
+        if new_brand.valid?
+          new_brand.save
+        else
+          puts "#{s[:cart]} -- #{name} not save....."
+        end
+      end
+    end
+
+  end
+
   task :init_product_C7 => :environment do
     name = []
     file_name = "tires_C7.csv"
@@ -89,7 +166,7 @@ namespace :app do
   ## 更新描述和图片
   task :init_store => :environment do
     ActiveRecord::Base.connection.execute("TRUNCATE TABLE stores")
-    file_name = "RT Info 0521.csv"
+    file_name = "store-10-29.csv"
     csv = CSV.open(Rails.root.join('lib', 'tasks', 'data', file_name), :headers => true)
     csv.each do |item|
 
