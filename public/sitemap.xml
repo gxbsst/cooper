@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+﻿<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
     <loc>http://www.coopertire.com.cn</loc>
     <lastmod>2013-11-01</lastmod>
@@ -308,7 +307,8 @@
     <priority>0.9</priority>
   </url>
   
-  <loc>http://www.coopertire.com.cn/ice100_detail.htm</loc>
+  <url>
+    <loc>http://www.coopertire.com.cn/ice100_detail.htm</loc>
     <lastmod>2013-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
