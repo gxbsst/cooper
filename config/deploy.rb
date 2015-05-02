@@ -20,12 +20,14 @@ set :application, "Cooper"
 
 if ENV['RAILS_ENV'] =='production'
   require "rvm/capistrano"
+  set :branch, "master"
   #server "www.coopertire.com.cn", :web, :app, :db, primary: true
-  server "jh_web3", :web, :app, :db, primary: true
-  set :repository,  "ssh://git@www.sidways.com:20248/ruby/outsourcing/cooper"
+  server "cp", :web, :app, :db, primary: true
+  # set :repository,  "ssh://git@www.sidways.com:20248/ruby/outsourcing/cooper"
+  set :repository,  "git@github.com:gxbsst/cooper.git"
  # set :deploy_to, "/srv/rails/coopertire_deploy"
-  set :deploy_to, "/srv/rails/coopertire_deploy"
-set :user, "root"
+  set :deploy_to, "/home/deployer/apps/coopertire.com.cn"
+set :user, "deployer"
 else
   server "192.168.11.31", :web, :app, :db, primary: true
   set :repository,  "git@git.sidways.lab:ruby/outsourcing/cooper"
@@ -44,7 +46,7 @@ set :scm, :git
 
 set :use_sudo, false
 
-set :branch, "deploy"
+# set :branch, "deploy"
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
