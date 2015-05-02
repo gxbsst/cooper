@@ -8,7 +8,7 @@ class StaticController < ApplicationController
     @meta_keywords = '固铂轮胎,cooper轮胎,固铂轮胎官网,汽车轮胎品牌,越野轮胎'
     @meta_description = '全球越野轮胎大师固铂轮胎中国官方网站。固铂Cooper轮胎，美国领导汽车轮胎品牌，旗下有固铂，固铂成山等多个轮胎品牌，全球十大轮胎制造企业之一，美资第二大上市轮胎公司。无固铂，不越野！'
 
-    @infos = Refinery::Infos::Info.recent.limit(4).order("created_at DESC, position ASC")
+    @infos = Refinery::Infos::Info.limit(4).order("created_at DESC, position ASC")
   end
 
   def sitemap
