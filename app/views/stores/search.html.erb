@@ -1,48 +1,77 @@
+<%= content_for :title do  %>
+<%= @title %>
+<% end %>
 <%= render "share/store_sidebar" %>
-<%= javascript_include_tag "jquery", "jquery-ui","jquery_ujs","underscore", "backbone", "region_china"%>
+<%= javascript_include_tag "jquery-ui","jquery_ujs","underscore", "backbone",'fancybox', "region_china"%>
+<%= stylesheet_link_tag 'fancybox' %>
 <%#= javascript_include_tag "application"%>
 <div id="rightcontent">
- <div id="site"><a href="/shop_cpc.htm">营销网络</a><span>&gt;</span>查找店铺</div>
- <div id="shopsearch">
-   <div class="tabs">
-     <ul>
-       <li><a class="current" href="/stores/search">精确查找</a></li>
-       <li><a href="/stores/search_2">模糊查找</a></li>
-     </ul>
-   </div>
+  <div id="site"><a href="/shop_cpc.htm">营销网络</a><span>&gt;</span><h1>查找店铺</h1></div>
+  <div id="shopsearch">
+    <div class="tabs">
+      <ul>
+        <li><a class="current" href="/stores/search">精确查找</a></li>
+        <li><a href="/stores/search_2">模糊查找</a></li>
+      </ul>
+    </div>
 
-   <div class="body">
-     <div class="map">
-     	<%= render "map", :tudes => @tudes, :center => @center, :zoom => @zoom %>
-     </div>
+    <div class="body">
+      <div class="map">
+        <%= render "map", :tudes => @tudes, :center => @center, :zoom => @zoom %>
+        <br />
+        <%= link_to '查看全图', map_url_params(@center, @zoom), :class => 'various fancybox.iframe', 'data-fancybox-type' =>"iframe" %>
+      </div>
+      <div class="clear"></div>
+      <div class="sc_kk">
+        <div class="searchtable">
+          <%= form_tag "/stores/search" do  -%>
+            <%= render "region"%>
+          <% end -%>
+        </div>
+        <% if request.post? %>
+          <% unless  @stores_2.blank? %>
+            <%= render  @stores_2 %>
+          <% else %>
+            <br />
+            <h2 class='error'>没有找到相应的店铺。</h2>
+            <br />
+          <% end %>
+        <% end %>
+      </div>
 
-     <div class="searchtable">
-			
-	<%= form_tag "/stores/search" do  -%>
-	  <%= render "region"%>
-     </div>
-	<% end -%>
-	<% if request.post? %>
-	<% unless  @stores_2.blank? %>
-	<%= render  @stores_2 %>
-  <% else %>
-      <br />
-  	  <h2 class='error'>没有找到相应的店铺。</h2>
-  	  <br />
-  <% end %>
-	<!--
-	<% if flash[:error] -%>
-	  <br />
-	  <h2 class='error'><%=h flash[:error] %>.</h2>
-	  <br />
-	<% end -%>
-	
-	-->
-	
-	<% end %>
-   </div>
- </div>
- <div class="totop"><a href="#header"><img src="/pic/totop.jpg" alt="回顶部" title="回顶部" /></a></div>
+    </div>
+    <!--end body-->
+  </div>
+    <table width="100%">
+      <tr>
+        <td align="right">
+          分享到: 
+        </td>
+        <td align="right" width="200px">
+         <!-- Baidu Button BEGIN -->
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+          <a class="bds_qzone"></a>
+          <a class="bds_tsina"></a>
+          <a class="bds_tqq"></a>
+          <a class="bds_renren"></a>
+          <a class="bds_t163"></a>
+          <span class="bds_more">更多</span>
+          <a class="shareCount"></a>
+        </div>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6785006" ></script>
+        <script type="text/javascript" id="bdshell_js"></script>
+        <script type="text/javascript">
+        var bds_config = {
+          'searchPic': 0,
+          'wbUid':1828507915
+        };
+
+        document.getElementById('bdshell_js').src = "http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+        </script>
+      </td>
+    </tr>
+  </table>
+  <div class="totop"><a href="#header"><img src="/pic/totop.jpg" alt="回顶部" title="回顶部" /></a></div>
 </div>
 <div class="clear"></div>
 

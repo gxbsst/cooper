@@ -1,47 +1,79 @@
+<%= content_for :title do  %>
+<%= @title %>
+<% end %>
 <%= render "share/products_sidebar" %>
 <%= javascript_include_tag "jquery", "jquery-ui","jquery_ujs","underscore", "backbone", "products", "brands"%>
 <div id="rightcontent">
-	<%= render "share/product_position"%>
-	<div id="productsearch">
-		
-		  		
-		<div class="searchtitle">在线选配轮胎</div>
-		<div class="item">
-			<div class="t"></div>
-			<%= form_tag "/searchs" do  -%>
-				<%= render "product_search_form"%>
-			<% end -%>
-			
-			<div class="b"></div>
-		</div>
-		<div class="item">
-			<div class="t"></div>
-			
-			<%= form_tag "/searchs?type=brand" do  -%>
-				<%= render "brand_search_form"%>
-			<% end -%>
-			
-			<div class="b"></div>
-		</div>
-		<div class="item">
-			<div class="t"></div>
-			<%= form_tag "/searchs?type=brand" do  -%>
-			
-			<div class="body">
-				<strong>按花纹牌查找</strong>
-				<%= select_tag 'name', options_for_select(Brand.decorative_collection), :prompt => "选择花纹", :class => "select", :style => "width:180px" %>
-				<input type="submit" class="searchbtn" value="查询轮胎" />
-				<div class="clear"></div>
-			</div>
-			
-			<% end -%>
-			
-			<div class="b"></div>
-		</div>
-		
-		
-		
-	</div>
-	<div class="totop"><a href="#header"><img src="/pic/totop.jpg" alt="回顶部" title="回顶部" /></a></div>
+  <%= render "share/product_position"%>
+  <div id="productsearch">
+
+    <div class="searchtitle">在线选配轮胎</div>
+
+    <div class="item">
+      <div class="t"></div>
+
+      <%= form_tag "/searchs?type=brand" do  -%>
+          <%= render "brand_search_form"%>
+      <% end -%>
+
+      <div class="b"></div>
+    </div>
+    <div class="item">
+      <div class="t"></div>
+      <%= form_tag "/searchs" do  -%>
+          <%= render "product_search_form"%>
+      <% end -%>
+
+      <div class="b"></div>
+    </div>
+    <div class="item">
+      <div class="t"></div>
+      <%= form_tag "/searchs?type=brand" do  -%>
+
+          <div class="body">
+            <h2>按花纹牌查找</h2>
+            <%= select_tag 'name', options_for_select(sort_decorative), :prompt => "选择花纹", :class => "select", :style => "width:180px" %>
+            <input type="submit" class="searchbtn" value="查询轮胎" />
+            <div class="clear"></div>
+          </div>
+
+      <% end -%>
+
+      <div class="b"></div>
+    </div>
+
+
+
+  </div>
+   <table width="100%">
+    <tr>
+      <td align="right">
+        分享到: 
+      </td>
+      <td align="right" width="200px">
+       <!-- Baidu Button BEGIN -->
+       <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+        <a class="bds_qzone"></a>
+        <a class="bds_tsina"></a>
+        <a class="bds_tqq"></a>
+        <a class="bds_renren"></a>
+        <a class="bds_t163"></a>
+        <span class="bds_more">更多</span>
+        <a class="shareCount"></a>
+      </div>
+      <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6785006" ></script>
+      <script type="text/javascript" id="bdshell_js"></script>
+      <script type="text/javascript">
+      var bds_config = {
+        'searchPic': 0,
+        'wbUid':1828507915
+      };
+
+      document.getElementById('bdshell_js').src = "http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+      </script>
+    </td>
+  </tr>
+</table>
+  <div class="totop"><a href="#header"><img src="/pic/totop.jpg" alt="回顶部" title="回顶部" /></a></div>
 </div>
 <div class="clear"></div>

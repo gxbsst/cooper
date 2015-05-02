@@ -10,7 +10,11 @@
      </dd>
    </dl>
    <% unless store.shop_type.blank? %>
-   <div class="tip"><strong><%= shop_type[store.shop_type.upcase] %></strong></div>
+   <div class="tip">
+       <span class="tip_left"><img src="/pic/tip2.jpg" width="8" height="20"></span>
+       <span class="tip_con"><%= shop_type[store.shop_type.upcase] %></span>
+       <span class="tip_right"><img src="/pic/tip4.jpg" width="8" height="20"></span>
+   </div>
    <% end %>
    </li>
  </ul>         

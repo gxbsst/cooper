@@ -15,5 +15,7 @@
 //= require jquery_ujs
 //= require underscore
 //= require backbone
+//= require jquery.browser
+//= require jquery.fancybox
 //= require region_china
 //= require gmaps4rails/googlemaps

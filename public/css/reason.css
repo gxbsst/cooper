@@ -1,4 +1,4 @@
-﻿#reasoncontent{}
+#reasoncontent{}
 #reasoncontent .title{ padding:25px 0px 0px 0px; text-align:center;}
 #reasoncontent li{ margin:25px 0px 0px 0px; position:relative;}
 #reasoncontent .l1{ margin-top:5px; background:url(../pic/7reasons_01.jpg) no-repeat center 0px; height:444px;}
@@ -27,9 +27,55 @@
 	position:absolute;
 	height: 59px;
 }
+
+#reasoncontent .l8{ background:url(../pic/7reasons_08.jpg) no-repeat center 0px; height:283px;}
+#reasoncontent .l8 .p1{
+	left:473px;
+	top:156px;
+	width:30px;
+	line-height:14px;
+}
+#reasoncontent .l8 .p2{
+	left:623px;
+	top:156px;
+	width:30px;
+	line-height:14px;
+}
+
+#reasoncontent .l9{ background:url(../pic/7reasons_09.jpg) no-repeat center 0px; height:312px;}
+#reasoncontent .l9 .p1{
+	left:376px;
+	top:135px;
+	width:91px;
+	line-height:14px;
+}
+#reasoncontent .l9 .p2{
+	left:585px;
+	top:139px;
+	width:77px;
+	line-height:14px;
+}
+
+#reasoncontent .l10{ background:url(../pic/7reasons_10.jpg) no-repeat center 0px; height:312px;}
+
+
+
+
+
+#reasoncontent li p{
+	line-height:20px;
+	position:absolute;
+	height: 35px;
+}
+
+
+
+
+
+
 #aboutcontent{}
 #aboutcontent dl{ line-height:19px; padding:30px 20px 20px 20px;}
-#aboutcontent dt{color:#E04C36; font-weight:bold; font-size:18px; line-height:25px;}
+#aboutcontent dt, #aboutcontent dt h2{color:#E04C36; font-weight:bold; font-size:18px; line-height:25px;}
 #aboutcontent .dl{ background:url(../pic/about_bg.jpg) no-repeat center bottom;}
 #aboutcontent .dl dd{ padding:10px;}
 #aboutcontent .dl dd p{ color:#525451; padding:5px 0px 10px 5px;}
@@ -59,7 +105,7 @@
 #awardcontent .table .t2{ width:400px;}
 #awardcontent .table .t3{ width:120px; text-align:center;}
 #contactus{ padding:30px 20px 300px 20px; background:url(../pic/tel.jpg) no-repeat 400px 30px;}
-#contactus ul{ line-height:15px; border-left:solid 3px #F37E6D; padding:0px 0px 0px 20px;}
+#contactus ul{ line-height:15px; border-left:solid 3px #F37E6D; padding:0px 0px 0px 20px; height: 126px;}
 #contactus ul li{ padding:0px 0px 6px 0px; color:#636363;}
 #contactus ul a{ color:#839870;}
 #datcontent{ padding:20px 0px 50px 0px;}

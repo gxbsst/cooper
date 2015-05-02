@@ -1,4 +1,7 @@
+
 $(function(){
+
+
 
   window.Local = Backbone.Model.extend({
 
@@ -55,6 +58,21 @@ $(function(){
   });
 
   $(document).ready(function() {
+
+      $(".various").fancybox({
+          maxWidth	: 775,
+          maxHeight	: 530,
+          fitToView	: false,
+          width		: '80%',
+          height		: '80%',
+          autoSize	: false,
+          closeClick	: false,
+          openEffect	: 'none',
+          closeEffect	: 'none',
+          helpers:  {
+              overlay : null
+          }
+      });
 
     window.LocationView = Backbone.View.extend({
 

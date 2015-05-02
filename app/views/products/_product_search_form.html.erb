@@ -1,5 +1,5 @@
 <div class="body">
-	<strong>按尺寸查找</strong>
+	<h2>按尺寸查找</h2>
 	<span id="tyre">
 		<%= select_tag 'tyre',options_for_select(Product.tyre_all_collection, :disabled => "disable" ), :disable_with => '165', :prompt => "断面宽", :class => "select", :style => "width:100px" %>
 	</span>

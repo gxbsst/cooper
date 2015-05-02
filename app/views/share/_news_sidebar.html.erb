@@ -1,17 +1,61 @@
+<!--<div id="leftcontent">-->
+  <!--<h3>新闻中心</h3>-->
+  <!--<dl class="current">-->
+    <!--<dt><strong>新闻中心</strong></dt>-->
+    <!--<dd class="info_dd">-->
+      <!--<ul class="news_sidebar">-->
+        <!--<li <% unless params[:year].present? %> class="hover" <% end %> ><a  href="/infos">公司新闻</a></li>-->
+        <!--<li <% if  params[:q].present? %> class="hover" <% end %> >-->
+          <!--<p style="margin-left: 10px">历年新闻</p>-->
+          <!--<ul>-->
+            <!--<% @histories.each do |year, count| %>-->
+                <!--<li><%= link_to_year(year, params[:year] || Time.now.year) %></li>-->
+            <!--<% end %>-->
+          <!--</ul>-->
+        <!--</li>-->
+      <!--</ul>-->
+    <!--</dd>-->
+  <!--</dl>-->
+
+<!--</div>-->
+
+
 <div id="leftcontent">
- <h3>新闻媒体</h3>
-  <dl <% if params[:controller].split("/").last == 'infos' %>  class="current" <% end %> > 
-    <dt><strong>新闻中心</strong></dt>
-  	<dd>
-  		<ul>
-		
-        <li <% unless params[:q].present? %> class="hover" <% end %> ><a  href="/infos">公司新闻</a></li>
-        <li <% if  params[:q].present? %> class="hover" <% end %> ><a href="/infos?q=history">历年新闻</a></li>
-      </ul>
-  	</dd>
+  <h3>关于固铂</h3>
+  <dl>
+    <dt><a href="/about.htm">固铂概况</a></dt>
+    <dd></dd>
   </dl>
-  <dl <% if params[:controller] == 'downloads' %> class="current" <% end %>>
-    <dt><%= link_to "媒体中心", '/downloads' %></dt>
+  <dl>
+    <dt><a href="/history.htm">固铂历史</a></dt>
+    <dd></dd>
+  </dl>
+  <dl>
+    <dt><a href="/facilities.htm">研发与生产</a></dt>
+    <dd></dd>
+  </dl>
+  <dl>
+    <dt><a href="/quality_safety.htm">质量与安全</a></dt>
+    <dd></dd>
+  </dl>
+  <dl>
+    <dt><a href="/jobs">工作机会</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="current">
+    <dt><a href="/infos">新闻中心</a></dt>
+    <dd class="info_dd">
+      <ul>
+        <% @histories.each do |year, count| %>
+            <li><%= link_to_year(year, params[:year] || Time.now.year) %></li>
+        <% end %>
+      </ul>
+    </dd>
+    <dd></dd>
+  </dl>
+  <dl>
+    <dt><a href="/contactus.htm">联系我们</a></dt>
+    <dd></dd>
   </dl>
 </div>
 

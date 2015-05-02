@@ -6,8 +6,8 @@
 #bannerlist ul{ width:3920px; position:absolute; left:0px; top:0px;}
 #bannerlist li{ width:980px; float:left; height:216px; overflow:hidden;}
 #map_news{ padding:10px 0px 0px 0px;}
-#mapcontent{ width:600px; overflow:hidden; float:left;}
-#mapcontent .map{ padding:15px 0px 10px 0px;}
+#mapcontent{ width:560px; overflow:hidden; float:left;}
+#mapcontent .map{ padding:15px 0px 2px 0px;}
 #newscontent{ float:right; width:286px; overflow:hidden;}
 #newscontent .more a:hover {text-decoration:none;}
 #newscontent ul{ padding:5px 0px;}
@@ -17,17 +17,19 @@
 #newscontent li a{ height:20px; display:block; overflow:hidden;}
 #newscontent .more{ line-height:20px; text-align:right;}
 #newscontent .more a{ color:#839870;}
-#newscontent .more span{ padding:0px 0px 0px 5px; font-weight:bold; }
-#map_news h3{ border-bottom:solid 1px #CBCBCB; height:30px; line-height:30px; overflow:hidden; color:#E04C36; font-size:14px;}
+#newscontent .more span, #searchcontent .more span{ padding:0px 0px 0px 5px; font-weight:bold; }
+ #map_news h2, #map_news h3{ border-bottom:solid 1px #CBCBCB; height:30px; line-height:30px; overflow:hidden; color:#E04C36; font-size:14px;}
 #flash_product_search{ padding:0px 0px 10px 0px;}
-#flash_product_search h3{ border-bottom:solid 1px #CBCBCB; height:30px; line-height:30px; overflow:hidden; color:#E04C36; font-size:14px;}
+#flash_product_search h3, #flash_product_search h2{ border-bottom:solid 1px #CBCBCB; height:30px; line-height:30px; overflow:hidden; color:#E04C36; font-size:14px;}
 #flash_product_search h3 .more{ margin:4px 0px 0px 0px; color:#839870; font-weight:normal; float:right; }
 #flash_product_search h3 span{ vertical-align:middle; padding:0px 0px 0px 5px;color:#839870; font-weight:bold;}
 #flashcontent{ float:left; width:270px;}
 #flashcontent .flash{ margin:20px auto 0px auto; width:248px; cursor:pointer; height:154px; background:url(../pic/flash_bg.jpg) no-repeat 0px 0px; padding:5px 7px 8px 6px;}
 #flashcontent .flash img{ width:248px; cursor:pointer; height:154px;} 
 #productcontent{ margin:0px 0px 0px 30px; float:left; width:300px;}
-#productcontent h3 a:hover{text-decoration:none;}
+#newscontent h3 {border: 0;}
+#newscontent td, #searchcontent td {border-bottom: 1px solid #CBCBCB}
+/*#productcontent h3 a:hover{text-decoration:none;}*/
 #productcontent dl{ padding:20px 0px 10px 0px;}
 #productcontent dt{ height:30px; line-height:30px; overflow:hidden;}
 #productcontent dt a{ font-size:20px; font-weight:bold; color:#839870;}
@@ -36,36 +38,67 @@
 #productcontent .img{ text-align:right; position:absolute; right:0px; top:-5px;}
 #productcontent .morep{ padding:5px 0px 0px 0px; height:16px; line-height:16px;}
 #productcontent .morep a{color:#839870; display:inline-block; background:url(../pic/more.jpg) no-repeat 0px 0px; padding:0px 0px 0px 20px;}
-#searchcontent{ float:right; width:290px; overflow:hidden;}
-#searchmenu{ margin:20px 0px 0px 0px; height:24px;}
-#searchmenu ul{ width:291px;}
-#searchmenu li{ margin:0px 1px 0px 0px; float:left; width:96px; line-height:24px; cursor:pointer; height:24px; text-align:center; color:White; background:url(../pic/index_tab.jpg) no-repeat right 0px;}
+#searchcontent{ float:right; width:330px; overflow:hidden;}
+#searchmenu{ margin:20px 0px 0px 0px; height:28px;}
+#searchmenu ul{ width:330px;}
+#searchmenu li{ margin:0px 1px 0px 0px; float:left; width:106px; line-height:28px; cursor:pointer; height:28px; text-align:center; color:White; background:url(../pic/index_tab.jpg) no-repeat right 0px;}
 #searchmenu .current{ background-position:0px 0px;}
-#searchcontent .body{ background-color:#F5F5F5; padding:25px 0px 5px 10px; height:107px; border:solid 3px #CBCBCB;}
+#searchcontent .body{ background-color:#F5F5F5; padding:55px 0px 5px 25px; height:145px; border:solid 3px #CBCBCB;}
 #searchcontent .condition{ padding:0px 0px 20px 0px; height:24px;}
+#searchcontent .sc_con{ width:320px; margin-left:5px;}
 #searchcontent .body .select{ height:22px; float:left;  line-height:22px; vertical-align:middle; width:84px; margin:0px 5px 0px 0px;}
 #searchcontent .body .searchbtn{ width:132px; height:32px; line-height:31px; background:url(../pic/searchbtn.jpg) no-repeat 0px 0px; cursor:pointer; border:0px; vertical-align:middle; color:White; font-weight:bold;}
 #searchcontent .body .morelink{color:#839870;  background:url(../pic/index_more.jpg) no-repeat 10px 2px; line-height:20px; display:inline-block; padding:0px 0px 0px 30px;}
+
+.scc_con{margin-top:20px;}
+
+/*fixed for ie 7*/
+body .slc_xlc form  {
+  margin: 0;
+}
+.scc_list{ overflow:hidden; height:78px; background:#f5f5f5; margin-bottom:8px;}
+.sl_left{ float:left;}
+.sl_con{ float:left; padding:12px 0px;}
+.slc_title{ font-size:14px; color:#84966c; font-weight:bold; margin-bottom:5px;}
+.select0{ height:22px; float:left;  line-height:22px; vertical-align:middle;  margin:5px 5px 0px 0px;}
+.searchbtn0{ width:78px; height:30px; line-height:26px; background:url(../pic/sc_pic3.jpg) no-repeat 0px 0px; cursor:pointer; border:0px; vertical-align:middle; color:White; font-weight:bold; margin-left:2px;}
+.sl_right{ float:right;}
+
+#searchcontent h3{border: 0;  height:30px; line-height:30px; overflow:hidden; color:#E04C36; font-size:14px;}
+#searchcontent h3 .more, table td .more{ margin:4px 0px 0px 0px; color:#839870; font-weight:normal; float:right; }
+#searchcontent h3 span{ vertical-align:middle; padding:0px 0px 0px 5px;color:#839870; font-weight:bold;}
 #flashcontents{ display:none; position:absolute;}
 #flashcontents .inner{ padding:15px; background-color:White; z-index:99999; position:relative; box-shadow:0 0 90px 5px #000000; width:850px; height:475px;}
 #flashcontents .close{ position:absolute; right:-21px; top:-21px; width:36px; display:block; height:36px; background:url(../pic/overlay-close.png) no-repeat 0px 0px;}
 
 div#interactive-map { position: relative; width: 100%; height: 100%; overflow: visible; background: transparent url(../pic/world.gif) no-repeat; }
-div#interactive-map div.site { float: left; margin-right: 20px; padding: 6px 4px; -moz-opacity: .7; opacity: .7; background-color: #fff; border: 6px solid #849970; -moz-border-radius: 8px; border-radius: 8px; }
+div#interactive-map div.site { float: left; /*margin-right: 20px;*/ padding: 0px 4px; -moz-opacity: .7; opacity: .7; /*background-color: #fff; border: 6px solid #849970;*/ -moz-border-radius: 8px; border-radius: 8px; overflow:hidden; width:120px; display: none; }
+div#interactive-map div.site span{ display:block; float:left; height:34px; line-height:34px; }
+div#interactive-map div.site span.site_text{ background:url(../pic/iqc_pic2.png) repeat-x; padding:0px 5px;}
+div#interactive-map div.site span.site_text a{ color:#fff;}
 div#interactive-map img { display: none; }
-div#interactive-map p.button { height: 36px; line-height: 36px; margin: 0 7px; text-align: center; background: transparent url(../pic/button-red-left.png) no-repeat; }
-div#interactive-map p.button a { display: block; height: 36px; padding: 0 8px; color: #fff; text-decoration: none; background: transparent url(../pic/button-red-right.png) no-repeat right; }
+/*div#interactive-map p.button { height: 36px; line-height: 36px; margin: 0 7px; text-align: center; background: transparent url(../pic/button-red-left.png) no-repeat; }
+div#interactive-map p.button a { display: block; height: 36px; padding: 0 8px; color: #fff; text-decoration: none; background: transparent url(../pic/button-red-right.png) no-repeat right; }*/
 div#interactive-map.active { min-height: 274px; }
 div#interactive-map.map-north-america { background-image: url(../pic/world-north-america-highlight.gif); }
 div#interactive-map.map-asia { background-image: url(../pic/world-asia-highlight.gif); }	
 div#interactive-map.map-europe { background-image: url(../pic/world-europe-highlight.gif); }	
 div#interactive-map.active img { display: block; margin-bottom: 10px; }
-div#interactive-map.active div.site { display: none; position: absolute; z-index: 2; -moz-opacity: .99; opacity: .99; }
+div#interactive-map.active div.site { /*display: none;*/ position: absolute; z-index: 2; -moz-opacity: .99; opacity: .99; }
 div#interactive-map.active h2 { position: absolute; top: 58px; right: -20px; width: 15px; height: 26px; text-indent: -10000em; background: transparent url(../pic/notch-right.png) no-repeat; }
-div#interactive-map.active div#site-north-america { top: 20px; left: 200px; }
+div#interactive-map.active div#site-north-america {
+	top: 84px;
+	left: 148px;
+}
 div#interactive-map.active div#site-north-america h2 { left: -20px; background-image: url(../pic/notch-left.png); }
-div#interactive-map.active div#site-asia { top: 30px; left: 102px; }
-div#interactive-map.active div#site-europe { top: 23px; left: 18px; }				
+div#interactive-map.active div#site-asia {
+	top: 138px;
+	left: 427px;
+}
+div#interactive-map.active div#site-europe {
+	top: 45px;
+	left: 389px;
+}				
 div#interactive-map div.imagemap { display: none; position: absolute; z-index: 1; top: 0px; left: 0px; }
 div#interactive-map.active div.imagemap { display: block; }
 div#interactive-map area, div#interactive-map map, div#interactive-map img { outline: none; border: none; }	

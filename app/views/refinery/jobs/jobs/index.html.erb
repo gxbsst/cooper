@@ -1,0 +1,123 @@
+<%= content_for :title do %>
+  <% @title %>
+<% end %>
+<div id="leftcontent">
+ <h3>关于固铂</h3>
+  <dl>
+    <dt><a href="about.htm">固铂概况</a></dt>
+    <dd></dd>
+  </dl>
+  <dl>
+    <dt><a href="history.htm">固铂历史</a></dt>
+    <dd></dd>
+  </dl>
+  <dl>
+    <dt><a href="facilities.htm">研发与生产</a></dt>
+    <dd></dd>
+  </dl>
+  <dl>
+    <dt><a href="quality_safety.htm">质量与安全</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="current">
+    <dt><a href="/jobs">工作机会</a></dt>
+    <dd></dd>
+  </dl>
+  <dl>
+    <dt><a href="/infos">新闻中心</a></dt>
+    <dd></dd>
+  </dl>
+  <dl>
+    <dt><a href="contactus.htm">联系我们</a></dt>
+    <dd></dd>
+  </dl>
+</div>
+
+
+<div id="rightcontent">
+ <div id="site"><a href="about.htm">关于固铂</a><span>&gt;</span>工作机会</div>
+ <div id="recruitcontent">
+
+  <div class="title">
+    <span class="s1">职位名称</span><span class="s2">工作地点</span>
+  </div>
+
+ <% @jobs.each do |job| %>
+    <dl>
+      <dt><span><%= job.address %></span><h1><%= job.title %></h1></dt>
+      <dd>
+        <p class="p">学历要求：<%= job.degree %>  |   工作经验：<%= job.experience %></p>
+		<%= raw job.description %>
+      </dd>
+    </dl>
+
+	<% end %>
+
+ </div>
+
+   <table width="100%">
+     <tr>
+       <td align="right">
+         分享到: 
+       </td>
+       <td align="right" width="200px">
+        <!-- Baidu Button BEGIN -->
+        <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+         <a class="bds_qzone"></a>
+         <a class="bds_tsina"></a>
+         <a class="bds_tqq"></a>
+         <a class="bds_renren"></a>
+         <a class="bds_t163"></a>
+         <span class="bds_more">更多</span>
+         <a class="shareCount"></a>
+       </div>
+       <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6785006" ></script>
+       <script type="text/javascript" id="bdshell_js"></script>
+       <script type="text/javascript">
+       var bds_config = {
+         'searchPic': 0,
+         'wbUid':1828507915
+       };
+
+       document.getElementById('bdshell_js').src = "http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+       </script>
+     </td>
+   </tr>
+ </table>
+ 
+ <div class="totop"><a href="#header"><img src="pic/totop.jpg" alt="回顶部" title="回顶部" /></a></div>
+</div>
+ <div class="clear"></div>
+<% content_for :jobs_js do %>
+<script language="javascript" type="text/javascript" src="js/global.js"></script>
+
+<script language="javascript" type="text/javascript" src="/js/products_tips.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+
+	$('#rightcontent dt').click(function () {
+		var text = $($(this).siblings()[0]);
+
+		if (text.is(':hidden')) {
+			text.slideDown('200');
+			$(this).children('h1').css('background', 'url(pic/products_tips_close.jpg) no-repeat right 6px');
+		} else {
+			text.slideUp('200');
+			$(this).children('h1').css('background', 'url(pic/products_tips_hide.jpg) no-repeat right 6px');
+		}
+
+	});
+
+});
+
+</script>
+
+<% end %>
+
+
+
+
+
+

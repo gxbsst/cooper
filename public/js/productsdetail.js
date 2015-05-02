@@ -11,7 +11,6 @@ function()
     show_el = $("#product_detail0" + $(this).attr("tabindex"));
     show_el.show();
     $(".product_details").each(function(){
-    debugger;
       if(show_el.attr('id') != $(this).attr('id')){
         $(this).hide();
       }
